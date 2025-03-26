@@ -1,13 +1,12 @@
 # Fdb version 4
-["biber mainpaper"] 0 "mainpaper.bcf" "mainpaper.bbl" "mainpaper" 1743023622.81091 -1
-  "mainpaper.bcf" 1743023622 110841 74581a7da6c545b9476e10f0a1930963 "pdflatex"
+["biber mainpaper"] 0 "mainpaper.bcf" "mainpaper.bbl" "mainpaper" 1743025189.86175 -1
+  "mainpaper.bcf" 1743025189 110841 74581a7da6c545b9476e10f0a1930963 "pdflatex"
   "sources.bib" 1743022023 8292 92fbcc9c7cef3a2b6dbfd6bb8c15d679 ""
   (generated)
   "mainpaper.bbl"
   "mainpaper.blg"
   (rewritten before read)
-["pdflatex"] 1743023620.72558 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" "mainpaper.pdf" "mainpaper" 1743023622.81153 2
-  "Figs/Detached binary.png" 0 -1 0 ""
+["pdflatex"] 1743025186.25317 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" "mainpaper.pdf" "mainpaper" 1743025189.86237 0
   "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" 1743023617 12770 30301f011ef3a299c478872666842323 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1742690270 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1742690270 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -103,6 +102,7 @@
   "c:/texlive/2025/texmf.cnf" 1742697513 713 e69b156964470283e0530f5060668171 ""
   "figs/Conact Binary.png" 1743022242 59008 72e0fcd266c2e03e53c43085fbdb7915 ""
   "figs/Contact binaries Star Two Mass Distribution.png" 1743022264 17588 ba00cf867137922d6f502d1acf3d55bd ""
+  "figs/Detached binary.png" 1743025154 58556 20f66d45315466602e14acec449d9b99 ""
   "figs/HR Diagram of Donor Star in High Mass Xray Binaries S2mass log10 F star radius T (2).png" 1743022388 228758 33bb52456327b23dc894d3477dde9c19 ""
   "figs/High Mass X-ray Binary Eccentricity.png" 1743022386 33284 22fb04e8f545e51c7452e2c6e2e3aead ""
   "figs/High Max X-ray Binary Star Two Mass Distro.png" 1743022316 18729 bb9d8aa3565fce81656cf08ac75c7491 ""
@@ -112,8 +112,9 @@
   "figs/X-ray binaries S2mass log10 F star radius T.png" 1743022399 199469 6a24232feb4b5c5c274663251d2365bc ""
   "figs/X-ray binaries Star Two Mass Distribution.png" 1743022401 18996 ffeb8109849da7fca98106c6f358fd41 ""
   "figs/contact binary HR diagram.png" 1743022359 147062 c01a4c487249fcc79e2ce33eb22ba4d5 ""
-  "mainpaper.aux" 1743023622 6021 de05c218bb4e7e427f2ec9a911f93af7 "pdflatex"
+  "mainpaper.aux" 1743025189 6025 3d8104a2f9430db7119871090d6d01ad "pdflatex"
   "mainpaper.bbl" 1743022551 30525 855c9231de399d3fc9141f7c2578b256 "biber mainpaper"
+  "mainpaper.run.xml" 1743025189 2337 585a73a03ebf95bcb0dc70a579bf10e1 "pdflatex"
   "mainpaper.tex" 1743023617 12770 30301f011ef3a299c478872666842323 ""
   (generated)
   "mainpaper.aux"
