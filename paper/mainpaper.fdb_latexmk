@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber mainpaper"] 1743029150.44556 "mainpaper.bcf" "mainpaper.bbl" "mainpaper" 1743029161.28138 0
-  "mainpaper.bcf" 1743029076 110841 74581a7da6c545b9476e10f0a1930963 "pdflatex"
+["biber mainpaper"] 1743029150.44556 "mainpaper.bcf" "mainpaper.bbl" "mainpaper" 1743119760.21863 0
+  "mainpaper.bcf" 1743119760 110841 74581a7da6c545b9476e10f0a1930963 "pdflatex"
   "sources.bib" 1743029151 8650 e898416e0d4fb4b2570540abd60e7187 ""
   (generated)
   "mainpaper.bbl"
   "mainpaper.blg"
   (rewritten before read)
-["pdflatex"] 1743029074.52724 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" "mainpaper.pdf" "mainpaper" 1743029161.28167 0
-  "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" 1743029073 13207 9e7be7027de8b1c328575d0dbceaa552 ""
+["pdflatex"] 1743119757.05083 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" "mainpaper.pdf" "mainpaper" 1743119760.21927 0
+  "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" 1743119750 14433 26898a8ad8dc6be10efbe88a624664bf ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1742690270 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1742690270 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1742691463 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -112,10 +112,10 @@
   "figs/X-ray binaries S2mass log10 F star radius T.png" 1743022399 199469 6a24232feb4b5c5c274663251d2365bc ""
   "figs/X-ray binaries Star Two Mass Distribution.png" 1743022401 18996 ffeb8109849da7fca98106c6f358fd41 ""
   "figs/contact binary HR diagram.png" 1743022359 147062 c01a4c487249fcc79e2ce33eb22ba4d5 ""
-  "mainpaper.aux" 1743029076 6129 d245d288c654d1b62bf9e702d804c1b5 "pdflatex"
+  "mainpaper.aux" 1743119760 6129 ee7d45c5e3d45ccbfd804e40810403e1 "pdflatex"
   "mainpaper.bbl" 1743029161 30525 855c9231de399d3fc9141f7c2578b256 "biber mainpaper"
-  "mainpaper.run.xml" 1743029076 2337 585a73a03ebf95bcb0dc70a579bf10e1 "pdflatex"
-  "mainpaper.tex" 1743029073 13207 9e7be7027de8b1c328575d0dbceaa552 ""
+  "mainpaper.run.xml" 1743119760 2337 585a73a03ebf95bcb0dc70a579bf10e1 "pdflatex"
+  "mainpaper.tex" 1743119750 14433 26898a8ad8dc6be10efbe88a624664bf ""
   (generated)
   "mainpaper.aux"
   "mainpaper.bcf"
