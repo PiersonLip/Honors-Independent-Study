@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>mainpaper.bcf</file>
+      <file>"Mass Transfer in Binary Stars".bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>mainpaper.bbl</file>
+      <file>"Mass Transfer in Binary Stars".bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,19 +64,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>mainpaper</infile>
+      <infile>"Mass Transfer in Binary Stars"</infile>
     </cmdline>
     <input>
-      <file>mainpaper.bcf</file>
+      <file>"Mass Transfer in Binary Stars".bcf</file>
     </input>
     <output>
-      <file>mainpaper.bbl</file>
+      <file>"Mass Transfer in Binary Stars".bbl</file>
     </output>
     <provides type="dynamic">
-      <file>mainpaper.bbl</file>
+      <file>"Mass Transfer in Binary Stars".bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>mainpaper.bcf</file>
+      <file>"Mass Transfer in Binary Stars".bcf</file>
     </requires>
     <requires type="editable">
       <file>sources.bib</file>

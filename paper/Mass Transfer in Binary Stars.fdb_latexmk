@@ -1,13 +1,17 @@
 # Fdb version 4
-["biber mainpaper"] 1744225169.10222 "mainpaper.bcf" "mainpaper.bbl" "mainpaper" 1744225436.99643 0
-  "mainpaper.bcf" 1744225436 111143 12e10b64ec7ee216b55faa8f6a1142e0 "pdflatex"
+["biber Mass Transfer in Binary Stars"] 1744226698.10898 "Mass Transfer in Binary Stars.bcf" "Mass Transfer in Binary Stars.bbl" "Mass Transfer in Binary Stars" 1744226711.37442 0
+  "Mass Transfer in Binary Stars.bcf" 1744226710 111222 242a2c2ed94cebc065e1481596eb61a2 "pdflatex"
   "sources.bib" 1743914464 12097 8b58263674ba9f4b3e927eb0b3fe12cc ""
   (generated)
-  "mainpaper.bbl"
-  "mainpaper.blg"
+  "Mass Transfer in Binary Stars.bbl"
+  "Mass Transfer in Binary Stars.blg"
   (rewritten before read)
-["pdflatex"] 1744225433.45913 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" "mainpaper.pdf" "mainpaper" 1744225436.99741 0
-  "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/mainpaper.tex" 1744225429 16732 5919e4d040d1a28f694f55f27d92bb1f ""
+["pdflatex"] 1744226708.09607 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" "Mass Transfer in Binary Stars.pdf" "Mass Transfer in Binary Stars" 1744226711.37564 0
+  "Mass Transfer in Binary Stars.aux" 1744226710 6842 50b2e5b3b31f74bdf66b14df0e585949 "pdflatex"
+  "Mass Transfer in Binary Stars.bbl" 1744226700 33999 8622f58ddfc16e3786d32ee4bb0d6b92 "biber Mass Transfer in Binary Stars"
+  "Mass Transfer in Binary Stars.run.xml" 1744226710 2491 0bbe38558d7dfa1cfc80fc1cb8d5dff2 "pdflatex"
+  "Mass Transfer in Binary Stars.tex" 1744226693 16917 67d9e4e919ae090b0d59d62a991bf393 ""
+  "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" 1744226693 16917 67d9e4e919ae090b0d59d62a991bf393 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1742690270 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1742690270 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1742691463 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -113,14 +117,10 @@
   "figs/X-ray binaries S2mass log10 F star radius T.png" 1743022399 199469 6a24232feb4b5c5c274663251d2365bc ""
   "figs/X-ray binaries Star Two Mass Distribution.png" 1743022401 18996 ffeb8109849da7fca98106c6f358fd41 ""
   "figs/contact binary HR diagram.png" 1743022359 147062 c01a4c487249fcc79e2ce33eb22ba4d5 ""
-  "mainpaper.aux" 1744225436 6755 28f4bc9781bf6d0eaad576525fda1c50 "pdflatex"
-  "mainpaper.bbl" 1744225171 33999 8622f58ddfc16e3786d32ee4bb0d6b92 "biber mainpaper"
-  "mainpaper.run.xml" 1744225436 2337 585a73a03ebf95bcb0dc70a579bf10e1 "pdflatex"
-  "mainpaper.tex" 1744225429 16732 5919e4d040d1a28f694f55f27d92bb1f ""
   (generated)
-  "mainpaper.aux"
-  "mainpaper.bcf"
-  "mainpaper.log"
-  "mainpaper.pdf"
-  "mainpaper.run.xml"
+  "Mass Transfer in Binary Stars.aux"
+  "Mass Transfer in Binary Stars.bcf"
+  "Mass Transfer in Binary Stars.log"
+  "Mass Transfer in Binary Stars.pdf"
+  "Mass Transfer in Binary Stars.run.xml"
   (rewritten before read)
