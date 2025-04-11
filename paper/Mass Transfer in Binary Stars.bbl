@@ -610,6 +610,68 @@
       \verb https://doi.org/10.1051/0004-6361/202040272
       \endverb
     \endentry
+    \entry{Offner_2016}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=05d41de4a45c1268f98ec647fecbf7a6}{%
+           family={Offner},
+           familyi={O\bibinitperiod},
+           given={Stella\bibnamedelimb S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f90b2eb7560ddbf150b432f21163062c}{%
+           family={Dunham},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d8a81bd6307986df7486edda5cbda387}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Katherine\bibnamedelima I.},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=9519dadfc7a26b792a4b1cce2cbc4b22}{%
+           family={Arce},
+           familyi={A\bibinitperiod},
+           given={Héctor\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b7bdc3ca33f156f0c7d50edea100f8a4}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Drummond\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The American Astronomical Society}%
+      }
+      \strng{namehash}{adde606168269b7ca9d7803970219356}
+      \strng{fullhash}{4e7bc819ae75cd7faec7babc48918e0f}
+      \strng{fullhashraw}{4e7bc819ae75cd7faec7babc48918e0f}
+      \strng{bibnamehash}{adde606168269b7ca9d7803970219356}
+      \strng{authorbibnamehash}{adde606168269b7ca9d7803970219356}
+      \strng{authornamehash}{adde606168269b7ca9d7803970219356}
+      \strng{authorfullhash}{4e7bc819ae75cd7faec7babc48918e0f}
+      \strng{authorfullhashraw}{4e7bc819ae75cd7faec7babc48918e0f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The protostellar outflows of wide-separation forming binaries frequently appear misaligned. We use magneto-hydrodynamic simulations to investigate the alignment of protostellar spin and molecular outflows for forming binary pairs. We show that the protostellar pairs, which form from turbulent fragmentation within a single parent core, have randomly oriented angular momentum. Although the pairs migrate to closer separations, their spins remain partially misaligned. We produce 12CO(2-1) synthetic observations of the simulations and characterize the outflow orientation in the emission maps. The CO-identified outflows exhibit a similar random distribution and are also statistically consistent with the observed distribution of molecular outflows. We conclude that the observed misalignment provides a clear signature of binary formation via turbulent fragmentation. The persistence of misaligned outflows and stellar spins following dynamical evolution may provide a signature of binary origins for more evolved multiple star systems.}
+      \field{journaltitle}{The Astrophysical Journal Letters}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{THE TURBULENT ORIGIN OF OUTFLOW AND SPIN MISALIGNMENT IN MULTIPLE STAR SYSTEMS}
+      \field{volume}{827}
+      \field{year}{2016}
+      \field{pages}{L11}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/2041-8205/827/1/L11
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.3847/2041-8205/827/1/L11
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.3847/2041-8205/827/1/L11
+      \endverb
+    \endentry
     \entry{10.1093/mnras/271.1.L10}{article}{}{}
       \name{author}{6}{}{%
         {{hash=663cf2b2ba16cf3bc4b7cbd397d2f077}{%
@@ -655,7 +717,7 @@
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We have obtained a K-band infrared light curve of the low-mass X -ray binary transient V404 Cygni. We model it as the ellipsoidal variation of a secondary star distorted in the gravitational field of a black hole, and thus deduce the inclination of the binary. Combining this with previously published spectroscopic data, we determine the mass of the black hole to be approximately 12 M⊙}
+      \field{abstract}{We have obtained a K-band infrared light curve of the low-mass X-ray binary transient V404 Cygni. We model it as the ellipsoidal variation of a secondary star distorted in the gravitational field of a black hole, and thus deduce the inclination of the binary. Combining this with previously published spectroscopic data, we determine the mass of the black hole to be approximately 12 M⊙}
       \field{issn}{0035-8711}
       \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
       \field{month}{11}
