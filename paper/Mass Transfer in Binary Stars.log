@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.22)  13 APR 2025 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  14 APR 2025 01:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex"
-(c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex
+**"c:/Users/piers/OneDrive/Desktop/cod_stuff/COD/coding/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex"
+(c:/Users/piers/OneDrive/Desktop/cod_stuff/COD/coding/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
@@ -23,7 +23,7 @@ File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-) (c:/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box52
 \beforetitleunit=\skip51
@@ -34,29 +34,29 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen144
 \titlewidthlast=\dimen145
 \titlewidthfirst=\dimen146
-) (c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
-) (c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+ (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count270
@@ -71,18 +71,18 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen155
 \Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks19
-) (c:/texlive/2025/texmf-dist/tex/latex/abstract/abstract.sty
+ (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/abstract\abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip53
 \absleftindent=\skip54
 \absrightindent=\skip55
 \absparindent=\skip56
 \absparsep=\skip57
-) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
- (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box53
@@ -93,9 +93,9 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count274
 \l__lipsum_a_int=\count275
 \l__lipsum_b_int=\count276
- (c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+ (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
- (c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen157
 \ar@mcellbox=\box54
@@ -112,79 +112,86 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \TX@delta=\dimen163
 \TX@cols=\count277
 \TX@ftn=\toks21
-) (c:/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count278
+\float@exts=\toks22
+\float@box=\box56
+\@float@everytoks=\toks23
+\@floatcapt=\box57
+) (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
- (c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+ (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count278
-) (c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+\etb@tempcnta=\count279
+) (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (c:/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+)) (C:\Program Files\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count279
- (c:/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+\lrq@indent=\count280
+ (C:\Program Files\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (c:/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+)) (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count280
-\c@listtotal=\count281
-\c@listcount=\count282
-\c@liststart=\count283
-\c@liststop=\count284
-\c@citecount=\count285
-\c@citetotal=\count286
-\c@multicitecount=\count287
-\c@multicitetotal=\count288
-\c@instcount=\count289
-\c@maxnames=\count290
-\c@minnames=\count291
-\c@maxitems=\count292
-\c@minitems=\count293
-\c@citecounter=\count294
-\c@maxcitecounter=\count295
-\c@savedcitecounter=\count296
-\c@uniquelist=\count297
-\c@uniquename=\count298
-\c@refsection=\count299
-\c@refsegment=\count300
-\c@maxextratitle=\count301
-\c@maxextratitleyear=\count302
-\c@maxextraname=\count303
-\c@maxextradate=\count304
-\c@maxextraalpha=\count305
-\c@abbrvpenalty=\count306
-\c@highnamepenalty=\count307
-\c@lownamepenalty=\count308
-\c@maxparens=\count309
-\c@parenlevel=\count310
-\blx@tempcnta=\count311
-\blx@tempcntb=\count312
-\blx@tempcntc=\count313
-\c@blx@maxsection=\count314
-\blx@maxsegment@0=\count315
-\blx@notetype=\count316
-\blx@parenlevel@text=\count317
-\blx@parenlevel@foot=\count318
-\blx@sectionciteorder@0=\count319
-\blx@sectionciteorderinternal@0=\count320
-\blx@entrysetcounter=\count321
-\blx@biblioinstance=\count322
+\c@tabx@nest=\count281
+\c@listtotal=\count282
+\c@listcount=\count283
+\c@liststart=\count284
+\c@liststop=\count285
+\c@citecount=\count286
+\c@citetotal=\count287
+\c@multicitecount=\count288
+\c@multicitetotal=\count289
+\c@instcount=\count290
+\c@maxnames=\count291
+\c@minnames=\count292
+\c@maxitems=\count293
+\c@minitems=\count294
+\c@citecounter=\count295
+\c@maxcitecounter=\count296
+\c@savedcitecounter=\count297
+\c@uniquelist=\count298
+\c@uniquename=\count299
+\c@refsection=\count300
+\c@refsegment=\count301
+\c@maxextratitle=\count302
+\c@maxextratitleyear=\count303
+\c@maxextraname=\count304
+\c@maxextradate=\count305
+\c@maxextraalpha=\count306
+\c@abbrvpenalty=\count307
+\c@highnamepenalty=\count308
+\c@lownamepenalty=\count309
+\c@maxparens=\count310
+\c@parenlevel=\count311
+\blx@tempcnta=\count312
+\blx@tempcntb=\count313
+\blx@tempcntc=\count314
+\c@blx@maxsection=\count315
+\blx@maxsegment@0=\count316
+\blx@notetype=\count317
+\blx@parenlevel@text=\count318
+\blx@parenlevel@foot=\count319
+\blx@sectionciteorder@0=\count320
+\blx@sectionciteorderinternal@0=\count321
+\blx@entrysetcounter=\count322
+\blx@biblioinstance=\count323
 \labelnumberwidth=\skip60
 \labelalphawidth=\skip61
 \biblabelsep=\skip62
@@ -195,87 +202,87 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip67
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language90
-\c@mincomprange=\count323
-\c@maxcomprange=\count324
-\c@mincompwidth=\count325
+\blx@langwohyphens=\language79
+\c@mincomprange=\count324
+\c@maxcomprange=\count325
+\c@mincompwidth=\count326
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'nature.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count326
-\c@savedafterword=\count327
-\c@annotator=\count328
-\c@savedannotator=\count329
-\c@author=\count330
-\c@savedauthor=\count331
-\c@bookauthor=\count332
-\c@savedbookauthor=\count333
-\c@commentator=\count334
-\c@savedcommentator=\count335
-\c@editor=\count336
-\c@savededitor=\count337
-\c@editora=\count338
-\c@savededitora=\count339
-\c@editorb=\count340
-\c@savededitorb=\count341
-\c@editorc=\count342
-\c@savededitorc=\count343
-\c@foreword=\count344
-\c@savedforeword=\count345
-\c@holder=\count346
-\c@savedholder=\count347
-\c@introduction=\count348
-\c@savedintroduction=\count349
-\c@namea=\count350
-\c@savednamea=\count351
-\c@nameb=\count352
-\c@savednameb=\count353
-\c@namec=\count354
-\c@savednamec=\count355
-\c@translator=\count356
-\c@savedtranslator=\count357
-\c@shortauthor=\count358
-\c@savedshortauthor=\count359
-\c@shorteditor=\count360
-\c@savedshorteditor=\count361
-\c@labelname=\count362
-\c@savedlabelname=\count363
-\c@institution=\count364
-\c@savedinstitution=\count365
-\c@lista=\count366
-\c@savedlista=\count367
-\c@listb=\count368
-\c@savedlistb=\count369
-\c@listc=\count370
-\c@savedlistc=\count371
-\c@listd=\count372
-\c@savedlistd=\count373
-\c@liste=\count374
-\c@savedliste=\count375
-\c@listf=\count376
-\c@savedlistf=\count377
-\c@location=\count378
-\c@savedlocation=\count379
-\c@organization=\count380
-\c@savedorganization=\count381
-\c@origlocation=\count382
-\c@savedoriglocation=\count383
-\c@origpublisher=\count384
-\c@savedorigpublisher=\count385
-\c@publisher=\count386
-\c@savedpublisher=\count387
-\c@language=\count388
-\c@savedlanguage=\count389
-\c@origlanguage=\count390
-\c@savedoriglanguage=\count391
-\c@pageref=\count392
-\c@savedpageref=\count393
+\c@afterword=\count327
+\c@savedafterword=\count328
+\c@annotator=\count329
+\c@savedannotator=\count330
+\c@author=\count331
+\c@savedauthor=\count332
+\c@bookauthor=\count333
+\c@savedbookauthor=\count334
+\c@commentator=\count335
+\c@savedcommentator=\count336
+\c@editor=\count337
+\c@savededitor=\count338
+\c@editora=\count339
+\c@savededitora=\count340
+\c@editorb=\count341
+\c@savededitorb=\count342
+\c@editorc=\count343
+\c@savededitorc=\count344
+\c@foreword=\count345
+\c@savedforeword=\count346
+\c@holder=\count347
+\c@savedholder=\count348
+\c@introduction=\count349
+\c@savedintroduction=\count350
+\c@namea=\count351
+\c@savednamea=\count352
+\c@nameb=\count353
+\c@savednameb=\count354
+\c@namec=\count355
+\c@savednamec=\count356
+\c@translator=\count357
+\c@savedtranslator=\count358
+\c@shortauthor=\count359
+\c@savedshortauthor=\count360
+\c@shorteditor=\count361
+\c@savedshorteditor=\count362
+\c@labelname=\count363
+\c@savedlabelname=\count364
+\c@institution=\count365
+\c@savedinstitution=\count366
+\c@lista=\count367
+\c@savedlista=\count368
+\c@listb=\count369
+\c@savedlistb=\count370
+\c@listc=\count371
+\c@savedlistc=\count372
+\c@listd=\count373
+\c@savedlistd=\count374
+\c@liste=\count375
+\c@savedliste=\count376
+\c@listf=\count377
+\c@savedlistf=\count378
+\c@location=\count379
+\c@savedlocation=\count380
+\c@organization=\count381
+\c@savedorganization=\count382
+\c@origlocation=\count383
+\c@savedoriglocation=\count384
+\c@origpublisher=\count385
+\c@savedorigpublisher=\count386
+\c@publisher=\count387
+\c@savedpublisher=\count388
+\c@language=\count389
+\c@savedlanguage=\count390
+\c@origlanguage=\count391
+\c@savedoriglanguage=\count392
+\c@pageref=\count393
+\c@savedpageref=\count394
 \shorthandwidth=\skip68
 \shortjournalwidth=\skip69
 \shortserieswidth=\skip70
@@ -292,58 +299,58 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip81
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count394
-\c@textcitetotal=\count395
-\c@textcitemaxnames=\count396
-\c@biburlbigbreakpenalty=\count397
-\c@biburlbreakpenalty=\count398
-\c@biburlnumpenalty=\count399
-\c@biburlucpenalty=\count400
-\c@biburllcpenalty=\count401
+\c@textcitecount=\count395
+\c@textcitetotal=\count396
+\c@textcitemaxnames=\count397
+\c@biburlbigbreakpenalty=\count398
+\c@biburlbreakpenalty=\count399
+\c@biburlnumpenalty=\count400
+\c@biburlucpenalty=\count401
+\c@biburllcpenalty=\count402
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count402
+\c@smartand=\count403
 )
 Package biblatex Info: Trying to load bibliography style 'nature'...
 Package biblatex Info: ... file 'nature.bbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+ (C:\Program Files\MiKTeX\tex/latex/biblatex-nature\nature.bbx
 File: nature.bbx 2020/12/30 v1.3d biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
 File: numeric-comp.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
 File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count403
-\c@bbx:relatedtotal=\count404
+\c@bbx:relatedcount=\count404
+\c@bbx:relatedtotal=\count405
 ))))
 Package biblatex Info: Trying to load citation style 'nature'...
 Package biblatex Info: ... file 'nature.cbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex-nature/nature.cbx
+ (C:\Program Files\MiKTeX\tex/latex/biblatex-nature\nature.cbx
 File: nature.cbx 2020/12/30 v1.3d biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count405
-\c@cbx@tempcntb=\count406
-\c@cbx@tempcntc=\count407
-\c@cbx@tempcntd=\count408
+\c@cbx@tempcnta=\count406
+\c@cbx@tempcntb=\count407
+\c@cbx@tempcntc=\count408
+\c@cbx@tempcntd=\count409
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -358,7 +365,7 @@ Package biblatex Info: Redefining '\smartcites'.
 ))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -367,13 +374,13 @@ Package biblatex Info: ... and expl3
 (biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-)) (c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+)) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen164
 \captionmargin=\dimen165
@@ -385,46 +392,47 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen171
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count409
-\c@continuedfloat=\count410
+\c@caption@flags=\count410
+\c@continuedfloat=\count411
+Package caption Info: float package is loaded.
 )
-\@quotelevel=\count411
-\@quotereset=\count412
- (./Mass Transfer in Binary Stars.aux)
+\@quotelevel=\count412
+\@quotereset=\count413
+ (Mass Transfer in Binary Stars.aux)
 \openout1 = `"Mass Transfer in Binary Stars.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
- (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count413
+\scratchcounter=\count414
 \scratchdimen=\dimen172
-\scratchbox=\box56
-\nofMPsegments=\count414
-\nofMParguments=\count415
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count416
+\scratchbox=\box58
+\nofMPsegments=\count415
+\nofMParguments=\count416
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count417
 \MPscratchDim=\dimen173
-\MPnumerator=\count417
-\makeMPintoPDFobject=\count418
-\everyMPtoPDFconversion=\toks23
-) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\MPnumerator=\count418
+\makeMPintoPDFobject=\count419
+\everyMPtoPDFconversion=\toks25
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -462,7 +470,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -472,22 +480,22 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Mass Transfer in Binary Stars".bbl' found.
- (./Mass Transfer in Binary Stars.bbl)
-Package biblatex Info: Reference section=0 on input line 62.
-Package biblatex Info: Reference segment=0 on input line 62.
+ (Mass Transfer in Binary Stars.bbl)
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 63.
+(Font)              <14.4> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 63.
+(Font)              <7> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 63.
+(Font)              <5> on input line 70.
 
 
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+{C:/Users/piers/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -522,243 +530,250 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<figs/Binary Evolution Flowchart.jpg, id=16, 362.21724pt x 226.78326pt>
+<figs/Binary Evolution Flowchart.jpg, id=15, 362.21724pt x 226.78326pt>
 File: figs/Binary Evolution Flowchart.jpg Graphic file (type jpg)
 <use figs/Binary Evolution Flowchart.jpg>
-Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line 101.
+Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line 108.
 (pdftex.def)             Requested size: 505.89pt x 316.76077pt.
 
 
 [3
 
  <./figs/Binary Evolution Flowchart.jpg>]
-<Figs/RochePotential.jpg, id=23, 467.08731pt x 339.52348pt>
+<Figs/RochePotential.jpg, id=22, 467.08731pt x 339.52348pt>
 File: Figs/RochePotential.jpg Graphic file (type jpg)
 <use Figs/RochePotential.jpg>
-Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 116.
+Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 123.
 (pdftex.def)             Requested size: 430.00462pt x 312.58298pt.
 
 
 [4
 
- <./figs/RochePotential.jpg>]
-<Figs/Detached binary.png, id=27, 736.7525pt x 260.975pt>
+ <./Figs/RochePotential.jpg>]
+<Figs/Detached binary.png, id=26, 736.7525pt x 260.975pt>
 File: Figs/Detached binary.png Graphic file (type png)
 <use Figs/Detached binary.png>
-Package pdftex.def Info: Figs/Detached binary.png  used on input line 137.
+Package pdftex.def Info: Figs/Detached binary.png  used on input line 144.
 (pdftex.def)             Requested size: 294.69577pt x 104.38815pt.
 
 
-[5 <./figs/Detached binary.png>]
+[5 <./Figs/Detached binary.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 148.
+(Font)              <12> on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 148.
+(Font)              <8> on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 148.
-<Figs/Semi-detached binary.png, id=34, 742.775pt x 251.94125pt>
+(Font)              <6> on input line 155.
+<Figs/Semi-detached binary.png, id=33, 742.775pt x 251.94125pt>
 File: Figs/Semi-detached binary.png Graphic file (type png)
 <use Figs/Semi-detached binary.png>
-Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 154.
+Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 161.
 (pdftex.def)             Requested size: 297.10474pt x 100.7747pt.
 
 
-[6 <./figs/Semi-detached binary.png>]
-<Figs/Conact Binary.png, id=41, 735.74875pt x 239.89626pt>
+[6 <./Figs/Semi-detached binary.png>]
+<Figs/Conact Binary.png, id=40, 735.74875pt x 239.89626pt>
 File: Figs/Conact Binary.png Graphic file (type png)
 <use Figs/Conact Binary.png>
-Package pdftex.def Info: Figs/Conact Binary.png  used on input line 169.
+Package pdftex.def Info: Figs/Conact Binary.png  used on input line 176.
 (pdftex.def)             Requested size: 294.29428pt x 95.95679pt.
 
 
-[7 <./figs/Conact Binary.png>]
+[7 <./Figs/Conact Binary.png>]
 
 [8]
-
-LaTeX Warning: Command \textpm invalid in math mode on input line 242.
-
-
-LaTeX Warning: Command \textpm invalid in math mode on input line 242.
-
-Missing character: There is no ± in font cmr12!
-<figs/W Uma Lightcurve.png, id=54, 939.51pt x 642.90187pt>
+<figs/W Uma Lightcurve.png, id=53, 939.51pt x 642.90187pt>
 File: figs/W Uma Lightcurve.png Graphic file (type png)
 <use figs/W Uma Lightcurve.png>
-Package pdftex.def Info: figs/W Uma Lightcurve.png  used on input line 273.
+Package pdftex.def Info: figs/W Uma Lightcurve.png  used on input line 279.
 (pdftex.def)             Requested size: 281.85518pt x 192.87204pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 
 [9]
 
 [10 <./figs/W Uma Lightcurve.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/cmr/bx/n/10 Binary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/cmr/bx/n/10 System
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/cmr/bx/n/10 Orbital
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \T1/cmr/bx/n/10 Pe-riod
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|$[][]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \T1/cmr/bx/n/10 Mass
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \T1/cmr/bx/n/10 Trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/cmr/bx/n/10 Donor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/cmr/bx/n/10 Donor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \T1/cmr/bx/n/10 Mass
  []
 
 
-Overfull \hbox (2.85127pt too wide) in paragraph at lines 331--331
+Overfull \hbox (2.85127pt too wide) in paragraph at lines 336--336
 []|\T1/cmr/bx/n/10 Accretor
  []
 
 
-Overfull \hbox (2.85127pt too wide) in paragraph at lines 331--331
+Overfull \hbox (2.85127pt too wide) in paragraph at lines 336--336
 []|\T1/cmr/bx/n/10 Accretor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \T1/cmr/bx/n/10 Mass
  []
 
 
-Overfull \hbox (4.8551pt too wide) in paragraph at lines 331--331
+Overfull \hbox (4.8551pt too wide) in paragraph at lines 336--336
 []|$\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 99\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00000$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/cmr/m/n/10 stripped
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 331--331
+Underfull \hbox (badness 2460) in paragraph at lines 336--336
 \T1/cmr/m/n/10 He Core
  []
 
 
-Overfull \hbox (2.07732pt too wide) in paragraph at lines 331--331
+Overfull \hbox (2.07732pt too wide) in paragraph at lines 336--336
 []|$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0429883$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\T1/cmr/m/n/10 stripped
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 331--331
+Underfull \hbox (badness 2460) in paragraph at lines 336--336
 \T1/cmr/m/n/10 He Core
  []
 
-<figs/EntireDataSetHR.png, id=64, 513.92pt x 256.96pt>
+<figs/EntireDataSetHR.png, id=63, 513.92pt x 256.96pt>
 File: figs/EntireDataSetHR.png Graphic file (type png)
 <use figs/EntireDataSetHR.png>
-Package pdftex.def Info: figs/EntireDataSetHR.png  used on input line 338.
+Package pdftex.def Info: figs/EntireDataSetHR.png  used on input line 343.
 (pdftex.def)             Requested size: 430.00462pt x 215.00584pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [11]
-<Figs/High Max X-ray Binary Star Two Mass Distro.png, id=74, 462.528pt x 346.896pt>
-File: Figs/High Max X-ray Binary Star Two Mass Distro.png Graphic file (type png)
-<use Figs/High Max X-ray Binary Star Two Mass Distro.png>
-Package pdftex.def Info: Figs/High Max X-ray Binary Star Two Mass Distro.png  used on input line 349.
-(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
-<Figs/High Mass X-ray Binary Eccentricity.png, id=75, 462.528pt x 346.896pt>
-File: Figs/High Mass X-ray Binary Eccentricity.png Graphic file (type png)
-<use Figs/High Mass X-ray Binary Eccentricity.png>
-Package pdftex.def Info: Figs/High Mass X-ray Binary Eccentricity.png  used on input line 350.
+<figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png, id=73, 462.528pt x 346.896pt>
+File: figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png Graphic file (type png)
+<use figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png>
+Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png  used on input line 358.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
 
 [12 <./figs/EntireDataSetHR.png>]
-<Figs/HR Diagram of Donor Star in High Mass Xray Binaries S2mass log10 F star radius T (2).png, id=79, 578.16pt x 578.16pt>
-File: Figs/HR Diagram of Donor Star in High Mass Xray Binaries S2mass log10 F star radius T (2).png Graphic file (type png)
-<use Figs/HR Diagram of Donor Star in High Mass Xray Binaries S2mass log10 F star radius T (2).png>
-Package pdftex.def Info: Figs/HR Diagram of Donor Star in High Mass Xray Binaries S2mass log10 F star radius T (2).png  used on input line 354.
-(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
-
-
-[13 <./figs/High Max X-ray Binary Star Two Mass Distro.png> <./figs/High Mass X-ray Binary Eccentricity.png>]
-<Figs/X-ray binaries Eccentricty Distribution.png, id=86, 462.528pt x 346.896pt>
-File: Figs/X-ray binaries Eccentricty Distribution.png Graphic file (type png)
-<use Figs/X-ray binaries Eccentricty Distribution.png>
-Package pdftex.def Info: Figs/X-ray binaries Eccentricty Distribution.png  used on input line 360.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<Figs/X-ray binaries S2mass log10 F star radius T.png, id=87, 578.16pt x 578.16pt>
-File: Figs/X-ray binaries S2mass log10 F star radius T.png Graphic file (type png)
-<use Figs/X-ray binaries S2mass log10 F star radius T.png>
-Package pdftex.def Info: Figs/X-ray binaries S2mass log10 F star radius T.png  used on input line 361.
-(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
-<Figs/X-ray binaries Star Two Mass Distribution.png, id=88, 462.528pt x 346.896pt>
-File: Figs/X-ray binaries Star Two Mass Distribution.png Graphic file (type png)
-<use Figs/X-ray binaries Star Two Mass Distribution.png>
-Package pdftex.def Info: Figs/X-ray binaries Star Two Mass Distribution.png  used on input line 362.
+<figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png, id=77, 462.528pt x 346.896pt>
+File: figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png Graphic file (type png)
+<use figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png>
+Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png  used on input line 367.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
 
-[14 <./figs/HR Diagram of Donor Star in High Mass Xray Binaries S2mass log10 F star radius T (2).png> <./figs/X-ray binaries Eccentricty Distribution.png>]
-
-[15 <./figs/X-ray binaries S2mass log10 F star radius T.png> <./figs/X-ray binaries Star Two Mass Distribution.png>]
-<Figs/contact binary HR diagram.png, id=99, 578.16pt x 578.16pt>
-File: Figs/contact binary HR diagram.png Graphic file (type png)
-<use Figs/contact binary HR diagram.png>
-Package pdftex.def Info: Figs/contact binary HR diagram.png  used on input line 371.
+[13 <./figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png>]
+<figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png, id=83, 578.16pt x 578.16pt>
+File: figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png Graphic file (type png)
+<use figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png>
+Package pdftex.def Info: figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png  used on input line 375.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
-<Figs/Contact binaries Star Two Mass Distribution.png, id=100, 462.528pt x 346.896pt>
-File: Figs/Contact binaries Star Two Mass Distribution.png Graphic file (type png)
-<use Figs/Contact binaries Star Two Mass Distribution.png>
-Package pdftex.def Info: Figs/Contact binaries Star Two Mass Distribution.png  used on input line 372.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 
-[16 <./figs/contact binary HR diagram.png>]
+[14 <./figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png>]
+<figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png, id=88, 578.16pt x 578.16pt>
+File: figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png Graphic file (type png)
+<use figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png>
+Package pdftex.def Info: figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png  used on input line 384.
+(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 
-[17 <./figs/Contact binaries Star Two Mass Distribution.png>]
 
-[18]
+[15 <./figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png>]
+<figs/Generated Figs/Contact binaries Star Two Mass Distribution.png, id=93, 462.528pt x 346.896pt>
+File: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png Graphic file (type png)
+<use figs/Generated Figs/Contact binaries Star Two Mass Distribution.png>
+Package pdftex.def Info: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png  used on input line 398.
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
-[19] (./Mass Transfer in Binary Stars.aux)
+
+[16 <./figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png>]
+<figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png, id=98, 578.16pt x 578.16pt>
+File: figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png Graphic file (type png)
+<use figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png>
+Package pdftex.def Info: figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png  used on input line 406.
+(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
+
+
+[17 <./figs/Generated Figs/Contact binaries Star Two Mass Distribution.png>]
+<figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png, id=103, 578.16pt x 578.16pt>
+File: figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png Graphic file (type png)
+<use figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png>
+Package pdftex.def Info: figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png  used on input line 415.
+(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
+
+
+[18 <./figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png>]
+<figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png, id=108, 578.16pt x 578.16pt>
+File: figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png Graphic file (type png)
+<use figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png>
+Package pdftex.def Info: figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png  used on input line 424.
+(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
+
+
+[19 <./figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png>]
+<figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png, id=114, 578.16pt x 578.16pt>
+File: figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png Graphic file (type png)
+<use figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png>
+Package pdftex.def Info: figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png  used on input line 432.
+(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
+
+
+[20 <./figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png>]
+
+[21 <./figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png>]
+
+[22]
+
+[23]
+
+[24] (Mass Transfer in Binary Stars.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -768,18 +783,17 @@ Package logreq Info: Writing requests to '"Mass Transfer in Binary Stars".run.xm
 
  ) 
 Here is how much of TeX's memory you used:
- 12834 strings out of 473190
- 246063 string characters out of 5719979
- 1158101 words of memory out of 5000000
- 35960 multiletter control sequences out of 15000+600000
+ 12929 strings out of 473522
+ 250004 string characters out of 5724676
+ 1159629 words of memory out of 5000000
+ 36026 multiletter control sequences out of 15000+600000
  577099 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1765b,1483s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on "Mass Transfer in Binary Stars.pdf" (19 pages, 2119909 bytes).
+ 79i,13n,93p,1787b,1485s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\piers\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Mass Transfer in Binary Stars.pdf" (24 pages, 2436170 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 683 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

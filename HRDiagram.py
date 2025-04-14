@@ -23,7 +23,7 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc, exampleLum = 0, exa
     
     if S_R == 'T':
         r_dot= 10 ** DB['S2_log_R']
-        plt.suptitle("Size of dot corresponds to Donor radius", fontsize=10, family="monospace", color='.5')
+        # plt.suptitle("Size of dot corresponds to Donor radius", fontsize=10, family="monospace", color='.5')
     else:
         r_dot = S_R
 
@@ -73,7 +73,7 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc, exampleLum = 0, exa
         S_R_STR = str(S_R_T) 
 
     F_Name = saveLoc, title, name_of_var, 'log10', Log1, 'star radius', S_R_STR
-    F_Name_str = ' '.join(F_Name)
+    F_Name_str = '_'.join(F_Name)
     print(F_Name_str)
     
     plt.savefig(F_Name_str, dpi=200)

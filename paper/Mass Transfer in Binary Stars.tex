@@ -9,7 +9,7 @@
 
 % vela x-1 properties
 
-% maybe add xray binary type sections? to cover hmxbs and lmxbs
+% maybe add xray binary type sections? to cover HMXBS and lmxbs
 
 % good excerpt on CEE evololution over time
 %As mentioned before, the common envelope evolution (CEE) has been first proposed in 1976 to account for the origin of cataclysmic variables (CVs). CVs are binaries consisting of a WD with a typical mass of around and an MS companion star with a typical mass of , in which the MS star fills its Roche lobe and undergoes the mass transfer. They typically have an orbital period of 1 to 10 h. Regarding the origin of CV systems, the question is how to form such massive WDs in such a close binary system with an orbital period of a few hours. According to the stellar evolution theory, massive WDs could be formed from cores of red giants (or supergiants) before their envelopes are removed. In this case, the orbital period of a binary system needs to be long enough to keep the red giant (or supergiant) within its Roche lobes until a massive core is formed. Then, a mechanism is needed to drastically reduce the orbital period to a few hours consequently to match the observed periods of CVs. This therefore leads to the proposal of CEE (e.g. [198], [223], [224]). By adopting the CE scenario, the origin of V 471 Tau was successfully explained [198], i.e., a detached binary in the Hyades cluster which has a WD and a K-type dwarf, with an orbital period of . This binary system is expected to evolve into a CV system within a few yr.
@@ -19,7 +19,11 @@
 
 % GwR, Mass Loss, and Magnetic braking
 
-%
+% things to figure out
+
+% cause of the line in contact binaries
+
+% distrobution of masses for contact binaries
 
 %
 \documentclass[12pt, letterpaper]{article}
@@ -30,6 +34,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lipsum}
 \usepackage{tabularx}
+\usepackage{float}
 \usepackage[sorting=none, style=nature]{biblatex} 
 \usepackage[labelfont=bf, labelsep=colon, textfont=it]{caption}
 
@@ -55,7 +60,7 @@
 
 
 \addbibresource{sources.bib} %Import the bibliography file
-\title{Mass Transfer in Binary Star Evolution}
+\title{Mass Transfer in Binary Stars}
 \author{Pierson Lipschultz\thanks{Mentored by Joseph DalSanto}}
 
 \date{\today}
@@ -65,7 +70,7 @@
     \normalsize
     In this paper, I will investigate the properties of mass transfer in binary stars, including the Roche Lobe model, evolutionary stages, evolution, rate, progenitors, and resultant stars. I will use the Roche Lobe model to catalyze the stars into Detached (Wind Accretion), Roche Lobe Overflow (RLO), and Contact Binaries (CB). I will then look at stars that fit these stages and investigate them further using data from example systems corroborated with data from POSYDON.
 
-    I found that ... and ...
+    I found that mass transfer effected the stars by ... 
 \end{abstract}
 
 \pagebreak
@@ -96,7 +101,7 @@
 
     \newgeometry{left=0.75in, right=0.75in, top=0.5in, bottom=0.5in}
     \vspace*{\fill}
-    \begin{figure}[h!]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{figs/Binary Evolution Flowchart.jpg}
         \caption{A comprehensive flowchart of various outcomes of binary systems in regard to masses and orbital separations.}
@@ -107,11 +112,11 @@
     \restoregeometry
 
     \subsection{\centering Roche Lobe Model} % maybe find the orignal rlm paper and use that to elaborate? it feels weird to not talk more here about this, however, it would be very easy to just spend forever talking about it. 
-        The Roche Lobe model was discovered by Édouard Roche (cite) and defines the gravitational potential of a binary through a simple model. Simply defined, it defines the region around a star where it can hold onto it mass (i.e. has great enough gravitational potential). If one of the stars in this binary \textit{exceeds} said lobe, it will transfer mass to its binary pair. This model can be used to classify binary star populations into various populations, including \textbf{Detached Binaries} (where neither star has filled their potential), \textbf{Contact Binaries} (where both stars have filled their potentials), and \textbf{Roche Lobe Overflow}(RLO) systems (where one star has filled its potential, leading to mass transfer to an accretor).
+        The Roche Lobe model was discovered by Édouard Roche (cite) and defines the gravitational potential of a binary through a simple model. Simply defined, it defines the region around a star where it can hold onto it mass (i.e. has great enough gravitational potential). If one of the stars in this binary overflows said lobe, it will transfer mass to its binary pair. This model can be used to classify binary star populations into various populations, including \textbf{Detached Binaries} (where neither star has filled their potential), \textbf{Contact Binaries} (where both stars have filled their potentials), and \textbf{Roche Lobe Overflow}(RLO) systems (where one star has filled its potential, leading to mass transfer to an accretor).
             
 
     \vspace*{\fill}
-    \begin{figure}[h!]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{Figs/RochePotential.jpg}
         \caption{ A 3D representation of the gradient of the Roche lobe}
@@ -132,7 +137,7 @@
         Wind accretion very different from normal mass transfer in a binary. All stars produce `wind', i.e. mass which is pushed away from the star. This process is called stellar winds, occurring when various types of mass is ejected at speed from the star. All stars have different processes of wind, with some have very high velocities of the wind, and others have lower velocities.~\cite{Lamers_1999} In binary stars this process can allow mass to be transferred from one star, to a generally smaller, accretor.
         
         
-        \begin{figure}[h!]
+        \begin{figure}[H]
             \centering
             \includegraphics[scale = .4]{Figs/Detached binary.png}\\
             \textit{Reprint from~\cite{TaurisvandenHeuvel+2023}}
@@ -184,7 +189,7 @@
     \subsection{X-ray Binaries} 
         \subsubsection{X-rays in accretion} \label{XrayAccretion}
         \subsubsection{Low Mass X-ray Binaries (LMXBS)} \label{lmxbs}
-        \subsubsection{High Mass X-ray Binaries (HMXBS)} \label{Hmxbs}
+        \subsubsection{High Mass X-ray Binaries (HMXBS)} \label{HMXBS}
 
         
         
@@ -220,7 +225,7 @@
             \end{center}
     \end{table}
 
-        Vela X-1 consists of a Neutron Star and Supergiant and is an Eclipsing and pulsing HMXB (sect. \ref{Hmxbs}). This means that the Neutron star passed behind the Supergiant every 8.94 days \cite{Falanga_2015}, leading to a variable luminosity between $10^{36}$ $erg$ $s^{-1}$ and $10^{37}$ $erg$ $s^{-1}$. Additionally, the neutron star itself is spinning every 293 seconds. \cite{Kretschmar_2021}. 
+        Vela X-1 consists of a Neutron Star and Supergiant and is an Eclipsing and pulsing HMXB (sect. \ref{HMXBS}). This means that the Neutron star passed behind the Supergiant every 8.94 days \cite{Falanga_2015}, leading to a variable luminosity between $10^{36}$ $erg$ $s^{-1}$ and $10^{37}$ $erg$ $s^{-1}$. Additionally, the neutron star itself is spinning every 293 seconds. \cite{Kretschmar_2021}. 
         
         Vela X-1 is described as an archetypical wind accretor, as it is a system which is undergoing wind accretion in a stable, predictable, and easy to measure way. The x-ray emission is persistent as well its broadband spectra. Astronomers use Vela X-1 as examples when looking at other systems with comparable x-ray emissions. \cite{Kretschmar_2021}
         
@@ -239,7 +244,7 @@
                     \hline
                     & W UMa A & W UMa B \\ 
                     \hline\hline
-                    \textbf{Masses}\(M_\odot\) & $1.139 ± 0.019$\cite{Gazeas_2021} & 0.551 ± 0.006\cite{Gazeas_2021} \\
+                    \textbf{Masses}\(M_\odot\) & 1.139 ± 0.019\cite{Gazeas_2021} & 0.551 ± 0.006\cite{Gazeas_2021} \\
                     \hline
                     \textbf{Radius}\(R_\odot\) & 1.092 ± 0.016\cite{Gazeas_2021} & 0.792 ± 0.015\cite{Gazeas_2021} \\
                     \hline
@@ -263,18 +268,16 @@
             \end{center}
         \end{table}
 
-        
         W UMa is a contact binary, meaning that the two stars are physically `connected' by their mass. This system is known as an archetype because is it has a high magnitude at 7.75 at peak and 8.48 at minimum (table \ref{WUmaTable}), meaning that its fairly easy to observe the variability. We can measure said variability in the form of light curves, which reveal a distinct nature different which is different from non-contact binaries (fig. \ref{WUMaLightcruve}). This magnitude variability is due to the fact that the binary is eclipsing due to its low inclination plane (table \ref{WUmaTable}), meaning that one of the stars will pass behind the other in its orbit relative to the Earth. 
 
         Because of the prominent nature of this binary, similar contact binaries are called referred to as `UWMa type' if they also possess said eclipsing nature. 
 
-        \begin{figure}[h!]
+        \begin{figure}[H]
             \centering
             \includegraphics[scale= .3]{figs/W Uma Lightcurve.png}
             \caption{\textit{Reprint from~\cite{Morgan_1997}}}
             \label{WUMaLightcruve}
         \end{figure}
-        \pagebreak
 
         % \subsubsection{Simulated}
         % Simulated data is good because of xyz and is useful because of xyz. data was made using xyz
@@ -308,9 +311,9 @@
         V404 is a LMXB (sect \ref{lmxbs}), meaning that the donor star has a relatively low mass. In this system the material being accreted by V404 Cyngi A forms an accretion disk, greatly increasing the luminosity of the system.
 
     \subsection{POSYDON Simulations}
-         I used data generated by POSYDON \cite{Fragos_2023} in corroboration with three observed systems in order to fully understand the depth of the process of mass transfer in Binary Systems. This is because while catalogues of contact binaries, HMXBs and LMXBs exist, there is not enough of them to get a true grasp of the full picture. Hence, I used POSYDON. This dataset was simulated on the NU Super computing Cluster, QUEST. POSYDON is developed and maintained by a team of astrophysicists and computer scientists working at the Université de Genève and Northwestern University. POSYDON uses an additional script called MESA, which is dedicated to single star and binary evolution. POSYDON utilities MESA on a much larger scale in order to simulate full populations. The data was stored in the form of a .h5 file, containing a total of $approx$6.1 million rows and 83 columns. (See greatly reduced example of the data frame in (table \ref{POSYDONDataExample}) and an HR Diagram of the full dataset in Fig. 2)
+         I used data generated by POSYDON \cite{Fragos_2023} in corroboration with three observed systems in order to fully understand the depth of the process of mass transfer in Binary Systems. This is because while catalogues of contact binaries, HMXBS and LMXBs exist, there is not enough of them to get a true grasp of the full picture. Hence, I used POSYDON. This dataset was simulated on the NU Super computing Cluster, QUEST. POSYDON is developed and maintained by a team of astrophysicists and computer scientists working at the Université de Genève and Northwestern University. POSYDON uses an additional script called MESA, which is dedicated to single star and binary evolution. POSYDON utilities MESA on a much larger scale in order to simulate full populations. The data was stored in the form of a .h5 file, containing a total of $\approx$ 6.1 million rows and 83 columns. (See greatly reduced example of the data frame in (table \ref{POSYDONDataExample}) and an HR Diagram of the full dataset in Fig. \ref{EntireDataSetHR})
 
-         \begin{table}[h]
+         \begin{table}
             \centering\
             \footnotesize
             \begin{tabularx}{\textwidth}{||X | X | X | X | X | X | X | X ||}
@@ -333,49 +336,109 @@
             \label{POSYDONDataExample}
         \end{table}
 
-        \begin{figure} [h]
+        \begin{figure} [H]
             \centering
             \includegraphics[width = \textwidth]{figs/EntireDataSetHR.png}
             \caption{HR Diagram of the donor star for the full POSYDON dataset. Note that the color of the plotted points correspond to the $log_{10}$ mass of the donor star. Generated with Matplotlib}
+            \label{EntireDataSetHR}
         \end{figure}
-        \pagebreak
+        \subsubsection{Data Processing}
+            With my research I sought to contextualize these very specific systems, allowing one to better understand how these systems play into the larger picture of binaries. In order to do this I utilized a large dataset generated from POSYDON. In order to properly analyze this data I utilized Python with a large quantity of packages. These packages included Pandas \cite{reback2020pandas}, Matplotlib \cite{Matplotlib}, and NumPy \cite{harris2020array}. These tools allowed me to rapidly and efficiently analyze the large amount of data, something this paper would not have been possible without.
 
-\section{\centering Results}
-    With my research I sought to contextualize these very specific systems, allowing one to better understand how these systems play into the larger picture of binaries in
-    
-        \subsection{\centering Detached}
-        In detached binaries, there is still the possibility for mass transfer. These systems are typically called HMXBs. I found that these systems have a distribution as pictured. Note these systems are only ones with full-blown RLO due to simulation of WA constraints
-        \begin{center}
-            \includegraphics[scale = .6]{Figs/High Max X-ray Binary Star Two Mass Distro.png}
-            \includegraphics[scale =.6]{Figs/High Mass X-ray Binary Eccentricity.png}
-        \end{center}
-        Additionally, HMXBs fall in this region on the HR diagram 
-        \begin{center}
-            \includegraphics[scale = .5]{Figs/HR Diagram of Donor Star in High Mass Xray Binaries S2mass log10 F star radius T (2).png}
-        \end{center}
+    \section{\centering Results}
+        Through my research I found a number of interesting discoveries, both regarding the populations of binaries as a whole, but also some applicable to systems themselves.
   
         \subsection{\centering Roche Lobe Overflow}
-        Full-blown RLO occurs in both all types of XrB's, including both HMXBs and LMXBs. These systems 
-        \begin{center}
-            \includegraphics[scale=.5]{Figs/X-ray binaries Eccentricty Distribution.png}
-            \includegraphics[scale=.5]{Figs/X-ray binaries S2mass log10 F star radius T.png}
-            \includegraphics[scale=.6]{Figs/X-ray binaries Star Two Mass Distribution.png}
-            
-        \end{center}
-        (cite and insert figs)
-      
-        \subsection{\centering Contact Binary}
-        I found that in CE systems this can happen with these evolutionary changes. We see an example in observed systems (insert source and figs) in our POSYDON \cite{Fragos_2023} simulated data too. (figs)
+        Full-blown RLO occurs in both all types of XrB's, including HMXBS and LMXBs, however, it is more common in LMXBS.
 
-        \begin{center}
-            \includegraphics[scale = .6 ]{Figs/contact binary HR diagram.png}
-            \includegraphics[scale = .5 ]{Figs/Contact binaries Star Two Mass Distribution.png}
-        \end{center}
-    % \subsection{\centering ii) Type 1a Supernova}
-    % I found that in systems with type 1a SN the progenitors tend to be ..., this is corroborated with this paper (cite). We see a similarity with the POSYDON data and this papers data
- 
-    % \subsection{\centering iii) X-Ray Binaries}
-    % I found that XrBs mass transfer effects them by causing changes to ... we see this our POSYDON data and this paper... 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .6]{figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png}
+            \caption{Eccentricity distribution of X-ray Binaries}
+            \label{XrayBinaryEccenDistro}
+        \end{figure}
+
+        In figure \ref{XrayBinaryEccenDistro} we can see that x-ray binaries have a standard Gaussian distribution, with a peak at around $\approx .24$  
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .6]{figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png}
+            \caption{Mass distribution of X-ray Binaries}
+            \label{XrayBinaryMassDistro}
+        \end{figure}
+        In figure \ref{XrayBinaryMassDistro} we see that the majority of X-ray binaries masses are centered around $\approx 5.5$
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .6]{figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png}
+            \caption{HR diagram of the donor star in X-ray Binaries}
+            \label{XrayBinaryHRDiagram}
+        \end{figure}
+        In figure \ref{XrayBinaryHRDiagram} we can see that X-ray binaries' donor stars generally follow a semi-standard HR diagram 
+        
+        \subsubsection{V404 Cygni Results}
+            \begin{figure}[H] 
+                \centering
+                \includegraphics[scale = .6]{figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png}
+                \caption{HR Diagram with reference for V404 Cyngi}
+                \label{V404Context}
+            \end{figure}
+
+            I discovered that does not fall onto the two main simulated evolutionary tracks for LMXBs. There are a lot of different reasons why this could be, including mass transfer limiting the luminosity, error, etc. 
+            
+            %Add in a graph of a full HR Diagram and show the area of overlap, propose actual reason why
+
+        %contact binaries
+        \subsection{\centering Contact Binaries}
+            Through my analysis I discovered that contact binaries had some of the most interesting results. 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .6]{figs/Generated Figs/Contact binaries Star Two Mass Distribution.png}
+            \caption{Eccentricity distribution of contact Binaries}
+            \label{contactBinaryMassDistro}
+        \end{figure}
+        In figure \ref{contactBinaryMassDistro} we can see that contact binaries mass distribution feature a prominent spike at around one solar mass, with a distribution centered around 10, and then a scattered amount afterward. 
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .6]{figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png}
+            \caption{HR diagram of contact Binaries}
+            \label{contactBinaryHRDiagram}
+        \end{figure}
+        This is one of the more interesting results, as we can see that contact binaries form a very specific population on the HR diagram, falling on specific linear with a linear relationship. This is because 
+        
+        \subsubsection{W UMa Cygni Results}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale = .6]{figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png}
+                \caption{HR Diagram with reference for W UMa using W UMa A}
+                \label{WUMaResults}
+            \end{figure}
+            In figure \ref{WUMaResults} we see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population.
+
+        \subsection{\centering Detached Binaries}
+            \begin{figure}[H] 
+                \centering
+                \includegraphics[scale = .6]{figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png}
+                \caption{HR Diagram with of HMXBS}
+                \label{DetachedBinary}
+            \end{figure}
+
+            \subsubsection{Vela X-1 Results}
+            \begin{figure}[H] 
+                \centering
+                \includegraphics[scale = .6]{figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png}
+                \caption{HR Diagram with reference for Vela X-1}
+                \label{VelaX1Results}
+            \end{figure}
+            In figure \ref{VelaX1Results} we can see that Vela X-1 Falls into a very normal location for main sequence stars.
+
+\section{\centering Conclusion}
+    In conclusion mass transfer heavily affects the evolution of binary stars, leading them to evolve in a  
+
+    \subsection{W UMa Cyngi} \label{WUMaConc}
+
+    \subsection{Vela X-1 Cyngi} \label{VelaX1Conc}
 
 \section{\centering Discussion}   
     Originally I planned on simulating grids for all the types of systems, however, due to time constraints I chose to only focus on one type. 
@@ -383,9 +446,6 @@
     \subsection{Git Galore}
     Originally, I started working on this project using Overleaf, however, due the amount of graphs, the time to compile started to rapidly climb up, and eventually I just decided to switch to compiling it locally. On-top of this, I figured I would set up a GitHub in order to additionally push the code and graphs as well. This turned out to absolutely be the right decision, giving me way more freedom.
     
-\section{\centering Conclusion}
-    In conclusion mass transfer effects binary systems in these ways, which can lead to these evolutionary outcomes. 
-
 \printbibliography[
 heading=bibintoc,
 title={\centering Sources}

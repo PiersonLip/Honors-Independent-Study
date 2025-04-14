@@ -2434,7 +2434,9 @@
     <bcf:citekey order="55" intorder="1">Shahbaz_1994</bcf:citekey>
     <bcf:citekey order="56" intorder="1">Bernardini_2016</bcf:citekey>
     <bcf:citekey order="57" intorder="1">Fragos_2023</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">Fragos_2023</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">reback2020pandas</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">Matplotlib</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">harris2020array</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
