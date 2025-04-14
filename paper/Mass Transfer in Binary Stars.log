@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  14 APR 2025 03:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.31)  14 APR 2025 03:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,20 +401,20 @@ Package caption Info: float package is loaded.
  (Mass Transfer in Binary Stars.aux)
 \openout1 = `"Mass Transfer in Binary Stars.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count414
@@ -481,16 +481,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Mass Transfer in Binary Stars".bbl' found.
  (Mass Transfer in Binary Stars.bbl)
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
+Package biblatex Info: Reference section=0 on input line 66.
+Package biblatex Info: Reference segment=0 on input line 66.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 68.
+(Font)              <14.4> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 68.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 68.
+(Font)              <5> on input line 67.
 
 
 [1
@@ -533,7 +533,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <figs/Binary Evolution Flowchart.jpg, id=15, 362.21724pt x 226.78326pt>
 File: figs/Binary Evolution Flowchart.jpg Graphic file (type jpg)
 <use figs/Binary Evolution Flowchart.jpg>
-Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line 89.
+Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line 88.
 (pdftex.def)             Requested size: 505.89pt x 316.76077pt.
 
 
@@ -543,7 +543,7 @@ Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line
 <Figs/RochePotential.jpg, id=21, 467.08731pt x 339.52348pt>
 File: Figs/RochePotential.jpg Graphic file (type jpg)
 <use Figs/RochePotential.jpg>
-Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 102.
+Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 101.
 (pdftex.def)             Requested size: 430.00462pt x 312.58298pt.
 
 
@@ -551,15 +551,15 @@ Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 102.
 
  <./Figs/RochePotential.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 112.
+(Font)              <12> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 112.
+(Font)              <8> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 112.
+(Font)              <6> on input line 111.
 <Figs/Semi-detached binary.png, id=26, 742.775pt x 251.94125pt>
 File: Figs/Semi-detached binary.png Graphic file (type png)
 <use Figs/Semi-detached binary.png>
-Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 116.
+Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 115.
 (pdftex.def)             Requested size: 297.10474pt x 100.7747pt.
 
 
@@ -567,7 +567,7 @@ Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 116.
 <Figs/Detached binary.png, id=34, 736.7525pt x 260.975pt>
 File: Figs/Detached binary.png Graphic file (type png)
 <use Figs/Detached binary.png>
-Package pdftex.def Info: Figs/Detached binary.png  used on input line 135.
+Package pdftex.def Info: Figs/Detached binary.png  used on input line 134.
 (pdftex.def)             Requested size: 294.69577pt x 104.38815pt.
 
 
@@ -575,12 +575,12 @@ Package pdftex.def Info: Figs/Detached binary.png  used on input line 135.
 <Figs/Conact Binary.png, id=40, 735.74875pt x 239.89626pt>
 File: Figs/Conact Binary.png Graphic file (type png)
 <use Figs/Conact Binary.png>
-Package pdftex.def Info: Figs/Conact Binary.png  used on input line 148.
+Package pdftex.def Info: Figs/Conact Binary.png  used on input line 147.
 (pdftex.def)             Requested size: 294.29428pt x 95.95679pt.
 <figs/reused-figs/q-ratio_evolution_farby.png, id=41, 893.58844pt x 630.85687pt>
 File: figs/reused-figs/q-ratio_evolution_farby.png Graphic file (type png)
 <use figs/reused-figs/q-ratio_evolution_farby.png>
-Package pdftex.def Info: figs/reused-figs/q-ratio_evolution_farby.png  used on input line 162.
+Package pdftex.def Info: figs/reused-figs/q-ratio_evolution_farby.png  used on input line 161.
 (pdftex.def)             Requested size: 268.0786pt x 189.25851pt.
 
 
@@ -588,13 +588,13 @@ Package pdftex.def Info: figs/reused-figs/q-ratio_evolution_farby.png  used on i
 <figs/reused-figs/markGarlic-Xrayaccretion.png, id=49, 842.39719pt x 551.05875pt>
 File: figs/reused-figs/markGarlic-Xrayaccretion.png Graphic file (type png)
 <use figs/reused-figs/markGarlic-Xrayaccretion.png>
-Package pdftex.def Info: figs/reused-figs/markGarlic-Xrayaccretion.png  used on input line 177.
+Package pdftex.def Info: figs/reused-figs/markGarlic-Xrayaccretion.png  used on input line 176.
 (pdftex.def)             Requested size: 430.00462pt x 281.28848pt.
 
 
 [8 <./figs/reused-figs/q-ratio_evolution_farby.png>]
 
-LaTeX Warning: Reference `HMXBS' on page 9 undefined on input line 214.
+LaTeX Warning: Reference `HMXBS' on page 9 undefined on input line 213.
 
 
 
@@ -602,115 +602,115 @@ LaTeX Warning: Reference `HMXBS' on page 9 undefined on input line 214.
 <figs/W Uma Lightcurve.png, id=61, 939.51pt x 642.90187pt>
 File: figs/W Uma Lightcurve.png Graphic file (type png)
 <use figs/W Uma Lightcurve.png>
-Package pdftex.def Info: figs/W Uma Lightcurve.png  used on input line 263.
+Package pdftex.def Info: figs/W Uma Lightcurve.png  used on input line 262.
 (pdftex.def)             Requested size: 281.85518pt x 192.87204pt.
 
 
 [10]
 
-LaTeX Warning: Reference `lmxbs' on page 11 undefined on input line 297.
+LaTeX Warning: Reference `lmxbs' on page 11 undefined on input line 296.
 
 
 
 [11 <./figs/W Uma Lightcurve.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/cmr/bx/n/10 Binary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/cmr/bx/n/10 System
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/cmr/bx/n/10 Orbital
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 \T1/cmr/bx/n/10 Pe-riod
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|$[][]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 \T1/cmr/bx/n/10 Mass
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 \T1/cmr/bx/n/10 Trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/cmr/bx/n/10 Donor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/cmr/bx/n/10 Donor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 \T1/cmr/bx/n/10 Mass
  []
 
 
-Overfull \hbox (2.85127pt too wide) in paragraph at lines 320--320
+Overfull \hbox (2.85127pt too wide) in paragraph at lines 319--319
 []|\T1/cmr/bx/n/10 Accretor
  []
 
 
-Overfull \hbox (2.85127pt too wide) in paragraph at lines 320--320
+Overfull \hbox (2.85127pt too wide) in paragraph at lines 319--319
 []|\T1/cmr/bx/n/10 Accretor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 \T1/cmr/bx/n/10 Mass
  []
 
 
-Overfull \hbox (4.8551pt too wide) in paragraph at lines 320--320
+Overfull \hbox (4.8551pt too wide) in paragraph at lines 319--319
 []|$\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 99\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00000$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/cmr/m/n/10 stripped
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 320--320
+Underfull \hbox (badness 2460) in paragraph at lines 319--319
 \T1/cmr/m/n/10 He Core
  []
 
 
-Overfull \hbox (2.07732pt too wide) in paragraph at lines 320--320
+Overfull \hbox (2.07732pt too wide) in paragraph at lines 319--319
 []|$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0429883$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []|\T1/cmr/m/n/10 stripped
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 320--320
+Underfull \hbox (badness 2460) in paragraph at lines 319--319
 \T1/cmr/m/n/10 He Core
  []
 
 <figs/EntireDataSetHR.png, id=70, 513.92pt x 256.96pt>
 File: figs/EntireDataSetHR.png Graphic file (type png)
 <use figs/EntireDataSetHR.png>
-Package pdftex.def Info: figs/EntireDataSetHR.png  used on input line 327.
+Package pdftex.def Info: figs/EntireDataSetHR.png  used on input line 326.
 (pdftex.def)             Requested size: 430.00462pt x 215.00584pt.
 
 
@@ -718,7 +718,7 @@ Package pdftex.def Info: figs/EntireDataSetHR.png  used on input line 327.
 <figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png, id=81, 462.528pt x 346.896pt>
 File: figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png Graphic file (type png)
 <use figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png>
-Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png  used on input line 342.
+Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Eccentricty Distribution.png  used on input line 341.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
 
@@ -726,7 +726,7 @@ Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Eccentricty Distribu
 <figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png, id=86, 462.528pt x 346.896pt>
 File: figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png Graphic file (type png)
 <use figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png>
-Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png  used on input line 351.
+Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Star Two Mass Distribution.png  used on input line 350.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
 
@@ -734,7 +734,7 @@ Package pdftex.def Info: figs/Generated Figs/X-ray Binaries Star Two Mass Distri
 <figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png, id=91, 578.16pt x 578.16pt>
 File: figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png Graphic file (type png)
 <use figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png>
-Package pdftex.def Info: figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png  used on input line 359.
+Package pdftex.def Info: figs/Generated Figs/ X-ray Binaries Star Two Mass log10 F star radius T.png  used on input line 358.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 
 
@@ -742,7 +742,7 @@ Package pdftex.def Info: figs/Generated Figs/ X-ray Binaries Star Two Mass log10
 <figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png, id=96, 578.16pt x 578.16pt>
 File: figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png Graphic file (type png)
 <use figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png>
-Package pdftex.def Info: figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png  used on input line 368.
+Package pdftex.def Info: figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png  used on input line 367.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 
 
@@ -750,14 +750,14 @@ Package pdftex.def Info: figs/Generated Figs/ V404 Cyngi HR Context Star Two Mas
 <figs/Generated Figs/Contact binaries Star Two Mass Distribution.png, id=101, 462.528pt x 346.896pt>
 File: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png Graphic file (type png)
 <use figs/Generated Figs/Contact binaries Star Two Mass Distribution.png>
-Package pdftex.def Info: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png  used on input line 382.
+Package pdftex.def Info: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png  used on input line 381.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
 
 [17 <./figs/Generated Figs/ V404 Cyngi HR Context Star Two Mass log10 F star radius 5.png>]
 File: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png Graphic file (type png)
 <use figs/Generated Figs/Contact binaries Star Two Mass Distribution.png>
-Package pdftex.def Info: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png  used on input line 391.
+Package pdftex.def Info: figs/Generated Figs/Contact binaries Star Two Mass Distribution.png  used on input line 390.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
 
 
@@ -765,7 +765,7 @@ Package pdftex.def Info: figs/Generated Figs/Contact binaries Star Two Mass Dist
 <figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png, id=110, 578.16pt x 578.16pt>
 File: figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png Graphic file (type png)
 <use figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png>
-Package pdftex.def Info: figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png  used on input line 400.
+Package pdftex.def Info: figs/Generated Figs/ Contact binaries Star Two Mass log10 F star radius T.png  used on input line 399.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 
 
@@ -773,12 +773,12 @@ Package pdftex.def Info: figs/Generated Figs/ Contact binaries Star Two Mass log
 <figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png, id=116, 578.16pt x 578.16pt>
 File: figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png Graphic file (type png)
 <use figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png>
-Package pdftex.def Info: figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png  used on input line 412.
+Package pdftex.def Info: figs/Generated Figs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png  used on input line 411.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 <figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png, id=117, 578.16pt x 578.16pt>
 File: figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png Graphic file (type png)
 <use figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png>
-Package pdftex.def Info: figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png  used on input line 421.
+Package pdftex.def Info: figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png  used on input line 420.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 
 
@@ -786,14 +786,14 @@ Package pdftex.def Info: figs/Generated Figs/ High Mass X-ray Binaries Star Two 
 <figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png, id=122, 578.16pt x 578.16pt>
 File: figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png Graphic file (type png)
 <use figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png>
-Package pdftex.def Info: figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png  used on input line 429.
+Package pdftex.def Info: figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png  used on input line 428.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 
 
 [21 <./figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png>]
 
 [22 <./figs/Generated Figs/ Vela X-1 HR Context Star Two Mass log10 F star radius 5.png>]
-Overfull \hbox (0.92831pt too wide) in paragraph at lines 447--447
+Overfull \hbox (0.92831pt too wide) in paragraph at lines 446--446
 \T1/cmr/m/n/12 me-dia Com-mons: https://commons.wikimedia.org/w/index.php?curid=804238.
  []
 
