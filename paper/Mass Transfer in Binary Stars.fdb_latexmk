@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Mass Transfer in Binary Stars"] 1744594711.51685 "Mass Transfer in Binary Stars.bcf" "Mass Transfer in Binary Stars.bbl" "Mass Transfer in Binary Stars" 1744594738.54979 0
-  "Mass Transfer in Binary Stars.bcf" 1744594738 112305 d3c59a1e2a22cf471a58c05ff6df8b38 "pdflatex"
+["biber Mass Transfer in Binary Stars"] 1744594711.51685 "Mass Transfer in Binary Stars.bcf" "Mass Transfer in Binary Stars.bbl" "Mass Transfer in Binary Stars" 1744595426.21762 0
+  "Mass Transfer in Binary Stars.bcf" 1744595425 112305 d3c59a1e2a22cf471a58c05ff6df8b38 "pdflatex"
   "sources.bib" 1744591863 25047 846d432ca2957ce87ba1de30aeb331b9 ""
   (generated)
   "Mass Transfer in Binary Stars.bbl"
   "Mass Transfer in Binary Stars.blg"
   (rewritten before read)
-["pdflatex"] 1744594736.03869 "c:/Users/piers/OneDrive/Desktop/cod stuff/COD/coding/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" "Mass Transfer in Binary Stars.pdf" "Mass Transfer in Binary Stars" 1744594738.55087 0
+["pdflatex"] 1744595423.78906 "c:/Users/piers/OneDrive/Desktop/cod stuff/COD/coding/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" "Mass Transfer in Binary Stars.pdf" "Mass Transfer in Binary Stars" 1744595426.21843 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993061956 3200 328792ff19833a39406f06fa0555a6dc ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1095.tfm" 993061956 3228 aacd2ac2d814480e4422ad7e830fd2d4 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
@@ -135,11 +135,11 @@
   "Figs/X-ray binaries S2mass log10 F star radius T.png" 1743402968 199469 6a24232feb4b5c5c274663251d2365bc ""
   "Figs/X-ray binaries Star Two Mass Distribution.png" 1743402968 18996 ffeb8109849da7fca98106c6f358fd41 ""
   "Figs/contact binary HR diagram.png" 1743402968 147062 c01a4c487249fcc79e2ce33eb22ba4d5 ""
-  "Mass Transfer in Binary Stars.aux" 1744594738 12432 5c2d0601116e9c12e73caffa30323e33 "pdflatex"
+  "Mass Transfer in Binary Stars.aux" 1744595425 12432 b846e79effd1dfcee7eeb60193f4f571 "pdflatex"
   "Mass Transfer in Binary Stars.bbl" 1744594715 104824 7379666e0942e378c4de2d9f0ca47ec9 "biber Mass Transfer in Binary Stars"
-  "Mass Transfer in Binary Stars.run.xml" 1744594738 2592 f5b241cd1207613f96e73348e9f2cb96 "pdflatex"
-  "Mass Transfer in Binary Stars.tex" 1744594735 27479 da5049868ed6d83cc4f23c02a7a31146 ""
-  "c:/Users/piers/OneDrive/Desktop/cod stuff/COD/coding/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" 1744594735 27479 da5049868ed6d83cc4f23c02a7a31146 ""
+  "Mass Transfer in Binary Stars.run.xml" 1744595425 2592 f5b241cd1207613f96e73348e9f2cb96 "pdflatex"
+  "Mass Transfer in Binary Stars.tex" 1744595420 27512 de5c84008b5a9254f355aebb98bd0b81 ""
+  "c:/Users/piers/OneDrive/Desktop/cod stuff/COD/coding/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" 1744595420 27512 de5c84008b5a9254f355aebb98bd0b81 ""
   "figs/Binary Evolution Flowchart.jpg" 1743969526 714598 2e5d903e3aca28289490f8ea3d27a755 ""
   "figs/EntireDataSetHR.png" 1744594230 51794 3efb8f4479aaa7a1f08565a57280a54d ""
   "figs/W Uma Lightcurve.png" 1744586793 163647 bad299511b69ad2d7ff3e1339a5f4a39 ""
