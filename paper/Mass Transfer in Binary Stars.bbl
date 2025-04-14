@@ -348,7 +348,7 @@
       \verb https://dx.doi.org/10.3847/2041-8205/818/1/L5
       \endverb
     \endentry
-    \entry{Shahbaz_1194}{article}{}{}
+    \entry{Shahbaz_1994}{article}{}{}
       \name{author}{6}{}{%
         {{hash=663cf2b2ba16cf3bc4b7cbd397d2f077}{%
            family={Shahbaz},
@@ -460,8 +460,8 @@
       \strng{authornamehash}{337444357857305510d52c0d83af7f3d}
       \strng{authorfullhash}{fb94e43545c062d822293f891af7a481}
       \strng{authorfullhashraw}{fb94e43545c062d822293f891af7a481}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
@@ -2119,8 +2119,8 @@
       \strng{authornamehash}{f58dcfc8fbd251556c9d21a608ed690c}
       \strng{authorfullhash}{6b68d66446d9ac0bcdfdb5c887bd98fa}
       \strng{authorfullhashraw}{6b68d66446d9ac0bcdfdb5c887bd98fa}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Information Bulletin on Variable Stars}
@@ -2315,8 +2315,8 @@
       \strng{authornamehash}{55a229b47e57a81baeaab59ca9b45d12}
       \strng{authorfullhash}{d9af486cb7fc18cf5d8f89d09758587f}
       \strng{authorfullhashraw}{d9af486cb7fc18cf5d8f89d09758587f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1538-4365}

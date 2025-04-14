@@ -27,8 +27,10 @@
 \usepackage{abstract}
 \usepackage[T1]{fontenc}
 \usepackage{lipsum}
-
+\usepackage{tabularx}
 \usepackage[sorting=none, style=nature]{biblatex} 
+\usepackage[labelfont=bf, labelsep=colon, textfont=it]{caption}
+
 
 \renewcommand{\abstractnamefont}{\normalfont\Large\bfseries} 
 
@@ -190,28 +192,32 @@
 \section{\centering Data Acquisition}
     \subsection{\centering Vela X-1 (Detached)}
     
-        \subsubsection{Known properties}
-        \begin{center}
-            \begin{tabular}{||c | c  c||} 
-             \hline
-             & Vela X-1 A & Vela X-1 B  \\ 
-             \hline\hline
-             \textbf{Star Type} & Neutron Star & Supergiant \cite{Kretschmar_2021} \\ 
-             \hline
-             \textbf{Masses}\(M_\odot\) & $\ge$ 1.8 \cite{Kretschmar_2021} & 20–30 \cite{Kretschmar_2021} \\
-             \hline
-             \textbf{Radius} & 11-12.5$_{KM}$ \cite{Kretschmar_2021} & 30 \(R_\odot\)
-             \cite{Kretschmar_2021} \\ % note that the stars are not spherical
-             \hline 
-             \textbf{Separation} &  \multicolumn{2}{c||}{2$kpc$ \cite{Kretschmar_2021}} \\
-             \hline 
-             \textbf{Mass Loss Rate} & \multicolumn{2}{c||}{$10^{-6} M_\odot yr^{-1}$ \cite{Kretschmar_2021}} \\
-             \hline
-             \textbf{Eccentricity} & \multicolumn{2}{c||}{$ e \approx  0.0898)$ \cite{Kretschmar_2021}} \\
-             \hline
-            \end{tabular}
+    \begin{table}
+            \subsubsection{Known properties}
+            \begin{center}
+                \begin{tabular}{||c | c  c||} 
+                 \hline
+                 & Vela X-1 A & Vela X-1 B  \\ 
+                 \hline\hline
+                 \textbf{Star Type} & Neutron Star & Supergiant \cite{Kretschmar_2021} \\ 
+                 \hline
+                 \textbf{Masses}\(M_\odot\) & $\ge$ 1.8 \cite{Kretschmar_2021} & 20–30 \cite{Kretschmar_2021} \\
+                 \hline
+                 \textbf{Radius} & 11-12.5$_{KM}$ \cite{Kretschmar_2021} & 30 \(R_\odot\)
+                 \cite{Kretschmar_2021} \\ % note that the stars are not spherical
+                 \hline 
+                 \textbf{Separation} &  \multicolumn{2}{c||}{2$kpc$ \cite{Kretschmar_2021}} \\
+                 \hline 
+                 \textbf{Mass Loss Rate} & \multicolumn{2}{c||}{$10^{-6} M_\odot yr^{-1}$ \cite{Kretschmar_2021}} \\
+                 \hline
+                 \textbf{Eccentricity} & \multicolumn{2}{c||}{$ e \approx  0.0898)$ \cite{Kretschmar_2021}} \\
+                 \hline
+                \end{tabular}
+                \caption{Properties of Vela X-1} 
+                \label{VelaX1} 
+            \end{center}
+    \end{table}
 
-        \end{center}
         Vela X-1 consists of a Neutron Star and Supergiant and is an Eclipsing and pulsing HMXB (sect. \ref{Hmxbs}). This means that the Neutron star passed behind the Supergiant every 8.94 days \cite{Falanga_2015}, leading to a variable luminosity between $10^{36}$ $erg$ $s^{-1}$ and $10^{37}$ $erg$ $s^{-1}$. Additionally, the neutron star itself is spinning every 293 seconds. \cite{Kretschmar_2021}. 
         
         Vela X-1 is described as an archetypical wind accretor, as it is a system which is undergoing wind accretion in a stable, predictable, and easy to measure way. The x-ray emission is persistent as well its broadband spectra. Astronomers use Vela X-1 as examples when looking at other systems with comparable x-ray emissions. \cite{Kretschmar_2021}
@@ -224,7 +230,7 @@
     \subsection{\centering W Ursae Majoris (Contact Binary)}
         \subsubsection{Known properties}
 
-        \begin{table} \label{WUmaTable}
+        \begin{table} 
 
             \begin{center}
                 \begin{tabular}{||c | c c||} 
@@ -252,6 +258,8 @@
                     \textbf{Inclination Plane}  & \multicolumn{2}{c ||}{$88.4 \pm 0.8^\circ$ \cite{Gazeas_2021}} \\
                     \hline
                 \end{tabular}
+                \caption{Properties of W Ursae Majoris} 
+                \label{WUmaTable} 
             \end{center}
         \end{table}
 
@@ -273,35 +281,67 @@
 
     \subsection{\centering Roche Lobe overflow in V404 Cyngi}
         \subsubsection{Known properties}
-        \begin{center}
-            \begin{tabular}{||c | c c||} 
-             \hline
-             & \textbf{V404 Cyngi B (Donor)} & \textbf{V404 Cyngi A (Black Hole)} \\ 
-             \hline\hline
-             \textbf{Star Type} & Early K-type Giant & Black Hole \\ 
-             \hline
-             \textbf{Masses}& $.7_{M_\odot}$ \cite{Bernardini_2016} & $9_{M_\odot}$ \cite{Shahbaz_1994} \\
-             \hline
-             \textbf{Radius} & $6.0_{R_\odot}$ \cite{Shahbaz_1994} &  \\
-             \hline
-             \textbf{Temperature} & $4800_K$ \cite{Shahbaz_1994} & \\
-             \hline
-             \textbf{Luminosity} & $10.2_{L_\odot}$ \cite{Shahbaz_1994} &  \\ 
-             \hline
-             \textbf{Distance} & \multicolumn{2}{c||}{$2390_{pc}$ \cite{Bernardini_2016}} \\
-             \hline
-        \end{tabular} 
-        \end{center}
+        \begin{table}
+            \begin{center} 
+                \begin{tabular}{||c | c c||} 
+                 \hline
+                 & \textbf{V404 Cyngi B (Donor)} & \textbf{V404 Cyngi A (Black Hole)} \\ 
+                 \hline\hline
+                 \textbf{Star Type} & Early K-type Giant & Black Hole \\ 
+                 \hline
+                 \textbf{Masses}& $.7_{M_\odot}$ \cite{Bernardini_2016} & $9_{M_\odot}$ \cite{Shahbaz_1994} \\
+                 \hline
+                 \textbf{Radius} & $6.0_{R_\odot}$ \cite{Shahbaz_1994} &  \\
+                 \hline
+                 \textbf{Temperature} & $4800_K$ \cite{Shahbaz_1994} & \\
+                 \hline
+                 \textbf{Luminosity} & $10.2_{L_\odot}$ \cite{Shahbaz_1994} &  \\ 
+                 \hline
+                 \textbf{Distance} & \multicolumn{2}{c||}{$2390_{pc}$ \cite{Bernardini_2016}} \\
+                 \hline
+            \end{tabular}
+            \caption{Properties of V404 Cygni} 
+            \label{V404Data} 
+            \end{center}
+        \end{table}
 
         V404 is a LMXB (sect \ref{lmxbs}), meaning that the donor star has a relatively low mass, generally $\leq 1 M_\odot$ \cite{Bahramian_2023}. In this system the material being accreted by V404 Cyngi A forms an accretion disk, greatly increasing the luminosity of the system.
-        
-    \subsection{POSYDON Simulations}
-         I used data generated by POSYDON \cite{Fragos_2023} in corroboration with three observed systems in order to fully understand the depth of the process of mass transfer in Binary Systems.
-    \cite{TaurisvandenHeuvel+2023}
 
+    \subsection{POSYDON Simulations}
+         I used data generated by POSYDON \cite{Fragos_2023} in corroboration with three observed systems in order to fully understand the depth of the process of mass transfer in Binary Systems. This is because while catalogues of contact binaries, HMXBs and LMXBs exist, there is not enough of them to get a true grasp of the full picture. Hence, I used POSYDON. This dataset was simulated on the NU Super computing Cluster, QUEST. POSYDON is developed and maintained by a team of astrophysicists and computer scientists working at the Université de Genève and Northwestern University. POSYDON uses an additional script called MESA, which is dedicated to single star and binary evolution. POSYDON utilities MESA on a much larger scale in order to simulate full populations. The data was stored in the form of a .h5 file, containing a total of $approx$6.1 million rows and 83 columns. (See greatly reduced example of the data frame in (table \ref{POSYDONDataExample}) and an HR Diagram of the full dataset in Fig. 2)
+
+         \begin{table}[h]
+            \centering\
+            \footnotesize
+            \begin{tabularx}{\textwidth}{||X | X | X | X | X | X | X | X ||}
+                \hline
+                \textbf{Binary ID} & 
+                \textbf{System State} & 
+                \textbf{Orbital Period (days)} & 
+                \boldmath$\log_{10}$ \textbf{Mass Transfer Rate} & 
+                \textbf{Donor State} & 
+                \textbf{Donor Mass} $M_\odot$ & 
+                \textbf{Accretor State} & 
+                \textbf{Accretor Mass} $M_\odot$
+                \\ \hline
+                $54$ & Detached & $0.047520$ & $-99.00000$ & NS & $1.196033$ & stripped He Core He burning & $\approx 1.002$ \\
+                \hline
+                $183$ & Detached & $0.0429883$ & $ \approx -80.8$ & NS & $1.196033$ & stripped He Core He burning & $\approx .9957$ \\
+                \hline
+            \end{tabularx}
+            \caption{Example of POSYDON data, heavily modified for readability}
+            \label{POSYDONDataExample}
+        \end{table}
+
+        \begin{figure} [h]
+            \centering
+            \includegraphics[width = \textwidth]{figs/EntireDataSetHR.png}
+            \caption{HR Diagram of the donor star for the full POSYDON dataset. Note that the color of the plotted points correspond to the $log_{10}$ mass of the donor star. Generated with Matplotlib}
+        \end{figure}
+        \pagebreak
 
 \section{\centering Results}
-    Through my research I found these distinct types of evolutionary processes ... and their stages of evolution, causes and populations. 
+    With my research I sought to contextualize these very specific systems, allowing one to better understand how these systems play into the larger picture of binaries in
     
         \subsection{\centering Detached}
         In detached binaries, there is still the possibility for mass transfer. These systems are typically called HMXBs. I found that these systems have a distribution as pictured. Note these systems are only ones with full-blown RLO due to simulation of WA constraints
@@ -315,7 +355,7 @@
         \end{center}
   
         \subsection{\centering Roche Lobe Overflow}
-        Full-blown RLO occurs in both all types of XrB's, including both HMXBs and LMXBs. This systems 
+        Full-blown RLO occurs in both all types of XrB's, including both HMXBs and LMXBs. These systems 
         \begin{center}
             \includegraphics[scale=.5]{Figs/X-ray binaries Eccentricty Distribution.png}
             \includegraphics[scale=.5]{Figs/X-ray binaries S2mass log10 F star radius T.png}
