@@ -11,7 +11,7 @@
 
 % maybe add xray binary type sections? to cover HMXBS and lmxbs
 
-% good excerpt on CEE evololution over time
+% good excerpt on CEE evolution over time
 %As mentioned before, the common envelope evolution (CEE) has been first proposed in 1976 to account for the origin of cataclysmic variables (CVs). CVs are binaries consisting of a WD with a typical mass of around and an MS companion star with a typical mass of , in which the MS star fills its Roche lobe and undergoes the mass transfer. They typically have an orbital period of 1 to 10 h. Regarding the origin of CV systems, the question is how to form such massive WDs in such a close binary system with an orbital period of a few hours. According to the stellar evolution theory, massive WDs could be formed from cores of red giants (or supergiants) before their envelopes are removed. In this case, the orbital period of a binary system needs to be long enough to keep the red giant (or supergiant) within its Roche lobes until a massive core is formed. Then, a mechanism is needed to drastically reduce the orbital period to a few hours consequently to match the observed periods of CVs. This therefore leads to the proposal of CEE (e.g. [198], [223], [224]). By adopting the CE scenario, the origin of V 471 Tau was successfully explained [198], i.e., a detached binary in the Hyades cluster which has a WD and a K-type dwarf, with an orbital period of . This binary system is expected to evolve into a CV system within a few yr.
 
 
@@ -23,7 +23,7 @@
 
 % cause of the line in contact binaries
 
-% distrobution of masses for contact binaries
+% distribution of masses for contact binaries
 
 %
 \documentclass[12pt, letterpaper]{article}
@@ -77,43 +77,24 @@
 
 \section{\centering Introduction} % amaybe include a section on x-ray emission???
 
-    Most of the stars we see in the night sky are not actually single stars, instead consisting of multiple stars orbiting a common center of mass. A pair of such stars is called a binary. 
-    
-    Binaries are formed in the same nature of single stars, that being through a molecular cloud molecular clouds. However, due to instability in the formation process, two stars are formed instead of one. \cite{Offner_2016}
+    Most of the stars we see in the night sky are not actually single stars, instead consisting of multiple stars orbiting a common center of mass. A pair of such stars is called a binary. These binaries are formed in the same nature of single stars, that being through a molecular cloud molecular clouds. However, due to instability in the formation process, two stars are formed instead of one \cite{Offner_2016}. These stars orbit a common center of mass (COM)  The stars in these binary pairs will almost always a generally have a different evolutionary track then a single star, as it is incredibly likely for the two stars to interact at some point during their life \cite{Fabry_2025}. As these stars evolve and interact with each other, it will drastically affect their evolution. (see fig. \ref{fig:binary_evolution_flowchart})
 
-    Star's in binary pairs will have a generally have a different evolutionary track then a single star.
-
-    It is possible for exoplanets to orbit these 
-
-    As the binaries evolve, it is possible for the two of them their orbit to eventually collapse, leading to a merger.
-    
-
-    \subsection{Mass Transfer in Common Binaries}
-    While most systems do not, it is possible in systems with small enough orbital separations and a small enough mass ratio can experience a process called Mass Transfer. Where one star (generally the larger of the two) will "donate" mass to the other star, called the accretor.
-
-    It is well known that binary stars can transfer mass, but what are the actual technical details behind it? A large amount of binary stars will exchange mass at some point turning their lifespan \cite{Chen_2024}
-
-    This is incredibly likely to occur at some point during the binaries' lifespan, leading to different evolutionary outcomes then single star evolution. 
-    
-    However, in main sequence systems, (systems where both stars are undergoing the main ``stable'' period of their life) this process of mass transfer is incredibly hard to detect visually, as the mass transfer between a RG to an MS star will not create an easily observational effect as the energy spike in more extreme examples.
-
-    In systems with more extreme stars, for example neutron stars(NS) or black holes(BH), this process of mass transfer leads to much more pronounced effects. This is because as the mass is transferred to the BH or NS the process leads to a large spike in X-ray emissions, which can more easily be measured.
+    \subsection{Mass Transfer in Common Binaries} \label{MassTransferinCommon}
+    While most systems do not, it is possible in systems with small enough orbital separations and a small enough mass ratio can experience a process called mass transfer (MT). Where one star (generally the larger of the two) will ``donate'' mass to the other star, called the accretor. This is incredibly likely to occur at some point during the binaries' lifespan, leading to different evolutionary outcomes then single star evolution. However, depending on the time of mass transfer, this process of mass transfer can be incredibly to detect observationally. Because of this, a large amount of studies is conducted on systems with more extreme stars, for example neutron stars(NS) or black holes(BH), this process of mass transfer leads to much more pronounced effects. This is because as the mass is transferred to the BH or NS the process leads to a large spike in X-ray emissions (sect. \ref{XrayAccretion}), which can more much more easily measured as compared the mass transfer process between a red giant (RG) a main sequence(MS) star.
 
     \newgeometry{left=0.75in, right=0.75in, top=0.5in, bottom=0.5in}
     \vspace*{\fill}
     \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{figs/Binary Evolution Flowchart.jpg}
-        \caption{A comprehensive flowchart of various outcomes of binary systems in regard to masses and orbital separations.}
+        \caption{A comprehensive flowchart of various outcomes of binary systems in regard to masses and orbital separations. Reprint from \cite{Chen_2024}}
         \label{fig:binary_evolution_flowchart}
-        \textit{\small Reprint from \cite{Chen_2024}}
     \end{figure}
     \vspace*{\fill}
     \restoregeometry
 
-    \subsection{\centering Roche Lobe Model} % maybe find the orignal rlm paper and use that to elaborate? it feels weird to not talk more here about this, however, it would be very easy to just spend forever talking about it. 
-        The Roche Lobe model was discovered by Édouard Roche (cite) and defines the gravitational potential of a binary through a simple model. Simply defined, it defines the region around a star where it can hold onto it mass (i.e. has great enough gravitational potential). If one of the stars in this binary overflows said lobe, it will transfer mass to its binary pair. This model can be used to classify binary star populations into various populations, including \textbf{Detached Binaries} (where neither star has filled their potential), \textbf{Contact Binaries} (where both stars have filled their potentials), and \textbf{Roche Lobe Overflow}(RLO) systems (where one star has filled its potential, leading to mass transfer to an accretor).
-            
+    \subsection{\centering Roche Lobe Model} \label{RLModel} % maybe find the orignal rlm paper and use that to elaborate? it feels weird to not talk more here about this, however, it would be very easy to just spend forever talking about it. 
+        The Roche Lobe (RL) model was proposed by Édouard Roche and defines the gravitational potential of a binary through a simple model. Simply put, it defines the region around a star where it can hold onto it mass (i.e. great enough gravitational potential). If one of the stars in the binaries' mass overflows said lobe, it will transfer mass to its binary pair. This model can be used to classify binary star populations into various populations, including \textbf{Detached Binaries} (where neither star has filled their potential), \textbf{Contact Binaries} (where both stars have filled their potentials), and \textbf{Roche Lobe Overflow}(RLO) systems (where one star has filled its potential, leading to mass transfer to an accretor).
 
     \vspace*{\fill}
     \begin{figure}[H]
@@ -121,20 +102,32 @@
         \includegraphics[width=\textwidth]{Figs/RochePotential.jpg}
         \caption{ A 3D representation of the gradient of the Roche lobe}
         \label{fig:Roche_potential}
-        \textit{\small Reprint from \cite{TaurisvandenHeuvel+2023}}
+        \textit{\small Reprint from \cite{vandersluys2005}}
     \end{figure}
     \vspace*{\fill}
 
-        \subsection{\centering Detached}
+        \subsection{\centering Roche Lobe Overflow}\label{RLO} % maybe include equations??
+        In systems where one star fully fills its RL (sect. \ref{RLModel}, fig. \ref{SemidetachedRL}) mass begins to be transferred to its binary partner. This is process is called Roche Lobe Overflow (RLO) and is defined by a donor and accretor star (sect. \ref{MassTransferinCommon}). This is incredibly likely to happen at some point in a binaries' lifespan drastically affecting the course of evolution~\cite{TaurisvandenHeuvel+2023}\cite{Chen_2024}\cite{Chen_2024}. Depending on the systems star types, masses, and eccentricity, this process of mass transfer will either be stable or unstable. When this process if unstable, it leads to either another stage called common envelope (sect. \ref{CommonEnvelope}) or a rapid merger \cite{TaurisvandenHeuvel+2023}. However, if the process of mass transfer is stable, the two stars will remain detached, slowly exchanging mass~\cite{Chen_2024} \cite{TaurisvandenHeuvel+2023}.
 
-        Systems where neither star fills its potential fully are called detached system. In these systems, two stars orbit a COM.
+        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential} \cite{TaurisvandenHeuvel+2023}. This means that it requires a velocity of efficiently 0 in order to escape the donor star. We are able to observe this very commonly in Low Mass X-ray Binaries, where a donor star transferred mass to an accretor which is a compact object (A black hole (BH) or neutron star (NS)). This process produces X-rays (sect. \ref{XrayAccretion}) which we can measure to understand the processes within the binary in greater detail.
+        
+       \begin{figure}[h] 
+            \centering
+            \includegraphics[scale = .4]{Figs/Semi-detached binary.png}
+            \caption{\textit{Reprint from~\cite{TaurisvandenHeuvel+2023}}}
+            \label{SemidetachedRL}
+        \end{figure}
+        
+        I used the system V404 Cyngi with data from \cite{Bernardini_2016} and \cite{Shahbaz_1994} as an example of this behavior, as its magnitude, proximity to Earth, and large amount of studies make it an ideal choice to understand how systems like it behave. 
 
-        However, in systems which are regarded as detached mass transfer is still possible through a processes called Wind Accretion (see \ref{WindAccretion}). We see this prominently in systems called \textit{High Mass X-ray Binaries}, where a supergiant star transfers mass to a compact object via wind accretion. This process leads to an increase in X-ray Emission, which we can measure.~\cite{TaurisvandenHeuvel+2023} It is important to note that these systems are not experiencing full-blown RLO, however, they tend to be incredibly close. \cite{TaurisvandenHeuvel+2023} These systems transfer mass through both wind accretion and in some cases, atmospheric Roche Lobe Overflow.
+        \subsection{\centering Detached}\label{DetachedBinary}
+
+        Systems where neither star fills its potential fully (see fig. \ref{DetachedBinaryRL}) are called detached binaries. Despite the fact that these systems detached in the form of their Roche Lobes, mass transfer is still possible through a processes called wind accretion (see \ref{WindAccretion}). We see this predominantly in systems called \textit{High Mass X-ray Binaries}, where a supergiant star transfers mass to a compact object via wind accretion. This process leads to an increase in X-ray Emission (sect. \ref{XrayAccretion}), which we can easily measure~\cite{TaurisvandenHeuvel+2023}. It is important to note that these systems are not experiencing full-blown RLO (sect\ref{RLO}), however, they tend to be incredibly close to doing so~\cite{TaurisvandenHeuvel+2023}. It is important to note that these systems transfer mass through both wind accretion, atmospheric Roche Lobe Overflow, and full-blown RLO.
 
         I used the system Vela X-1 \cite{Kretschmar_2021} as an example of this, as it is generally regarded as the ``archetypical wind accretor''~\cite{Kretschmar_2021} 
 
         \subsubsection{Wind Accretion Mass Transfer} \label{WindAccretion}
-        Wind accretion very different from normal mass transfer in a binary. All stars produce `wind', i.e. mass which is pushed away from the star. This process is called stellar winds, occurring when various types of mass is ejected at speed from the star. All stars have different processes of wind, with some have very high velocities of the wind, and others have lower velocities.~\cite{Lamers_1999} In binary stars this process can allow mass to be transferred from one star, to a generally smaller, accretor.
+        Wind accretion very different from normal mass transfer in a binary. All stars produce `wind', i.e. mass which is pushed away from the star. This process is called stellar winds, occurring when various types of mass is ejected at speed from the star. All stars have different processes of wind, with some have very high velocities of the wind, and others have lower velocities.~\cite{Lamers_1999} In binary stars this process allows mass to be transferred from a donor to accretor.
         
         
         \begin{figure}[H]
@@ -145,31 +138,12 @@
             \label{DetachedBinaryRL}
         \end{figure}
         
-        \subsection{\centering Roche Lobe overflow} % maybe include equations??
-        In systems where one star fills its gravitational potential mass begins to be transferred to its binary partner. This is called Roche Lobe Overflow (RLO) and is defined by a donor and accretor star. 
-        
-        This is incredibly likely to happen at some point in a binaries' lifespan, and it will drastically affect its evolution~\cite{Chen_2024}. Depending on the systems star types, masses, and  eccentricity, this process will either be stable or unstable. When this process if unstable, it leads to either the common envelope, which results in either a merger or separation once more. However, if the process of mass transfer is stable, the two stars will remain detached.~\cite{Chen_2024}
-
-        In this process, the mass will be transferred through the Lagrange point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential}. \cite{TaurisvandenHeuvel+2023}
-
-        We are able to observe this commonly in X-ray Binaries, where a donor star transferred mass to an accretor which is a compact object (BH or NS). This process then produces X-rays which we can measure to understand the processes within the binary in greater detail.
-        
-       \begin{figure}[h] 
-            \centering
-            \includegraphics[scale = .4]{Figs/Semi-detached binary.png}
-            \caption{\textit{Reprint from~\cite{TaurisvandenHeuvel+2023}}}
-            \label{SemidetachedRL}
-        \end{figure}
-        
-        I used the system V404 Cyngi with data from \cite{Bernardini_2016} and \cite{Shahbaz_1994} as an example of this behavior. 
 
         \subsection{\centering Contact Binary}
-        In binaries where RLOF occurs it is possible for a star to fill up not just its potential, but the others as well. In cases like these the star then begins to fill up the binaries potential.\ (i.e.\ the area above the dark section in figure~\ref{ContactBinaryRL}) The system also has a limited potential, and if that fills as well, the system undergoes a stage called ``common envelope''
+        In binaries where RLO occurs it is possible for the donor star to fill up not just its potential, but the accretors' as well. In cases like these the star then begins to fill up the binaries itself potential.\ (i.e.\ the area between the two ridges~\ref{ContactBinaryRL}). This process generally is not stable, as most stars this in stage generally are experiencing a brief stage of their evolution called common envelope (CE). (See section~\ref{CommonEnvelope}) However, in cases where it is stable, the star will continue to evolve as one body (sect. \ref{CommonEnvelopeStableEvoluton}).
 
-
-        This process generally is not stable, as most stars in stage generally are experiencing a stage of their evolution called common envelope (CE). (See section~\ref{CommonEnvelope}) However, in cases where it is stable, the stars evolve at the same rate, something called ``homogenous chemical evolution''. (See fig~\ref{fig:binary_evolution_flowchart}) Contact binaries generally have very little to no eccentricity, as their close orbits self stabilize.~\cite{TaurisvandenHeuvel+2023}
         
-        \begin{figure}  
+        \begin{figure}
             \centering
             \includegraphics[scale = .4]{Figs/Conact Binary.png}
 
@@ -178,23 +152,35 @@
         \end{figure}
         
         \subsubsection{Common Envelope}\label{CommonEnvelope}
-            In the CE stage of binary evolution there are two distinct outcomes, both of which heavily depend on the systems initial conditions. These are that the two stars merge, becoming a single star, or that one star is ejected. 
+            The CE stage of binary evolution has two distinct outcomes, both of which heavily depend on the systems initial conditions. The two stars can either merge, in most cases becoming a single star, or that one star can be ejected, reverting the system back to a detached state (sect. \ref{DetachedBinary}) In this process the potential of the systems is completely filled, at which point mass stars being pushed out of the entire system through $L_2$. This mass then begins to form a disk around the stars, orbiting at a reduced rate compared to the stars~\cite{TaurisvandenHeuvel+2023}. This mass that has been ejected from the system entirely will create ionized gas around the stars, which can be observed from Earth. ~\cite{TaurisvandenHeuvel+2023}
 
-            In this process the potential of the systems is completely filled, at which point mass stars being pushed out of the system through $L_2$. This mass then begins to form a pseudo disk around the stars, orbiting a slower rate~\cite{TaurisvandenHeuvel+2023}. This leads to be  This mass may be fully ejected from the system entirely, creating ionized gas around the stars,~\cite{TaurisvandenHeuvel+2023}which can be observed from earth. 
+        \subsubsection{Stable Evolution}\label{CommonEnvelopeStableEvoluton}
+            In systems which are stable the stars will share mass and that their shells will evolve in tandem, this process is called ``homogenous chemical evolution''. (See fig~\ref{fig:binary_evolution_flowchart} \cite{Chen_2024}). As these stars transfer mass, their mass ratio ($q$) will oscillate around a value of $q=1$, eventually reaching $q_{min}$ at which point the stars will rapidly merge (see fig. \ref{qEvolution}). \cite{Pešta_2023}
+            
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .3]{figs/reused-figs/q-ratio_evolution_farby.png}
+            \caption{Reprinted from \cite{Fabry_2025}. These graphs show the effects of modeling energy transfer(ET) on the systems' evolution.}
+            \label{qEvolution}
+        \end{figure}
 
-        \subsubsection{Stable Evolution}\label{StableEvoluton}
-            In systems where mass transfer is not happening and both of the stars are at stable points in their evolution (i.e. both MS), the stars will share their mass. This means that their ``shells'' will evolve in tandem.
-
+        
         I used W Ursae Majoris (W UMa) as an example of these systems, as it is used an example system in order to categorize these contact binaries as a whole.
     \subsection{X-ray Binaries} 
-        \subsubsection{X-rays in accretion} \label{XrayAccretion}
-        \subsubsection{Low Mass X-ray Binaries (LMXBS)} \label{lmxbs}
-        \subsubsection{High Mass X-ray Binaries (HMXBS)} \label{HMXBS}
+        \subsubsection{X-rays caused by accretion onto a compact object} \label{XrayAccretion}
+            In 1962 the first X-ray binary was discovered by Riccardo Giacconi and colleagues. This system, Scorpius X-1, is so bright in x-ray that it actively raises ionization levels in Earths atmosphere when above the horizon. \cite{TaurisvandenHeuvel+2023} \cite{Giacconi_1962} In the years following, it was discovered that that Scorpius X-1 consisted of a normal star and neutron star. Since then, many thousands more have been discovered\cite{Haardt_1993}
 
-        
-        
+            These x-rays are produced from the friction of in-spiralling matter against itself, which causes it to become incredibly hot, with the inner disk reaching temperatures of $\geq$ 10 million K, causing it to emit a large amount of x-rays. In systems with a NS accretor, the surface of the NS itself will also emit a large amount of x-rays \cite{TaurisvandenHeuvel+2023} (fig. \ref{XrayAccretionMarkVis}). 
+
+            \begin{figure} [H]
+                \centering
+                \includegraphics[width=\textwidth]{figs/reused-figs/markGarlic-Xrayaccretion.png}
+                \caption{Reprinted from \cite{TaurisvandenHeuvel+2023}, original work by Mark Garlick, \copyright Mark Garlick. Here we see matter from a normal star falling onto a compact object, with the compact object being the source of x-rays}
+                \label{XrayAccretionMarkVis}
+            \end{figure}
+        % \subsubsection{Low Mass X-ray Binaries (LMXBS)} \label{lmxbs}
+        % \subsubsection{High Mass X-ray Binaries (HMXBS)} \label{HMXBS}
         % \subsection{\centering X-ray Binaries}
-        % In binaries with compact objects accretors (BHs and WDs) we find a large amount of produced X-ray binaries. We see this as bright Xray sources in our skies (cite). These X-rays are produced through mass falling into the accretor, causing xrays. (cite)
         
 \section{\centering Data Acquisition}
     \subsection{\centering Vela X-1 (Detached)}
@@ -394,10 +380,20 @@
         \begin{figure}[H]
             \centering
             \includegraphics[scale = .6]{figs/Generated Figs/Contact binaries Star Two Mass Distribution.png}
-            \caption{Eccentricity distribution of contact Binaries}
-            \label{contactBinaryMassDistro}
+            \caption{Star two mass distribution for contact Binaries}
+            \label{contactBinaryStar2MassDistro}
         \end{figure}
-        In figure \ref{contactBinaryMassDistro} we can see that contact binaries mass distribution feature a prominent spike at around one solar mass, with a distribution centered around 10, and then a scattered amount afterward. 
+
+        In figure \ref{contactBinaryStar2MassDistro} we can see that contact binaries mass distribution feature a prominent spike at around one solar mass, with a distribution centered around 10, and then a scattered amount afterward. 
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .6]{figs/Generated Figs/Contact binaries Star Two Mass Distribution.png}
+            \caption{Star one mass distribution of contact Binaries}
+            \label{contactBinarStar1MassDistro}
+        \end{figure}
+
+        Note how similar this is to the star two distribution. From the POSYDON data, I found the mean mass of star one in contact binaries to be $\approx 10.703$ and star two to be $\approx 10.6548$. This is congruent with what previous papers have found (\cite{Fabry_2025}). This is due to the nature of mass transfer in contact binaries leading to a stabilization in mass. As a contact system evolves, the mass transfer causes q (the mass ratio between stars) to stabilize to a value of $q=1$ \cite{Fabry_2025}. We can clearly see this oscillation and then stabilization in \textbf{figure \ref{qEvolution}}.
 
         \begin{figure}[H]
             \centering
@@ -405,7 +401,10 @@
             \caption{HR diagram of contact Binaries}
             \label{contactBinaryHRDiagram}
         \end{figure}
-        This is one of the more interesting results, as we can see that contact binaries form a very specific population on the HR diagram, falling on specific linear with a linear relationship. This is because 
+
+        This is one of the more interesting results, as we can see that contact binaries form a very specific population on the HR diagram, falling on specific linear with a linear relationship. I believe this is because of the stabilizing natures regarding mass ratios in contact binaries. It is important to note that these values are much above what we observe in contact binaries. Again, there are many reasons this could be, including the inherent skewing of the grid, the nature of observing contact binaries, and more... \textit{adding more here.} 
+
+
         
         \subsubsection{W UMa Cygni Results}
             \begin{figure}[H]
@@ -414,14 +413,14 @@
                 \caption{HR Diagram with reference for W UMa using W UMa A}
                 \label{WUMaResults}
             \end{figure}
-            In figure \ref{WUMaResults} we see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population.
+            In figure \ref{WUMaResults} we see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population, but in line with other observed contact binaries.  
 
         \subsection{\centering Detached Binaries}
             \begin{figure}[H] 
                 \centering
                 \includegraphics[scale = .6]{figs/Generated Figs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png}
-                \caption{HR Diagram with of HMXBS}
-                \label{DetachedBinary}
+                \caption{HR Diagram of HMXBS}
+                \label{DetachedBinaryHRDiagram}
             \end{figure}
 
             \subsubsection{Vela X-1 Results}
@@ -434,11 +433,7 @@
             In figure \ref{VelaX1Results} we can see that Vela X-1 Falls into a very normal location for main sequence stars.
 
 \section{\centering Conclusion}
-    In conclusion mass transfer heavily affects the evolution of binary stars, leading them to evolve in a  
-
-    \subsection{W UMa Cyngi} \label{WUMaConc}
-
-    \subsection{Vela X-1 Cyngi} \label{VelaX1Conc}
+    In conclusion mass transfer heavily affects the evolution of binary stars, leading them to evolve in a uniquely different way then to single star evolution. 
 
 \section{\centering Discussion}   
     Originally I planned on simulating grids for all the types of systems, however, due to time constraints I chose to only focus on one type. 

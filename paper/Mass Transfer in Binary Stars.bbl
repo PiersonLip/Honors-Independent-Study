@@ -81,6 +81,62 @@
       \verb https://dx.doi.org/10.3847/2041-8205/827/1/L11
       \endverb
     \endentry
+    \entry{Fabry_2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=43f3a71b307a7771f172fb42be4ef3e1}{%
+           family={Fabry},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b461df1a197242a944c11a614c5bce87}{%
+           family={Marchant},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5aaf8021b2da039699692618c3757eaa}{%
+           family={Langer},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a1a4aca5eaedab37d8ba6d974d127a5c}{%
+           family={Sana},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{1280b750769f7a3cee32344cf5a39100}
+      \strng{fullhash}{9005ab57be0910c0e9a127898433a77f}
+      \strng{fullhashraw}{9005ab57be0910c0e9a127898433a77f}
+      \strng{bibnamehash}{9005ab57be0910c0e9a127898433a77f}
+      \strng{authorbibnamehash}{9005ab57be0910c0e9a127898433a77f}
+      \strng{authornamehash}{1280b750769f7a3cee32344cf5a39100}
+      \strng{authorfullhash}{9005ab57be0910c0e9a127898433a77f}
+      \strng{authorfullhashraw}{9005ab57be0910c0e9a127898433a77f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0746}
+      \field{journaltitle}{Astronomy \&amp; Astrophysics}
+      \field{month}{3}
+      \field{title}{Modeling contact binaries: III. Properties of a population of close, massive binaries}
+      \field{volume}{695}
+      \field{year}{2025}
+      \field{pages}{A109}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/202452820
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1051/0004-6361/202452820
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1051/0004-6361/202452820
+      \endverb
+    \endentry
     \entry{Chen_2024}{article}{}{}
       \name{author}{3}{}{%
         {{hash=af4f464f4fc05140b7ce529dfceed535}{%
@@ -107,8 +163,8 @@
       \strng{authornamehash}{f90caff5294b72406be29310f0b745cc}
       \strng{authorfullhash}{487072b56d465ece0e0279f3a0368573}
       \strng{authorfullhashraw}{487072b56d465ece0e0279f3a0368573}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Binary stars are as common as single stars. Binary stars are of immense importance to astrophysicists because that they allow us to determine the masses of the stars independent of their distances. They are the cornerstone of the understanding of stellar evolutionary theory and play an essential role in cosmic distance measurement, galactic evolution, nucleosynthesis and the formation of important objects such as cataclysmic variable stars, X-ray binaries, Type Ia supernovae, and gravitational wave-producing double compact objects. In this article, we review the significant theoretical and observational progresses in addressing binary stars in the new millennium. Increasing large survey projects have led to the discovery of enormous numbers of binary stars, which enables us to conduct statistical studies of binary populations, and therefore provide unprecedented insight into the stellar and binary evolution physics. Meanwhile, the rapid development of theoretical concepts and numerical approaches for binary evolution have made a substantial progress on the alleviation of some long-standing binary-related problems such as the stability of mass transfer and common envelope evolution. Nevertheless, it remains a challenge to have a full understanding of fundamental problems of stellar and binary astrophysics. The upcoming massive survey projects and increasingly sophisticated computational methods will lead to future progress.}
@@ -129,6 +185,38 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0146641023000649
       \endverb
       \keyw{Binary stars,Population synthesis,Binary mass transfer,Common envelope,Nucleosynthesis}
+    \endentry
+    \entry{vandersluys2005}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=627db3a7803b3b2df0b58476c53c782a}{%
+           family={Sluys},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{627db3a7803b3b2df0b58476c53c782a}
+      \strng{fullhash}{627db3a7803b3b2df0b58476c53c782a}
+      \strng{fullhashraw}{627db3a7803b3b2df0b58476c53c782a}
+      \strng{bibnamehash}{627db3a7803b3b2df0b58476c53c782a}
+      \strng{authorbibnamehash}{627db3a7803b3b2df0b58476c53c782a}
+      \strng{authornamehash}{627db3a7803b3b2df0b58476c53c782a}
+      \strng{authorfullhash}{627db3a7803b3b2df0b58476c53c782a}
+      \strng{authorfullhashraw}{627db3a7803b3b2df0b58476c53c782a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{CC BY 2.5, via Wikimedia Commons: https://commons.wikimedia.org/w/index.php?curid=804238}
+      \field{title}{Informatie over sterren, Hoofdstuk 6.2}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb http://hemel.waarnemen.com/Informatie/Sterren/hoofdstuk6.html#h6.2
+      \endverb
+      \verb{url}
+      \verb http://hemel.waarnemen.com/Informatie/Sterren/hoofdstuk6.html#h6.2
+      \endverb
     \endentry
     \entry{TaurisvandenHeuvel+2023}{book}{}{}
       \name{author}{2}{}{%
@@ -159,8 +247,8 @@
       \strng{authornamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
       \strng{authorfullhash}{b4fc02fc84f7012249b14eec1dda8a0e}
       \strng{authorfullhashraw}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780691239262}
@@ -175,101 +263,6 @@
       \verb{url}
       \verb https://doi.org/10.1515/9780691239262
       \endverb
-    \endentry
-    \entry{Kretschmar_2021}{article}{}{}
-      \name{author}{12}{}{%
-        {{hash=d631bb5881087dc37562040e14fc0659}{%
-           family={{Kretschmar, P.}},
-           familyi={K\bibinitperiod}}}%
-        {{hash=df20f9a55231de9cf22fe2e3796b88c3}{%
-           family={{El Mellah, I.}},
-           familyi={E\bibinitperiod}}}%
-        {{hash=531044e9826fa1a5c8b24fa8de180ae5}{%
-           family={{Martínez-Núñez, S.}},
-           familyi={M\bibinitperiod}}}%
-        {{hash=a0669890638467372e185c824d760657}{%
-           family={{Fürst, F.}},
-           familyi={F\bibinitperiod}}}%
-        {{hash=2e97fb9c0626aa7e0c523180407bd70d}{%
-           family={{Grinberg, V.}},
-           familyi={G\bibinitperiod}}}%
-        {{hash=c81a95cfa2a2e21f11b08720d047718c}{%
-           family={{Sander, A. A. C.}},
-           familyi={S\bibinitperiod}}}%
-        {{hash=85d4d44468b7d4f019078f488f902248}{%
-           family={{van den Eijnden, J.}},
-           familyi={v\bibinitperiod}}}%
-        {{hash=42397e51cf28fed5e5c7be722d4d2123}{%
-           family={{Degenaar, N.}},
-           familyi={D\bibinitperiod}}}%
-        {{hash=186812db42c740b36652ad81bd534f84}{%
-           family={{Maíz Apellániz, J.}},
-           familyi={M\bibinitperiod}}}%
-        {{hash=7ec107c92523dc70f24d7f9f0f7b28aa}{%
-           family={{Jiménez Esteban, F.}},
-           familyi={J\bibinitperiod}}}%
-        {{hash=db29dbeeb365447d9af77939bf475ef3}{%
-           family={{Ramos-Lerate, M.}},
-           familyi={R\bibinitperiod}}}%
-        {{hash=62e7104f36c89fa63ebb6e8836bade3a}{%
-           family={{Utrilla, E.}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{e7e38df29193e9102fe1dd9099b9965e}
-      \strng{fullhash}{ad64203b689ca6f7a0ed5bf095891b00}
-      \strng{fullhashraw}{ad64203b689ca6f7a0ed5bf095891b00}
-      \strng{bibnamehash}{e7e38df29193e9102fe1dd9099b9965e}
-      \strng{authorbibnamehash}{e7e38df29193e9102fe1dd9099b9965e}
-      \strng{authornamehash}{e7e38df29193e9102fe1dd9099b9965e}
-      \strng{authorfullhash}{ad64203b689ca6f7a0ed5bf095891b00}
-      \strng{authorfullhashraw}{ad64203b689ca6f7a0ed5bf095891b00}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{A\&A}
-      \field{title}{Revisiting the archetypical wind accretor Vela X-1 in depth - Case study of a well-known X-ray binary and the limits of our knowledge}
-      \field{volume}{652}
-      \field{year}{2021}
-      \field{pages}{A95}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1051/0004-6361/202040272
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1051/0004-6361/202040272
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1051/0004-6361/202040272
-      \endverb
-    \endentry
-    \entry{Lamers_1999}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=dc45a24bb6bc8637d432482ae49c6858}{%
-           family={{Lamers}},
-           familyi={L\bibinitperiod},
-           given={Henny\bibnamedelima J.\bibnamedelimi G.\bibnamedelimi L.\bibnamedelimi M.},
-           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=57acdcedf98106c4372a35b304586685}{%
-           family={{Cassinelli}},
-           familyi={C\bibinitperiod},
-           given={Joseph\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \strng{fullhash}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \strng{fullhashraw}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \strng{bibnamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \strng{authorbibnamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \strng{authornamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \strng{authorfullhash}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \strng{authorfullhashraw}{61392d9a1baad7fe1e9c84767ae12e0b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Introduction to Stellar Winds}}
-      \field{year}{1999}
     \endentry
     \entry{Bernardini_2016}{article}{}{}
       \name{author}{8}{}{%
@@ -416,6 +409,222 @@
       \verb https://doi.org/10.1093/mnras/271.1.L10
       \endverb
     \endentry
+    \entry{Kretschmar_2021}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=d631bb5881087dc37562040e14fc0659}{%
+           family={{Kretschmar, P.}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=df20f9a55231de9cf22fe2e3796b88c3}{%
+           family={{El Mellah, I.}},
+           familyi={E\bibinitperiod}}}%
+        {{hash=531044e9826fa1a5c8b24fa8de180ae5}{%
+           family={{Martínez-Núñez, S.}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=a0669890638467372e185c824d760657}{%
+           family={{Fürst, F.}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=2e97fb9c0626aa7e0c523180407bd70d}{%
+           family={{Grinberg, V.}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=c81a95cfa2a2e21f11b08720d047718c}{%
+           family={{Sander, A. A. C.}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=85d4d44468b7d4f019078f488f902248}{%
+           family={{van den Eijnden, J.}},
+           familyi={v\bibinitperiod}}}%
+        {{hash=42397e51cf28fed5e5c7be722d4d2123}{%
+           family={{Degenaar, N.}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=186812db42c740b36652ad81bd534f84}{%
+           family={{Maíz Apellániz, J.}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=7ec107c92523dc70f24d7f9f0f7b28aa}{%
+           family={{Jiménez Esteban, F.}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=db29dbeeb365447d9af77939bf475ef3}{%
+           family={{Ramos-Lerate, M.}},
+           familyi={R\bibinitperiod}}}%
+        {{hash=62e7104f36c89fa63ebb6e8836bade3a}{%
+           family={{Utrilla, E.}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{fullhash}{ad64203b689ca6f7a0ed5bf095891b00}
+      \strng{fullhashraw}{ad64203b689ca6f7a0ed5bf095891b00}
+      \strng{bibnamehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{authorbibnamehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{authornamehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{authorfullhash}{ad64203b689ca6f7a0ed5bf095891b00}
+      \strng{authorfullhashraw}{ad64203b689ca6f7a0ed5bf095891b00}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Revisiting the archetypical wind accretor Vela X-1 in depth - Case study of a well-known X-ray binary and the limits of our knowledge}
+      \field{volume}{652}
+      \field{year}{2021}
+      \field{pages}{A95}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/202040272
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/0004-6361/202040272
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/202040272
+      \endverb
+    \endentry
+    \entry{Lamers_1999}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=dc45a24bb6bc8637d432482ae49c6858}{%
+           family={{Lamers}},
+           familyi={L\bibinitperiod},
+           given={Henny\bibnamedelima J.\bibnamedelimi G.\bibnamedelimi L.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=57acdcedf98106c4372a35b304586685}{%
+           family={{Cassinelli}},
+           familyi={C\bibinitperiod},
+           given={Joseph\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{fullhash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{fullhashraw}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{bibnamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authorbibnamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authornamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authorfullhash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authorfullhashraw}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Introduction to Stellar Winds}}
+      \field{year}{1999}
+    \endentry
+    \entry{Pešta_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=62fedf128c56cba192fda3fdaf34b253}{%
+           family={{Pešta, Milan}},
+           familyi={P\bibinitperiod}}}%
+        {{hash=fdc3b46ae84e682acef8b3e390b09ca2}{%
+           family={{Pejcha, Ondřej}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9ff8f45f348044e26dc313147f782df}
+      \strng{fullhash}{a9ff8f45f348044e26dc313147f782df}
+      \strng{fullhashraw}{a9ff8f45f348044e26dc313147f782df}
+      \strng{bibnamehash}{a9ff8f45f348044e26dc313147f782df}
+      \strng{authorbibnamehash}{a9ff8f45f348044e26dc313147f782df}
+      \strng{authornamehash}{a9ff8f45f348044e26dc313147f782df}
+      \strng{authorfullhash}{a9ff8f45f348044e26dc313147f782df}
+      \strng{authorfullhashraw}{a9ff8f45f348044e26dc313147f782df}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Mass-ratio distribution of contact binary stars}
+      \field{volume}{672}
+      \field{year}{2023}
+      \field{pages}{A176}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/202245613
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/0004-6361/202245613
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/202245613
+      \endverb
+    \endentry
+    \entry{Giacconi_1962}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ab7031aaeeb1cdaba5822999d6b65068}{%
+           family={{Giacconi}},
+           familyi={G\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f1e9592aef1af4b4df8c7ad4daa60d4e}{%
+           family={{Gursky}},
+           familyi={G\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9b1ad49eadaa8db08903a75b16112d99}{%
+           family={{Paolini}},
+           familyi={P\bibinitperiod},
+           given={Frank\bibnamedelima R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=635267c3d34bff5b278b580d0350b6b0}{%
+           family={{Rossi}},
+           familyi={R\bibinitperiod},
+           given={Bruno\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{78bae148190743de0e7668aec78b5282}
+      \strng{fullhash}{a5f124717b4f0c2386442d13e795824e}
+      \strng{fullhashraw}{a5f124717b4f0c2386442d13e795824e}
+      \strng{bibnamehash}{a5f124717b4f0c2386442d13e795824e}
+      \strng{authorbibnamehash}{a5f124717b4f0c2386442d13e795824e}
+      \strng{authornamehash}{78bae148190743de0e7668aec78b5282}
+      \strng{authorfullhash}{a5f124717b4f0c2386442d13e795824e}
+      \strng{authorfullhashraw}{a5f124717b4f0c2386442d13e795824e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{prl}
+      \field{month}{12}
+      \field{number}{11}
+      \field{title}{{Evidence for x Rays From Sources Outside the Solar System}}
+      \field{volume}{9}
+      \field{year}{1962}
+      \field{pages}{439\bibrangedash 443}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.9.439
+      \endverb
+    \endentry
+    \entry{Haardt_1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c5e69de7b08d4099337aaa37e4d3c1c7}{%
+           family={{Haardt}},
+           familyi={H\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b562afee93147bd20d7e1990acb2b968}{%
+           family={{Maraschi}},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{124f8379f0c13e6f4216e4370455a15c}
+      \strng{fullhash}{124f8379f0c13e6f4216e4370455a15c}
+      \strng{fullhashraw}{124f8379f0c13e6f4216e4370455a15c}
+      \strng{bibnamehash}{124f8379f0c13e6f4216e4370455a15c}
+      \strng{authorbibnamehash}{124f8379f0c13e6f4216e4370455a15c}
+      \strng{authornamehash}{124f8379f0c13e6f4216e4370455a15c}
+      \strng{authorfullhash}{124f8379f0c13e6f4216e4370455a15c}
+      \strng{authorfullhashraw}{124f8379f0c13e6f4216e4370455a15c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{apj}
+      \field{month}{8}
+      \field{title}{{X-Ray Spectra from Two-Phase Accretion Disks}}
+      \field{volume}{413}
+      \field{year}{1993}
+      \field{pages}{507}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/173020
+      \endverb
+      \keyw{Accretion Disks,Active Galactic Nuclei,Compton Effect,Electron Energy,Stellar Luminosity,X Ray Spectra,Astronomical Models,Black Body Radiation,Stellar Coronas,X Ray Astronomy,Astrophysics,GALAXIES: ACTIVE,X-RAYS: GALAXIES,ACCRETION,ACCRETION DISKS}
+    \endentry
     \entry{Falanga_2015}{article}{}{}
       \name{author}{6}{}{%
         {{hash=d0b8ce0fb8688b5b59fbbae57bc5b0c8}{%
@@ -460,8 +669,8 @@
       \strng{authornamehash}{337444357857305510d52c0d83af7f3d}
       \strng{authorfullhash}{fb94e43545c062d822293f891af7a481}
       \strng{authorfullhashraw}{fb94e43545c062d822293f891af7a481}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
@@ -573,8 +782,8 @@
       \strng{authornamehash}{2c2ecb658086f4dc012da9f4eb7324ae}
       \strng{authorfullhash}{5018d76097455ff226f51b876a7d7f0b}
       \strng{authorfullhashraw}{5018d76097455ff226f51b876a7d7f0b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents the results of a combined spectroscopic and photometric study of 20 contact binary systems: HV Aqr, OO Aql, FI Boo, TX Cnc, OT Cnc, EE Cet, RW Com, KR Com, V401 Cyg, V345 Gem, AK Her, V502 Oph, V566 Oph, V2612 Oph, V1363 Ori, V351 Peg, V357 Peg, Y Sex, V1123 Tau, and W UMa, which was conducted in the frame of the W UMa Project. Together with 51 already covered by the project and an additional 67 in the existing literature, these systems bring the total number of contact binaries with known combined spectroscopic and photometric solutions to 138. It was found that mass, radius, and luminosity of the components follow certain relations along the MS and new empirical power relations are extracted. We found that 30 per cent of the systems in the current sample show extreme values in their parameters, expressed in their mass ratio or fill-out factor. This study shows that, among the contact binary systems studied, some have an extremely low mass ratio (q \&lt; 0.1) or an ultrashort orbital period (Porb \&lt; 0.25 d), which are expected to show evidence of mass transfer progress. The evolutionary status of these components is discussed with the aid of correlation diagrams and their physical and orbital parameters compared to those in the entire sample of known contact binaries. The existence of very short orbital periods confirms the very slow nature of the merging process, which seems to explain why their components still exist as MS stars in contact configurations even after several Gyr of evolution.}
@@ -1973,8 +2182,8 @@
       \strng{authornamehash}{247fe6b0d65337bea39d7e83c158f730}
       \strng{authorfullhash}{9cae166e8919d163507a9cbeee25ebf1}
       \strng{authorfullhashraw}{9cae166e8919d163507a9cbeee25ebf1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A\&A}
@@ -2024,8 +2233,8 @@
       \strng{authornamehash}{fb69659cec23f6c956530a23000e5793}
       \strng{authorfullhash}{b9382fd0ac26bf0684d66676da1add51}
       \strng{authorfullhashraw}{b9382fd0ac26bf0684d66676da1add51}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{aap}
@@ -2067,8 +2276,8 @@
       \strng{authornamehash}{f58dcfc8fbd251556c9d21a608ed690c}
       \strng{authorfullhash}{6b68d66446d9ac0bcdfdb5c887bd98fa}
       \strng{authorfullhashraw}{6b68d66446d9ac0bcdfdb5c887bd98fa}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Information Bulletin on Variable Stars}
@@ -2219,8 +2428,8 @@
       \strng{authornamehash}{55a229b47e57a81baeaab59ca9b45d12}
       \strng{authorfullhash}{d9af486cb7fc18cf5d8f89d09758587f}
       \strng{authorfullhashraw}{d9af486cb7fc18cf5d8f89d09758587f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1538-4365}
@@ -2263,8 +2472,8 @@
       \strng{authornamehash}{9a1f9219d00cef023c61c6fd71576d04}
       \strng{authorfullhash}{9a1f9219d00cef023c61c6fd71576d04}
       \strng{authorfullhashraw}{9a1f9219d00cef023c61c6fd71576d04}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -2297,8 +2506,8 @@
       \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
       \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
       \strng{authorfullhashraw}{a2f53dcc6bb05a06b8ad94176f80fe26}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computing in Science \& Engineering}
@@ -2464,8 +2673,8 @@
       \strng{authornamehash}{754b3dec5e203c19b9a5798bbb902222}
       \strng{authorfullhash}{bba1ae456b2655ba67cf6cee2d142dfc}
       \strng{authorfullhashraw}{bba1ae456b2655ba67cf6cee2d142dfc}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
