@@ -1,0 +1,3 @@
+{"rule":"STARS_AND_STEPS","sentence":"^\\QIn systems where one star fills its gravitational potential mass begins to be transferred to its binary partner.\\E$"}
+{"rule":"A_NNS","sentence":"^\\QIn this system the material being accreted by V404 Cyngi A forms a accretion disk\\E$"}
+{"rule":"A_NNS","sentence":"^\\QIn this system the material being accreted by V404 Cyngi A forms an accretion disk, greatly increasing the luminosity of the system.\\E$"}

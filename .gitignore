@@ -1,4 +1,3 @@
-
 *.h5
 1e+00_Zsun_population_max.h5-2.zip
 1e+00_Zsun_population.h5-2.zip
@@ -14,4 +13,3 @@ __pycache__
 /paper/Graphs
 mainpaper.bbl
 mainpaper.synctex.gz
-/.vscode

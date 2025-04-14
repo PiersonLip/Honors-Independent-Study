@@ -1,0 +1,820 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Antokhina_2011}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c5795bfe9fe7cb32fdd866b09f8d1dff}{%
+           family={Antokhina},
+           familyi={A\bibinitperiod},
+           given={E.A.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=73f8006f61423aba37668e35b7e98922}{%
+           family={Srinivasa\bibnamedelima Rao},
+           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=828cd1328b6145ea8e5363841c8ea805}{%
+           family={Parthasarathy},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{844643e937b6e2a1f2d387a9c22b21ef}
+      \strng{fullhash}{844643e937b6e2a1f2d387a9c22b21ef}
+      \strng{fullhashraw}{844643e937b6e2a1f2d387a9c22b21ef}
+      \strng{bibnamehash}{844643e937b6e2a1f2d387a9c22b21ef}
+      \strng{authorbibnamehash}{844643e937b6e2a1f2d387a9c22b21ef}
+      \strng{authornamehash}{844643e937b6e2a1f2d387a9c22b21ef}
+      \strng{authorfullhash}{844643e937b6e2a1f2d387a9c22b21ef}
+      \strng{authorfullhashraw}{844643e937b6e2a1f2d387a9c22b21ef}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1384-1076}
+      \field{journaltitle}{New Astronomy}
+      \field{month}{4}
+      \field{number}{3}
+      \field{title}{Light curve analysis of Hipparcos data for the massive O-type eclipsing binary UW CMa}
+      \field{volume}{16}
+      \field{year}{2011}
+      \field{pages}{177\bibrangedash 182}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.newast.2010.09.008
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.newast.2010.09.008
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.newast.2010.09.008
+      \endverb
+    \endentry
+    \entry{Bernardini_2016}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ba4cab0a69f3f4b9d8051774011e0204}{%
+           family={Bernardini},
+           familyi={B\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d7654b89cca1640764dc1e0a6d09f6f2}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=722a03b6afce4d7ff28afc19a7f94b1e}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=8e690c31372327b0e2b094447717277d}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=63e144605518902c95ea89e79ce6aab7}{%
+           family={Charles},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=465ce0f1cc06455afaef6b756c130875}{%
+           family={Koljonen},
+           familyi={K\bibinitperiod},
+           given={K.\bibnamedelimi I.\bibnamedelimi I.},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=be4455bea88d6534dc6941e9985563ac}{%
+           family={Lasota},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=856629608dd8954c4f0e85bb6a6775ee}{%
+           family={Casares},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The American Astronomical Society}%
+      }
+      \strng{namehash}{40d016c2617fab974d60b3bc9adcf5c1}
+      \strng{fullhash}{b5c5920f1b4c5d598a10cdaf67820049}
+      \strng{fullhashraw}{b5c5920f1b4c5d598a10cdaf67820049}
+      \strng{bibnamehash}{40d016c2617fab974d60b3bc9adcf5c1}
+      \strng{authorbibnamehash}{40d016c2617fab974d60b3bc9adcf5c1}
+      \strng{authornamehash}{40d016c2617fab974d60b3bc9adcf5c1}
+      \strng{authorfullhash}{b5c5920f1b4c5d598a10cdaf67820049}
+      \strng{authorfullhashraw}{b5c5920f1b4c5d598a10cdaf67820049}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{On 2015 June 15 the burst alert telescope (BAT) on board Swift detected an X-ray outburst from the black hole (BH) transient V404 Cyg. We monitored V404 Cyg for the last 10 years with the 2-m Faulkes Telescope North in three optical bands (V, R, and i′). We found that, one week prior to this outburst, the optical flux was 0.1–0.3 mag brighter than the quiescent orbital modulation, implying an optical precursor to the X-ray outburst. There is also a hint of a gradual optical decay (years) followed by a rise lasting two months prior to the outburst. We fortuitously obtained an optical spectrum of V404 Cyg 13 hr before the BAT trigger. This too was brighter than quiescence, and showed spectral lines typical of an accretion disk, with characteristic absorption features of the donor being much weaker. No He ii emission was detected, which would have been expected had the X-ray flux been substantially brightening. This, combined with the presence of intense Hα emission, about seven times the quiescent level, suggests that the disk entered the hot, outburst state before the X-ray outburst began. We propose that the outburst is produced by a viscous–thermal instability triggered close to the inner edge of a truncated disk. An X-ray delay of a week is consistent with the time needed to refill the inner region and hence move the inner edge of the disk inwards, allowing matter to reach the central BH, finally turning on the X-ray emission.}
+      \field{journaltitle}{The Astrophysical Journal Letters}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{EVENTS LEADING UP TO THE 2015 JUNE OUTBURST OF V404 CYG}
+      \field{volume}{818}
+      \field{year}{2016}
+      \field{pages}{L5}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/2041-8205/818/1/L5
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.3847/2041-8205/818/1/L5
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.3847/2041-8205/818/1/L5
+      \endverb
+    \endentry
+    \entry{Chen_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=af4f464f4fc05140b7ce529dfceed535}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xuefei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a3b0169cf5f1f8f42bbe6aac5059502d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhengwei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=05f17b9772f6395f7aeaf05cf9e09467}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Zhanwen},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{487072b56d465ece0e0279f3a0368573}
+      \strng{fullhash}{487072b56d465ece0e0279f3a0368573}
+      \strng{fullhashraw}{487072b56d465ece0e0279f3a0368573}
+      \strng{bibnamehash}{487072b56d465ece0e0279f3a0368573}
+      \strng{authorbibnamehash}{487072b56d465ece0e0279f3a0368573}
+      \strng{authornamehash}{487072b56d465ece0e0279f3a0368573}
+      \strng{authorfullhash}{487072b56d465ece0e0279f3a0368573}
+      \strng{authorfullhashraw}{487072b56d465ece0e0279f3a0368573}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Binary stars are as common as single stars. Binary stars are of immense importance to astrophysicists because that they allow us to determine the masses of the stars independent of their distances. They are the cornerstone of the understanding of stellar evolutionary theory and play an essential role in cosmic distance measurement, galactic evolution, nucleosynthesis and the formation of important objects such as cataclysmic variable stars, X-ray binaries, Type Ia supernovae, and gravitational wave-producing double compact objects. In this article, we review the significant theoretical and observational progresses in addressing binary stars in the new millennium. Increasing large survey projects have led to the discovery of enormous numbers of binary stars, which enables us to conduct statistical studies of binary populations, and therefore provide unprecedented insight into the stellar and binary evolution physics. Meanwhile, the rapid development of theoretical concepts and numerical approaches for binary evolution have made a substantial progress on the alleviation of some long-standing binary-related problems such as the stability of mass transfer and common envelope evolution. Nevertheless, it remains a challenge to have a full understanding of fundamental problems of stellar and binary astrophysics. The upcoming massive survey projects and increasingly sophisticated computational methods will lead to future progress.}
+      \field{issn}{0146-6410}
+      \field{journaltitle}{Progress in Particle and Nuclear Physics}
+      \field{title}{Binary stars in the new millennium}
+      \field{volume}{134}
+      \field{year}{2024}
+      \field{pages}{104083}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ppnp.2023.104083
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0146641023000649
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0146641023000649
+      \endverb
+      \keyw{Binary stars,Population synthesis,Binary mass transfer,Common envelope,Nucleosynthesis}
+    \endentry
+    \entry{Falanga_2015}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=d0b8ce0fb8688b5b59fbbae57bc5b0c8}{%
+           family={Falanga},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=307550d02e308fb9e7b46376d815da92}{%
+           family={Bozzo},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0676b3dcc6f39f7edc362dfdddc725b5}{%
+           family={Lutovinov},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c1866bf1197229a0200312d3ce7a9870}{%
+           family={Bonnet-Bidaud},
+           familyi={B\bibinithyphendelim B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b18b1c143de486e6a459685cf15d92d4}{%
+           family={Fetisova},
+           familyi={F\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3ded614c6c34658f77428bacac33464c}{%
+           family={Puls},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{337444357857305510d52c0d83af7f3d}
+      \strng{fullhash}{fb94e43545c062d822293f891af7a481}
+      \strng{fullhashraw}{fb94e43545c062d822293f891af7a481}
+      \strng{bibnamehash}{337444357857305510d52c0d83af7f3d}
+      \strng{authorbibnamehash}{337444357857305510d52c0d83af7f3d}
+      \strng{authornamehash}{337444357857305510d52c0d83af7f3d}
+      \strng{authorfullhash}{fb94e43545c062d822293f891af7a481}
+      \strng{authorfullhashraw}{fb94e43545c062d822293f891af7a481}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-0746}
+      \field{journaltitle}{Astronomy \& Astrophysics}
+      \field{month}{5}
+      \field{title}{Ephemeris, orbital decay, and masses of ten eclipsing high-mass X-ray binaries}
+      \field{volume}{577}
+      \field{year}{2015}
+      \field{pages}{A130}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201425191
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1051/0004-6361/201425191
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1051/0004-6361/201425191
+      \endverb
+    \endentry
+    \entry{Fragos_2023}{article}{}{}
+      \name{author}{25}{}{%
+        {{hash=30647348f21cc7189500f27067ee47a8}{%
+           family={Fragos},
+           familyi={F\bibinitperiod},
+           given={Tassos},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2551ab9de490b6db121698b9d6af6f86}{%
+           family={J.\bibnamedelimi Andrews},
+           familyi={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=782fc22d083a7925a11e96a9f3ef28f0}{%
+           family={Bavera},
+           familyi={B\bibinitperiod},
+           given={Simone\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5dec59b7b97112fc30252e759dd21dee}{%
+           family={Berry},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelimb P.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=634c87d41b535b1169fae945a739dd8d}{%
+           family={Coughlin},
+           familyi={C\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1a563b326a8b3b972e20f09d241df683}{%
+           family={Dotter},
+           familyi={D\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=44df4fd6bd601c5af346ae9a627675bd}{%
+           family={Giri},
+           familyi={G\bibinitperiod},
+           given={Prabin},
+           giveni={P\bibinitperiod}}}%
+        {{hash=60f2706bc72ced3eaac8bf5eef91c543}{%
+           family={Kalogera},
+           familyi={K\bibinitperiod},
+           given={Vicky},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a604a9d365835f8a6ce3413e5802521e}{%
+           family={Katsaggelos},
+           familyi={K\bibinitperiod},
+           given={Aggelos},
+           giveni={A\bibinitperiod}}}%
+        {{hash=687d8ae56a4b1b3ceec76df5741c6ee5}{%
+           family={Kovlakas},
+           familyi={K\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bb6eba72b1833d95ace2706c8d59b460}{%
+           family={Lalvani},
+           familyi={L\bibinitperiod},
+           given={Shamal},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ede4d53df2eac50ab93bd49f2a863bae}{%
+           family={Misra},
+           familyi={M\bibinitperiod},
+           given={Devina},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a53990d22f17dbd2a64cb60d02170caf}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Philipp\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c99e4ceccdfb23477fa5b0cfe55226ff}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6ca21cde0d725a0e6797247f1f51ed5c}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Kyle\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=77598979a119f8f63d05abd4dd4ae2ec}{%
+           family={Román-Garza},
+           familyi={R\bibinithyphendelim G\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e85f486c93f59b78abc494619b701560}{%
+           family={Serra},
+           familyi={S\bibinitperiod},
+           given={Juan\bibnamedelima Gabriel},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=81c2b4a162e1e02ef4b6cb59464a0cdb}{%
+           family={Stahle},
+           familyi={S\bibinitperiod},
+           given={Petter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7b8f28a51717b34b499e8a1ffca1df90}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e832f414b5a477f0016e23fcba08cd8f}{%
+           family={Teng},
+           familyi={T\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4e9455b7c9c2004a60b4a740e44cc6bf}{%
+           family={Trajcevski},
+           familyi={T\bibinitperiod},
+           given={Goce},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2ecbc72890d10cab188289fce211d37a}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Nam\bibnamedelima Hai},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=749b425fdec8cfa384102c37d2404e5d}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Zepei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e20b58ab2f8183094deed9095e7f88df}{%
+           family={Zapartas},
+           familyi={Z\bibinitperiod},
+           given={Emmanouil},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b0c9d52075121c69bb9ad53d53371baf}{%
+           family={Zevin},
+           familyi={Z\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Astronomical Society}%
+      }
+      \strng{namehash}{55a229b47e57a81baeaab59ca9b45d12}
+      \strng{fullhash}{d9af486cb7fc18cf5d8f89d09758587f}
+      \strng{fullhashraw}{d9af486cb7fc18cf5d8f89d09758587f}
+      \strng{bibnamehash}{55a229b47e57a81baeaab59ca9b45d12}
+      \strng{authorbibnamehash}{55a229b47e57a81baeaab59ca9b45d12}
+      \strng{authornamehash}{55a229b47e57a81baeaab59ca9b45d12}
+      \strng{authorfullhash}{d9af486cb7fc18cf5d8f89d09758587f}
+      \strng{authorfullhashraw}{d9af486cb7fc18cf5d8f89d09758587f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1538-4365}
+      \field{journaltitle}{The Astrophysical Journal Supplement Series}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{POSYDON: A General-purpose Population Synthesis Code with Detailed Binary-evolution Simulations}
+      \field{volume}{264}
+      \field{year}{2023}
+      \field{pages}{45}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-4365/ac90c1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3847/1538-4365/ac90c1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3847/1538-4365/ac90c1
+      \endverb
+    \endentry
+    \entry{10.1093/mnras/staa3753}{article}{}{}
+      \name{author}{16}{}{%
+        {{hash=b9e3565b3757caae965a3fb70d3c3ef6}{%
+           family={Gazeas},
+           familyi={G\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=185ef8b4a93a9e9ae32bb3f417529ee8}{%
+           family={Zola},
+           familyi={Z\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=269aa462994032e902c10ad6544c95a2}{%
+           family={Liakos},
+           familyi={L\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a8489e43d49d17a923e7617377ac4dc5}{%
+           family={Zakrzewski},
+           familyi={Z\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=720a32cd92b60b853c3c0ad2a1f97808}{%
+           family={Rucinski},
+           familyi={R\bibinitperiod},
+           given={S\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=85d048dae2cd4466ebbd603ca2f721bb}{%
+           family={Kreiner},
+           familyi={K\bibinitperiod},
+           given={J\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=09b824c782bd8911674d567d42f65881}{%
+           family={Ogloza},
+           familyi={O\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1e555be447ff04cadaa4d16af055e711}{%
+           family={Drozdz},
+           familyi={D\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9ac174c3817e89b20582aaf96abca6cd}{%
+           family={Koziel-Wierzbowska},
+           familyi={K\bibinithyphendelim W\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=709a66acbfffe785350086a9d0aacdd8}{%
+           family={Stachowski},
+           familyi={S\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c497ed843da3988319f552f2f831c794}{%
+           family={Siwak},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9835d1575e0c69737679715c759bbd78}{%
+           family={Baran},
+           familyi={B\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f71bc81e407336766a1b0008d8e61053}{%
+           family={Kjurkchieva},
+           familyi={K\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=57c38bab2fb54bae324006779a654503}{%
+           family={Marchev},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=34f5ea0bc3d51487948e3bd5bbc9169d}{%
+           family={Erdem},
+           familyi={E\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d1518c57e17fbecbc221f4f386570949}{%
+           family={Szalankiewicz},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c2ecb658086f4dc012da9f4eb7324ae}
+      \strng{fullhash}{5018d76097455ff226f51b876a7d7f0b}
+      \strng{fullhashraw}{5018d76097455ff226f51b876a7d7f0b}
+      \strng{bibnamehash}{2c2ecb658086f4dc012da9f4eb7324ae}
+      \strng{authorbibnamehash}{2c2ecb658086f4dc012da9f4eb7324ae}
+      \strng{authornamehash}{2c2ecb658086f4dc012da9f4eb7324ae}
+      \strng{authorfullhash}{5018d76097455ff226f51b876a7d7f0b}
+      \strng{authorfullhashraw}{5018d76097455ff226f51b876a7d7f0b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the results of a combined spectroscopic and photometric study of 20 contact binary systems: HV Aqr, OO Aql, FI Boo, TX Cnc, OT Cnc, EE Cet, RW Com, KR Com, V401 Cyg, V345 Gem, AK Her, V502 Oph, V566 Oph, V2612 Oph, V1363 Ori, V351 Peg, V357 Peg, Y Sex, V1123 Tau, and W UMa, which was conducted in the frame of the W UMa Project. Together with 51 already covered by the project and an additional 67 in the existing literature, these systems bring the total number of contact binaries with known combined spectroscopic and photometric solutions to 138. It was found that mass, radius, and luminosity of the components follow certain relations along the MS and new empirical power relations are extracted. We found that 30 per cent of the systems in the current sample show extreme values in their parameters, expressed in their mass ratio or fill-out factor. This study shows that, among the contact binary systems studied, some have an extremely low mass ratio (q \&lt; 0.1) or an ultrashort orbital period (Porb \&lt; 0.25 d), which are expected to show evidence of mass transfer progress. The evolutionary status of these components is discussed with the aid of correlation diagrams and their physical and orbital parameters compared to those in the entire sample of known contact binaries. The existence of very short orbital periods confirms the very slow nature of the merging process, which seems to explain why their components still exist as MS stars in contact configurations even after several Gyr of evolution.}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{01}
+      \field{number}{2}
+      \field{title}{Physical parameters of close binary systems: VIII}
+      \field{volume}{501}
+      \field{year}{2021}
+      \field{pages}{2897\bibrangedash 2919}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1093/mnras/staa3753
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/501/2/2897/35559276/staa3753.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/mnras/staa3753
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/mnras/staa3753
+      \endverb
+    \endentry
+    \entry{Kretschmar_2021}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=d631bb5881087dc37562040e14fc0659}{%
+           family={{Kretschmar, P.}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=df20f9a55231de9cf22fe2e3796b88c3}{%
+           family={{El Mellah, I.}},
+           familyi={E\bibinitperiod}}}%
+        {{hash=531044e9826fa1a5c8b24fa8de180ae5}{%
+           family={{Martínez-Núñez, S.}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=a0669890638467372e185c824d760657}{%
+           family={{Fürst, F.}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=2e97fb9c0626aa7e0c523180407bd70d}{%
+           family={{Grinberg, V.}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=c81a95cfa2a2e21f11b08720d047718c}{%
+           family={{Sander, A. A. C.}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=85d4d44468b7d4f019078f488f902248}{%
+           family={{van den Eijnden, J.}},
+           familyi={v\bibinitperiod}}}%
+        {{hash=42397e51cf28fed5e5c7be722d4d2123}{%
+           family={{Degenaar, N.}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=186812db42c740b36652ad81bd534f84}{%
+           family={{Maíz Apellániz, J.}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=7ec107c92523dc70f24d7f9f0f7b28aa}{%
+           family={{Jiménez Esteban, F.}},
+           familyi={J\bibinitperiod}}}%
+        {{hash=db29dbeeb365447d9af77939bf475ef3}{%
+           family={{Ramos-Lerate, M.}},
+           familyi={R\bibinitperiod}}}%
+        {{hash=62e7104f36c89fa63ebb6e8836bade3a}{%
+           family={{Utrilla, E.}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{fullhash}{ad64203b689ca6f7a0ed5bf095891b00}
+      \strng{fullhashraw}{ad64203b689ca6f7a0ed5bf095891b00}
+      \strng{bibnamehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{authorbibnamehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{authornamehash}{e7e38df29193e9102fe1dd9099b9965e}
+      \strng{authorfullhash}{ad64203b689ca6f7a0ed5bf095891b00}
+      \strng{authorfullhashraw}{ad64203b689ca6f7a0ed5bf095891b00}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Revisiting the archetypical wind accretor Vela X-1 in depth - Case study of a well-known X-ray binary and the limits of our knowledge}
+      \field{volume}{652}
+      \field{year}{2021}
+      \field{pages}{A95}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/202040272
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/0004-6361/202040272
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/202040272
+      \endverb
+    \endentry
+    \entry{Lamers_1999}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=dc45a24bb6bc8637d432482ae49c6858}{%
+           family={{Lamers}},
+           familyi={L\bibinitperiod},
+           given={Henny\bibnamedelima J.\bibnamedelimi G.\bibnamedelimi L.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=57acdcedf98106c4372a35b304586685}{%
+           family={{Cassinelli}},
+           familyi={C\bibinitperiod},
+           given={Joseph\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{fullhash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{fullhashraw}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{bibnamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authorbibnamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authornamehash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authorfullhash}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \strng{authorfullhashraw}{61392d9a1baad7fe1e9c84767ae12e0b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Introduction to Stellar Winds}}
+      \field{year}{1999}
+    \endentry
+    \entry{Offner_2016}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=05d41de4a45c1268f98ec647fecbf7a6}{%
+           family={Offner},
+           familyi={O\bibinitperiod},
+           given={Stella\bibnamedelimb S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f90b2eb7560ddbf150b432f21163062c}{%
+           family={Dunham},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d8a81bd6307986df7486edda5cbda387}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Katherine\bibnamedelima I.},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=9519dadfc7a26b792a4b1cce2cbc4b22}{%
+           family={Arce},
+           familyi={A\bibinitperiod},
+           given={Héctor\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=b7bdc3ca33f156f0c7d50edea100f8a4}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Drummond\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The American Astronomical Society}%
+      }
+      \strng{namehash}{adde606168269b7ca9d7803970219356}
+      \strng{fullhash}{4e7bc819ae75cd7faec7babc48918e0f}
+      \strng{fullhashraw}{4e7bc819ae75cd7faec7babc48918e0f}
+      \strng{bibnamehash}{adde606168269b7ca9d7803970219356}
+      \strng{authorbibnamehash}{adde606168269b7ca9d7803970219356}
+      \strng{authornamehash}{adde606168269b7ca9d7803970219356}
+      \strng{authorfullhash}{4e7bc819ae75cd7faec7babc48918e0f}
+      \strng{authorfullhashraw}{4e7bc819ae75cd7faec7babc48918e0f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The protostellar outflows of wide-separation forming binaries frequently appear misaligned. We use magneto-hydrodynamic simulations to investigate the alignment of protostellar spin and molecular outflows for forming binary pairs. We show that the protostellar pairs, which form from turbulent fragmentation within a single parent core, have randomly oriented angular momentum. Although the pairs migrate to closer separations, their spins remain partially misaligned. We produce 12CO(2-1) synthetic observations of the simulations and characterize the outflow orientation in the emission maps. The CO-identified outflows exhibit a similar random distribution and are also statistically consistent with the observed distribution of molecular outflows. We conclude that the observed misalignment provides a clear signature of binary formation via turbulent fragmentation. The persistence of misaligned outflows and stellar spins following dynamical evolution may provide a signature of binary origins for more evolved multiple star systems.}
+      \field{journaltitle}{The Astrophysical Journal Letters}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{THE TURBULENT ORIGIN OF OUTFLOW AND SPIN MISALIGNMENT IN MULTIPLE STAR SYSTEMS}
+      \field{volume}{827}
+      \field{year}{2016}
+      \field{pages}{L11}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/2041-8205/827/1/L11
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.3847/2041-8205/827/1/L11
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.3847/2041-8205/827/1/L11
+      \endverb
+    \endentry
+    \entry{10.1093/mnras/271.1.L10}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=663cf2b2ba16cf3bc4b7cbd397d2f077}{%
+           family={Shahbaz},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=173386e48173a795cb3e0ed276007ae7}{%
+           family={Ringwald},
+           familyi={R\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b76e4f08c2a05fa15bd88783abbda354}{%
+           family={Bunn},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=26af5be301ace6ff87b8670a8f629232}{%
+           family={Naylor},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=63e144605518902c95ea89e79ce6aab7}{%
+           family={Charles},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=856629608dd8954c4f0e85bb6a6775ee}{%
+           family={Casares},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{563c2dd86b849a7229d7f1919fa88ac4}
+      \strng{fullhash}{e0c7c90817f38f95879998b1c26d0779}
+      \strng{fullhashraw}{e0c7c90817f38f95879998b1c26d0779}
+      \strng{bibnamehash}{563c2dd86b849a7229d7f1919fa88ac4}
+      \strng{authorbibnamehash}{563c2dd86b849a7229d7f1919fa88ac4}
+      \strng{authornamehash}{563c2dd86b849a7229d7f1919fa88ac4}
+      \strng{authorfullhash}{e0c7c90817f38f95879998b1c26d0779}
+      \strng{authorfullhashraw}{e0c7c90817f38f95879998b1c26d0779}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have obtained a K-band infrared light curve of the low-mass X-ray binary transient V404 Cygni. We model it as the ellipsoidal variation of a secondary star distorted in the gravitational field of a black hole, and thus deduce the inclination of the binary. Combining this with previously published spectroscopic data, we determine the mass of the black hole to be approximately 12 M⊙}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{The mass of the black hole in V404 Cygni}
+      \field{volume}{271}
+      \field{year}{1994}
+      \field{pages}{L10\bibrangedash L14}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/mnras/271.1.L10
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/271/1/L10/4002647/mnras271-0L10.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/mnras/271.1.L10
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/mnras/271.1.L10
+      \endverb
+    \endentry
+    \entry{TaurisvandenHeuvel+2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=d0bdef17caf98d0d6ce26e11258ea27a}{%
+           family={Tauris},
+           familyi={T\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=37eed4f5e5fecde9273d63020b780c4b}{%
+           family={Heuvel},
+           familyi={H\bibinitperiod},
+           given={Edward\bibnamedelima P.J.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{fullhash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{fullhashraw}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{bibnamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authorbibnamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authornamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authorfullhash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authorfullhashraw}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780691239262}
+      \field{title}{From Stars to X-ray Binaries and Gravitational Wave Sources}
+      \field{year}{2023}
+      \verb{doi}
+      \verb doi:10.1515/9780691239262
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1515/9780691239262
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1515/9780691239262
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
