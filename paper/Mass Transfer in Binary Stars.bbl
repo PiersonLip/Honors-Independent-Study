@@ -482,58 +482,6 @@
       \verb http://dx.doi.org/10.1051/0004-6361/201425191
       \endverb
     \endentry
-    \entry{Antokhina_2011}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=c5795bfe9fe7cb32fdd866b09f8d1dff}{%
-           family={Antokhina},
-           familyi={A\bibinitperiod},
-           given={E.A.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=73f8006f61423aba37668e35b7e98922}{%
-           family={Srinivasa\bibnamedelima Rao},
-           familyi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=828cd1328b6145ea8e5363841c8ea805}{%
-           family={Parthasarathy},
-           familyi={P\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier BV}%
-      }
-      \strng{namehash}{6d015ec29ded127fb6a724bdaee0069c}
-      \strng{fullhash}{844643e937b6e2a1f2d387a9c22b21ef}
-      \strng{fullhashraw}{844643e937b6e2a1f2d387a9c22b21ef}
-      \strng{bibnamehash}{844643e937b6e2a1f2d387a9c22b21ef}
-      \strng{authorbibnamehash}{844643e937b6e2a1f2d387a9c22b21ef}
-      \strng{authornamehash}{6d015ec29ded127fb6a724bdaee0069c}
-      \strng{authorfullhash}{844643e937b6e2a1f2d387a9c22b21ef}
-      \strng{authorfullhashraw}{844643e937b6e2a1f2d387a9c22b21ef}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1384-1076}
-      \field{journaltitle}{New Astronomy}
-      \field{month}{4}
-      \field{number}{3}
-      \field{title}{Light curve analysis of Hipparcos data for the massive O-type eclipsing binary UW CMa}
-      \field{volume}{16}
-      \field{year}{2011}
-      \field{pages}{177\bibrangedash 182}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1016/j.newast.2010.09.008
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/j.newast.2010.09.008
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/j.newast.2010.09.008
-      \endverb
-    \endentry
     \entry{Gazeas_2021}{article}{}{}
       \name{author}{16}{}{%
         {{hash=b9e3565b3757caae965a3fb70d3c3ef6}{%
@@ -2119,8 +2067,8 @@
       \strng{authornamehash}{f58dcfc8fbd251556c9d21a608ed690c}
       \strng{authorfullhash}{6b68d66446d9ac0bcdfdb5c887bd98fa}
       \strng{authorfullhashraw}{6b68d66446d9ac0bcdfdb5c887bd98fa}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Information Bulletin on Variable Stars}
@@ -2131,50 +2079,6 @@
       \field{pages}{4}
       \range{pages}{1}
       \keyw{photometry}
-    \endentry
-    \entry{Bahramian_2023}{inbook}{}{}
-      \name{author}{2}{}{%
-        {{hash=d4dadb060e23446b82f3627668c8581b}{%
-           family={Bahramian},
-           familyi={B\bibinitperiod},
-           given={Arash},
-           giveni={A\bibinitperiod}}}%
-        {{hash=dc3291a0a20cc5d4885494370ef7f2bb}{%
-           family={Degenaar},
-           familyi={D\bibinitperiod},
-           given={Nathalie},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer Nature Singapore}%
-      }
-      \strng{namehash}{fd0d0684ca1f4787038e66100cbd531c}
-      \strng{fullhash}{fd0d0684ca1f4787038e66100cbd531c}
-      \strng{fullhashraw}{fd0d0684ca1f4787038e66100cbd531c}
-      \strng{bibnamehash}{fd0d0684ca1f4787038e66100cbd531c}
-      \strng{authorbibnamehash}{fd0d0684ca1f4787038e66100cbd531c}
-      \strng{authornamehash}{fd0d0684ca1f4787038e66100cbd531c}
-      \strng{authorfullhash}{fd0d0684ca1f4787038e66100cbd531c}
-      \strng{authorfullhashraw}{fd0d0684ca1f4787038e66100cbd531c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Handbook of X-ray and Gamma-ray Astrophysics}
-      \field{isbn}{9789811645440}
-      \field{title}{Low-Mass X-ray Binaries}
-      \field{year}{2023}
-      \field{pages}{1\bibrangedash 62}
-      \range{pages}{62}
-      \verb{doi}
-      \verb 10.1007/978-981-16-4544-0_94-1
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/978-981-16-4544-0_94-1
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/978-981-16-4544-0_94-1
-      \endverb
     \endentry
     \entry{Fragos_2023}{article}{}{}
       \name{author}{25}{}{%
@@ -2315,8 +2219,8 @@
       \strng{authornamehash}{55a229b47e57a81baeaab59ca9b45d12}
       \strng{authorfullhash}{d9af486cb7fc18cf5d8f89d09758587f}
       \strng{authorfullhashraw}{d9af486cb7fc18cf5d8f89d09758587f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1538-4365}

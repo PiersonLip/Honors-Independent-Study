@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.22)  13 APR 2025 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.22)  13 APR 2025 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,20 +393,20 @@ Package caption Info: Standard document class detected.
  (./Mass Transfer in Binary Stars.aux)
 \openout1 = `"Mass Transfer in Binary Stars.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count413
@@ -473,16 +473,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"Mass Transfer in Binary Stars".bbl' found.
  (./Mass Transfer in Binary Stars.bbl)
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 61.
+(Font)              <14.4> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 61.
+(Font)              <7> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 61.
+(Font)              <5> on input line 63.
 
 
 [1
@@ -525,7 +525,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <figs/Binary Evolution Flowchart.jpg, id=16, 362.21724pt x 226.78326pt>
 File: figs/Binary Evolution Flowchart.jpg Graphic file (type jpg)
 <use figs/Binary Evolution Flowchart.jpg>
-Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line 99.
+Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line 101.
 (pdftex.def)             Requested size: 505.89pt x 316.76077pt.
 
 
@@ -535,7 +535,7 @@ Package pdftex.def Info: figs/Binary Evolution Flowchart.jpg  used on input line
 <Figs/RochePotential.jpg, id=23, 467.08731pt x 339.52348pt>
 File: Figs/RochePotential.jpg Graphic file (type jpg)
 <use Figs/RochePotential.jpg>
-Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 114.
+Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 116.
 (pdftex.def)             Requested size: 430.00462pt x 312.58298pt.
 
 
@@ -545,21 +545,21 @@ Package pdftex.def Info: Figs/RochePotential.jpg  used on input line 114.
 <Figs/Detached binary.png, id=27, 736.7525pt x 260.975pt>
 File: Figs/Detached binary.png Graphic file (type png)
 <use Figs/Detached binary.png>
-Package pdftex.def Info: Figs/Detached binary.png  used on input line 135.
+Package pdftex.def Info: Figs/Detached binary.png  used on input line 137.
 (pdftex.def)             Requested size: 294.69577pt x 104.38815pt.
 
 
 [5 <./figs/Detached binary.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 146.
+(Font)              <12> on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 146.
+(Font)              <8> on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 146.
+(Font)              <6> on input line 148.
 <Figs/Semi-detached binary.png, id=34, 742.775pt x 251.94125pt>
 File: Figs/Semi-detached binary.png Graphic file (type png)
 <use Figs/Semi-detached binary.png>
-Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 152.
+Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 154.
 (pdftex.def)             Requested size: 297.10474pt x 100.7747pt.
 
 
@@ -567,7 +567,7 @@ Package pdftex.def Info: Figs/Semi-detached binary.png  used on input line 152.
 <Figs/Conact Binary.png, id=41, 735.74875pt x 239.89626pt>
 File: Figs/Conact Binary.png Graphic file (type png)
 <use Figs/Conact Binary.png>
-Package pdftex.def Info: Figs/Conact Binary.png  used on input line 167.
+Package pdftex.def Info: Figs/Conact Binary.png  used on input line 169.
 (pdftex.def)             Requested size: 294.29428pt x 95.95679pt.
 
 
@@ -768,15 +768,15 @@ Package logreq Info: Writing requests to '"Mass Transfer in Binary Stars".run.xm
 
  ) 
 Here is how much of TeX's memory you used:
- 12841 strings out of 473190
- 246374 string characters out of 5719979
- 1157231 words of memory out of 5000000
- 35967 multiletter control sequences out of 15000+600000
+ 12834 strings out of 473190
+ 246063 string characters out of 5719979
+ 1158101 words of memory out of 5000000
+ 35960 multiletter control sequences out of 15000+600000
  577099 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,1765b,1483s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on "Mass Transfer in Binary Stars.pdf" (19 pages, 2120637 bytes).
+Output written on "Mass Transfer in Binary Stars.pdf" (19 pages, 2119909 bytes).
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  126 compressed objects within 2 object streams

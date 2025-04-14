@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber Mass Transfer in Binary Stars"] 1744597942.1308 "Mass Transfer in Binary Stars.bcf" "Mass Transfer in Binary Stars.bbl" "Mass Transfer in Binary Stars" 1744597965.62275 0
-  "Mass Transfer in Binary Stars.bcf" 1744597964 112305 d3c59a1e2a22cf471a58c05ff6df8b38 "pdflatex"
+["biber Mass Transfer in Binary Stars"] 1744605779.88295 "Mass Transfer in Binary Stars.bcf" "Mass Transfer in Binary Stars.bbl" "Mass Transfer in Binary Stars" 1744605796.12459 0
+  "Mass Transfer in Binary Stars.bcf" 1744605795 112089 18de1d9bd682a14130f8e70149bc2940 "pdflatex"
   "sources.bib" 1744597940 24809 846d432ca2957ce87ba1de30aeb331b9 ""
   (generated)
   "Mass Transfer in Binary Stars.bbl"
   "Mass Transfer in Binary Stars.blg"
   (rewritten before read)
-["pdflatex"] 1744597960.534 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" "Mass Transfer in Binary Stars.pdf" "Mass Transfer in Binary Stars" 1744597965.62565 0
-  "Mass Transfer in Binary Stars.aux" 1744597964 12432 b846e79effd1dfcee7eeb60193f4f571 "pdflatex"
-  "Mass Transfer in Binary Stars.bbl" 1744597960 104824 7379666e0942e378c4de2d9f0ca47ec9 "biber Mass Transfer in Binary Stars"
-  "Mass Transfer in Binary Stars.run.xml" 1744597964 2592 f5b241cd1207613f96e73348e9f2cb96 "pdflatex"
-  "Mass Transfer in Binary Stars.tex" 1744597940 27512 de5c84008b5a9254f355aebb98bd0b81 ""
-  "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" 1744597940 27512 de5c84008b5a9254f355aebb98bd0b81 ""
+["pdflatex"] 1744605793.59456 "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" "Mass Transfer in Binary Stars.pdf" "Mass Transfer in Binary Stars" 1744605796.12542 0
+  "Mass Transfer in Binary Stars.aux" 1744605795 12051 39b99f99af44715e6ef4e06c63b478fa "pdflatex"
+  "Mass Transfer in Binary Stars.bbl" 1744605790 101038 af35c65b415142eab209dce86535184c "biber Mass Transfer in Binary Stars"
+  "Mass Transfer in Binary Stars.run.xml" 1744605795 2592 f5b241cd1207613f96e73348e9f2cb96 "pdflatex"
+  "Mass Transfer in Binary Stars.tex" 1744605773 27358 1fbe7fee8453568b7dc56a088e539731 ""
+  "c:/Users/iatpuser/Desktop/Code/Honors-Independent-Study/paper/Mass Transfer in Binary Stars.tex" 1744605773 27358 1fbe7fee8453568b7dc56a088e539731 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1742690270 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1742690270 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1742691463 3524 cb3e574dea2d1052e39280babc910dc8 ""
