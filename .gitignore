@@ -13,7 +13,6 @@ __pycache__
 /paper/Graphs
 mainpaper.bbl
 mainpaper.synctex.gz
-/.vscode
 *.bcf
 *.aux
 *.bbl
