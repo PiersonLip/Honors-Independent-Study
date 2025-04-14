@@ -15,3 +15,12 @@ __pycache__
 mainpaper.bbl
 mainpaper.synctex.gz
 /.vscode
+*.bcf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.xml
+*.gz
