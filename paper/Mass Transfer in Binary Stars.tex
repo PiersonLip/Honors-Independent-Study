@@ -27,7 +27,7 @@
 % The near-circular orbit of Vela X-1 prompts the questions whether the first mass transfer in the system might have lead to a Common Envelope (CE) phase (Paczynski 1976). Even though many uncertainties remain on the detailed physical processes involved in CE evolution, their occurrence is typically inferred from an evolutionary necessity (e.g., Ivanova et al. 2013). CE stages are thought to occur for unstable RLOF and help to shrink and circularize the orbit, at least if the system can eventually eject the envelope and avoid merging. However, CE stages are unlikely to occur for the first mass transfer stage in an HMXB
 
 
-\documentclass[12pt, letterpaper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{titlesec}
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -36,6 +36,7 @@
 \usepackage{lipsum}
 \usepackage{tabularx}
 \usepackage{float}
+\usepackage{amssymb}
 \usepackage[sorting=none, style=nature]{biblatex} 
 \usepackage[labelfont=bf, labelsep=colon, textfont=it]{caption}
 
@@ -108,24 +109,27 @@
     \vspace*{\fill}
 
         \subsection{\centering Roche Lobe Overflow}\label{RLO} % maybe include equations??
-        In systems where one star fully fills its RL (sect. \ref{RLModel}, fig. \ref{SemidetachedRL}) mass begins to be transferred to its binary partner. This is process is called Roche Lobe Overflow (RLO) and is defined by a donor and accretor star (sect. \ref{MassTransferinCommon}). This is incredibly likely to happen at some point in a binaries' lifespan drastically affecting the course of evolution~\cite{TaurisvandenHeuvel+2023}\cite{Chen_2024}\cite{Chen_2024}. Depending on the systems star types, masses, and eccentricity, this process of mass transfer will either be stable or unstable. When this process if unstable, it leads to either another stage called common envelope (sect. \ref{CommonEnvelope}) or a rapid merger \cite{TaurisvandenHeuvel+2023}. However, if the process of mass transfer is stable, the two stars will remain detached, slowly exchanging mass~\cite{Chen_2024} \cite{TaurisvandenHeuvel+2023}.
 
-        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential} \cite{TaurisvandenHeuvel+2023}. This means that it requires a velocity of efficiently 0 in order to escape the donor star. We are able to observe this very commonly in Low Mass X-ray Binaries, where a donor star transferred mass to an accretor which is a compact object (A black hole (BH) or neutron star (NS)). This process produces X-rays (sect. \ref{XrayAccretion}) which we can measure to understand the processes within the binary in greater detail.
-        
-       \begin{figure}[h] 
+        \begin{figure}[h] 
             \centering
             \includegraphics[scale = .4]{Figs/Semi-detached binary.png}
             \caption{\textit{Reprint from~\cite{TaurisvandenHeuvel+2023}}}
             \label{SemidetachedRL}
         \end{figure}
+
+        In systems where one star fully fills its RL (sect. \ref{RLModel}, fig. \ref{SemidetachedRL}) mass begins to be transferred to its binary partner. This is process is called Roche Lobe Overflow (RLO) and is defined by a donor and accretor star (sect. \ref{MassTransferinCommon}). This is incredibly likely to happen at some point in a binaries' lifespan drastically affecting the course of evolution~\cite{TaurisvandenHeuvel+2023}\cite{Chen_2024}\cite{Chen_2024}. Depending on the systems star types, masses, and eccentricity, this process of mass transfer will either be stable or unstable. When this process if unstable, it leads to either another stage called common envelope (sect. \ref{CommonEnvelope}) or a rapid merger \cite{TaurisvandenHeuvel+2023}. However, if the process of mass transfer is stable, the two stars will remain detached, slowly exchanging mass~\cite{Chen_2024} \cite{TaurisvandenHeuvel+2023}.
+
+        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential} \cite{TaurisvandenHeuvel+2023}. This means that it requires a velocity of efficiently 0 in order to escape the donor star. We are able to observe this very commonly in Low Mass X-ray Binaries, where a donor star transferred mass to an accretor which is a compact object (A black hole (BH) or neutron star (NS)). This process produces X-rays (sect. \ref{XrayAccretion}) which we can measure to understand the processes within the binary in greater detail.
+
+        This process, similar to section~\ref{CommonEnvelope}, can be either stable or unstable. A large factor which determines this stablity is the composition of the donor star~\cite{TaurisvandenHeuvel+2023}, as upon the onset RLO, some donors stars' radius will increase, leading to even more rapid RLO. This is primarily due to the nature of the stars' envelope, with radiative envelopes shrinking upon mass loss and convective swelling. \cite{TaurisvandenHeuvel+2023} In intermediate mass x-ray binaries(IMXBs), a system will survive this process of mass transfer if the unevolved or early stage donor star mass is between $2 < M_2/M_\odot < 5$ \cite{TaurisvandenHeuvel+2023}. In LMXBs it is $M_2 \gtrsim 1.8 M_\odot$. Systems with $M_2 > 2$ Will be unstable for giant donors in later stage RLO~\cite{TaurisvandenHeuvel+2023}.
         
-        I used the system V404 Cyngi with data from \cite{Bernardini_2016} and \cite{Shahbaz_1994} as an example of this behavior, as its magnitude, proximity to Earth, and large amount of studies make it an ideal choice to understand how systems like it behave. 
+        I used the system V404 Cyngi with data from~\cite{Bernardini_2016} and \cite{Shahbaz_1994} as an example of this behavior, as its magnitude, proximity to Earth, and large amount of studies make it an ideal choice to understand how systems like it behave. 
 
         \subsection{\centering Detached}\label{DetachedBinary}
 
         Systems where neither star fills its potential fully (see fig. \ref{DetachedBinaryRL}) are called detached binaries. Despite the fact that these systems detached in the form of their Roche Lobes, mass transfer is still possible through a processes called wind accretion (see \ref{WindAccretion}). We see this predominantly in systems called \textit{High Mass X-ray Binaries}, where a supergiant star transfers mass to a compact object via wind accretion. This process leads to an increase in X-ray Emission (sect. \ref{XrayAccretion}), which we can easily measure~\cite{TaurisvandenHeuvel+2023}. It is important to note that these systems are not experiencing full-blown RLO (sect\ref{RLO}), however, they tend to be incredibly close to doing so~\cite{TaurisvandenHeuvel+2023}. It is important to note that these systems transfer mass through both wind accretion, atmospheric Roche Lobe Overflow, and full-blown RLO.
 
-        I used the system Vela X-1 \cite{Kretschmar_2021} as an example of this, as it is generally regarded as the ``archetypical wind accretor''~\cite{Kretschmar_2021} 
+        I used the system Vela X-1~\cite{Kretschmar_2021} as an example of this, as it is generally regarded as the ``archetypical wind accretor''~\cite{Kretschmar_2021} 
 
         \subsubsection{Wind Accretion Mass Transfer} \label{WindAccretion}
         Wind accretion very different from normal mass transfer in a binary. All stars produce `wind', i.e. mass which is pushed away from the star. This process is called stellar winds, occurring when various types of mass is ejected at speed from the star. All stars have different processes of wind, with some have very high velocities of the wind, and others have lower velocities.~\cite{Lamers_1999} In binary stars this process allows mass to be transferred from a donor to accretor.
@@ -342,8 +346,8 @@
     \section{\centering Results}
         Through my research I found a number of interesting discoveries, both regarding the populations of binaries as a whole, but also some applicable to systems themselves.
   
-        \subsection{\centering Roche Lobe Overflow (V404 Cyngi)}
-        Full-blown RLO occurs in both all types of XrB's, including HMXBS and LMXBs, however, it is more common in LMXBS.
+        \subsection{\centering Roche Lobe Overflow}
+            RLO drastically 
 
         % \begin{figure}[H]
         %     \centering
@@ -368,6 +372,7 @@
             \caption{HR diagram of the donor star in X-ray Binaries. Size of the plotted dot corresponds to the size of the star.}
             \label{XrayBinaryHRDiagram}
         \end{figure}
+
         In figure \ref{XrayBinaryHRDiagram} we can see that X-ray binaries' donor stars generally follow a semi-standard HR diagram. 
         
         \subsubsection{V404 Cygni Results}
@@ -405,8 +410,8 @@
 
         \begin{figure}[H]
             \centering
-            \includegraphics[scale = .6]{figs/GeneratedFigs/ Contact binaries Star Two Mass log10 F star radius T.png}
-            \caption{HR diagram of contact Binaries}
+            \includegraphics[scale = .6]{figs/GeneratedFigs/W_UMa/WUMaHRDiagram.png}
+            \caption{HR diagram of contact Binaries from POSYDON data, generated with Matplotlib.}
             \label{contactBinaryHRDiagram}
         \end{figure}
 
@@ -420,10 +425,11 @@
         \subsubsection{W UMa Cygni Results}
             \begin{figure}[H]
                 \centering
-                \includegraphics[scale = .6]{figs/GeneratedFigs/ W Ursae Majories HR Context Star Two Mass log10 F star radius 5.png}
-                \caption{HR Diagram with reference for W UMa using W UMa A. Plotted using data from }
+                \includegraphics[scale = .6]{figs/GeneratedFigs/W_UMa/WUMaHRDiagram.png}
+                \caption{HR Diagram with reference for W UMa using W UMa A. Plotted using data from}
                 \label{WUMaResults}
             \end{figure}
+
             In \textbf{figure~\ref{WUMaResults}} we see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population. This is a known discrepancy with current simulated models, where simulated values are both typically more luminous and massive than observed. \cite{Fabry_2025}. There are many in line with other observed contact binaries.  
 
         \subsection{\centering Detached Binaries}
@@ -457,6 +463,9 @@
 
 \section{\centering Discussion}   
     Originally I planned on simulating grids for all the types of systems, however, due to time constraints I chose to only focus on one type. 
+
+    \subsubsection{Disclaimers}
+        Due to time constraints, I was not able to cite all the sources within the textbook \cite{TaurisvandenHeuvel+2023} which I used. This is because it was quite tedious to find the paper itself the textbook references. 
 
     \subsection{Git Galore}
     Originally, I started working on this project using Overleaf, however, due the amount of graphs, the time to compile started to rapidly climb up, and eventually I just decided to switch to compiling it locally. On-top of this, I figured I would set up a GitHub in order to additionally push the code and graphs as well. This turned out to absolutely be the right decision, giving me way more freedom.

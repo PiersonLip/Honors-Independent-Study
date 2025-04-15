@@ -382,8 +382,8 @@
       \strng{authornamehash}{563c2dd86b849a7229d7f1919fa88ac4}
       \strng{authorfullhash}{e0c7c90817f38f95879998b1c26d0779}
       \strng{authorfullhashraw}{e0c7c90817f38f95879998b1c26d0779}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We have obtained a K-band infrared light curve of the low-mass X-ray binary transient V404 Cygni. We model it as the ellipsoidal variation of a secondary star distorted in the gravitational field of a black hole, and thus deduce the inclination of the binary. Combining this with previously published spectroscopic data, we determine the mass of the black hole to be approximately 12 M⊙}
@@ -456,8 +456,8 @@
       \strng{authornamehash}{e7e38df29193e9102fe1dd9099b9965e}
       \strng{authorfullhash}{ad64203b689ca6f7a0ed5bf095891b00}
       \strng{authorfullhashraw}{ad64203b689ca6f7a0ed5bf095891b00}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A\&A}
@@ -521,8 +521,8 @@
       \strng{authornamehash}{a9ff8f45f348044e26dc313147f782df}
       \strng{authorfullhash}{a9ff8f45f348044e26dc313147f782df}
       \strng{authorfullhashraw}{a9ff8f45f348044e26dc313147f782df}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A\&A}
@@ -669,8 +669,8 @@
       \strng{authornamehash}{337444357857305510d52c0d83af7f3d}
       \strng{authorfullhash}{fb94e43545c062d822293f891af7a481}
       \strng{authorfullhashraw}{fb94e43545c062d822293f891af7a481}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-0746}
@@ -2673,8 +2673,8 @@
       \strng{authornamehash}{754b3dec5e203c19b9a5798bbb902222}
       \strng{authorfullhash}{bba1ae456b2655ba67cf6cee2d142dfc}
       \strng{authorfullhashraw}{bba1ae456b2655ba67cf6cee2d142dfc}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -2715,8 +2715,8 @@
       \strng{authornamehash}{8c72d71b24c4fc2a5e3bde0052bd6a01}
       \strng{authorfullhash}{8adb8e344ff23a68306a00b86881e734}
       \strng{authorfullhashraw}{8adb8e344ff23a68306a00b86881e734}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A\&A}

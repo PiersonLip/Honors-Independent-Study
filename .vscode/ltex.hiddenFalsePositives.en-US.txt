@@ -6,3 +6,5 @@
 {"rule":"DOUBLE_PUNCTUATION","sentence":"^\\QWe can clearly see this oscillation and then stabilization in figure \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q..\\E$"}
 
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwe see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population, but in line with other observed contact binaries.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q[scale = .6]figs/GeneratedFigs/W_UMa/WUMaHRDiagram.png HR Diagram with reference for W UMa using W UMa A. Plotted using data from .\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwe see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population.\\E$"}
