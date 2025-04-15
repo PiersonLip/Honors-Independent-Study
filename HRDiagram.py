@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.patches as patches
 
 # functions for making all of the graphs, saves them all with file names corrpsonding to the var used and conditons
 
@@ -12,7 +13,7 @@ import numpy as np
 # minR = minimum y limit
 # maxR = max y limit
 
-def color_map_HR (DB, variable, name_of_var, title, saveLoc, exampleLum = 0, exampleTemp = 0, examplePoint = 'F', Log1 = 'F', S_R = 'T', minR = 1.5, maxR = 6.5, ylimit = 'T', style = 'dark_background'):
+def color_map_HR (DB, variable, name_of_var, title, saveLoc,  examplePoint = 'F', examplePointRange = 'F', exampleLum = 0, exampleTemp = 0, exampleTempMin = 0, exampleTempMax = 0, exampleLumMin =0, exampleLumMax = 0, Log1 = 'F', S_R = 'T', minR = 1.5, maxR = 6.5, ylimit = 'T', style = 'dark_background', fileName ='Default'):
     plt.style.use(style) #graph style
     fig, ax = plt.subplots(figsize = (8,8))  # create figure and axis
     ax.grid(True)  # turn on grid
@@ -63,8 +64,30 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc, exampleLum = 0, exa
     #cbar.set_ticks([np.min(c),numpy.median,np.max(c),]) # remove the annoying ticks and labels
 
     if examplePoint == 'T':
-        scatter = ax.scatter(np.log10(exampleTemp), np.log10(exampleLum), color = 'black', s = 100, marker = '*')
+        scatter = ax.scatter(np.log10(exampleTemp), np.log10(exampleLum),
+         color = 'black', s = 100, marker = '*')
+        if examplePointRange == 'T':
 
+            log_temp_min = np.log10(exampleTempMin)
+            log_temp_max = np.log10(exampleTempMax)
+            log_lum_min = np.log10(exampleLumMin)
+            log_lum_max = np.log10(exampleLumMax)
+
+            # Calculate overlap (if any) — just to be explicit
+            overlap_temp_min = log_temp_min
+            overlap_temp_max = log_temp_max
+            overlap_lum_min = log_lum_min
+            overlap_lum_max = log_lum_max
+
+            # Draw the rectangle for the overlapping region
+            width = overlap_temp_max - overlap_temp_min
+            height = overlap_lum_max - overlap_lum_min
+
+            rect = patches.Rectangle(
+                (overlap_temp_min, overlap_lum_min), width, height,
+                linewidth=1, edgecolor='Black', facecolor='gray', alpha=0.2
+            )
+            ax.add_patch(rect)
 
     if S_R == 'T':
         S_R_STR = str(S_R)
@@ -72,10 +95,13 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc, exampleLum = 0, exa
         S_R_T = int(S_R)
         S_R_STR = str(S_R_T) 
 
-    F_Name = saveLoc, title, name_of_var, 'log10', Log1, 'star radius', S_R_STR
-    F_Name_str = '_'.join(F_Name)
-    print(F_Name_str)
+    if fileName == 'Default':
+        F_Name = [saveLoc, title, name_of_var, 'log10', Log1, 'star radius', S_R_STR]
+        F_Name_str = '_'.join(F_Name)
+    else: 
+        F_name = [saveLoc, fileName]
+        F_Name_str = ''.join(F_name)
     
     plt.savefig(F_Name_str, dpi=200)
     plt.style.use('default')
-    plt.close()
+    plt.close() 

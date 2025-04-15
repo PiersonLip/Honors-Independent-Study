@@ -2182,8 +2182,8 @@
       \strng{authornamehash}{247fe6b0d65337bea39d7e83c158f730}
       \strng{authorfullhash}{9cae166e8919d163507a9cbeee25ebf1}
       \strng{authorfullhashraw}{9cae166e8919d163507a9cbeee25ebf1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{A\&A}
@@ -2233,8 +2233,8 @@
       \strng{authornamehash}{fb69659cec23f6c956530a23000e5793}
       \strng{authorfullhash}{b9382fd0ac26bf0684d66676da1add51}
       \strng{authorfullhashraw}{b9382fd0ac26bf0684d66676da1add51}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{aap}
@@ -2693,6 +2693,46 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1038/s41586-020-2649-2
+      \endverb
+    \endentry
+    \entry{Bartolomeo_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=2a557bf4dfca3813f52aa9cdd3238e3a}{%
+           family={{Bartolomeo Koninckx, L.}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=e6be9783d6797a0361108e7b4a3739bd}{%
+           family={{De Vito, M. A.}},
+           familyi={D\bibinitperiod}}}%
+        {{hash=2a33f586d465e186a90566624749744d}{%
+           family={{Benvenuto, O. G.}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c72d71b24c4fc2a5e3bde0052bd6a01}
+      \strng{fullhash}{8adb8e344ff23a68306a00b86881e734}
+      \strng{fullhashraw}{8adb8e344ff23a68306a00b86881e734}
+      \strng{bibnamehash}{8adb8e344ff23a68306a00b86881e734}
+      \strng{authorbibnamehash}{8adb8e344ff23a68306a00b86881e734}
+      \strng{authornamehash}{8c72d71b24c4fc2a5e3bde0052bd6a01}
+      \strng{authorfullhash}{8adb8e344ff23a68306a00b86881e734}
+      \strng{authorfullhashraw}{8adb8e344ff23a68306a00b86881e734}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{An evolutionary model for the V404 Cyg system}
+      \field{volume}{674}
+      \field{year}{2023}
+      \field{pages}{A97}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/202346571
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/0004-6361/202346571
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/202346571
       \endverb
     \endentry
   \enddatalist

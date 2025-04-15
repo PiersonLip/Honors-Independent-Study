@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'Mass Transfer in Binary Stars.blg'
-[109] biber-MSWIN64:340> INFO - === 
-[160] Biber.pm:420> INFO - Reading 'Mass Transfer in Binary Stars.bcf'
-[274] Biber.pm:994> INFO - Found 21 citekeys in bib section 0
-[287] Biber.pm:4463> INFO - Processing section 0
-[299] Biber.pm:4654> INFO - Looking for bibtex file 'sources.bib' for section 0
-[381] bibtex.pm:1713> INFO - LaTeX decoding ...
+[99] biber-MSWIN64:340> INFO - === 
+[136] Biber.pm:420> INFO - Reading 'Mass Transfer in Binary Stars.bcf'
+[245] Biber.pm:994> INFO - Found 22 citekeys in bib section 0
+[260] Biber.pm:4463> INFO - Processing section 0
+[275] Biber.pm:4654> INFO - Looking for bibtex file 'sources.bib' for section 0
+[346] bibtex.pm:1713> INFO - LaTeX decoding ...
 [781] bibtex.pm:1519> INFO - Found BibTeX data source 'sources.bib'
-[1313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1313] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1314] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[1341] bbl.pm:676> INFO - Writing 'Mass Transfer in Binary Stars.bbl' with encoding 'UTF-8'
-[1773] bbl.pm:779> INFO - Output to Mass Transfer in Binary Stars.bbl
-[1774] Biber.pm:131> WARN - legacy month field 'feb' in entry 'Bernardini_2016' is not an integer - this will probably not sort properly.
-[1774] Biber.pm:133> INFO - WARNINGS: 1
+[1316] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1316] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1316] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1316] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1342] bbl.pm:676> INFO - Writing 'Mass Transfer in Binary Stars.bbl' with encoding 'UTF-8'
+[1851] bbl.pm:779> INFO - Output to Mass Transfer in Binary Stars.bbl
+[1852] Biber.pm:131> WARN - legacy month field 'feb' in entry 'Bernardini_2016' is not an integer - this will probably not sort properly.
+[1852] Biber.pm:133> INFO - WARNINGS: 1
