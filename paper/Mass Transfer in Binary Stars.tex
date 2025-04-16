@@ -42,6 +42,11 @@
     % common envolope and stable evolution more
     %  mass transfer ossiclation
     % V404 cyngi
+    % system properities for results
+    % where do we go next?
+        % what we know and why
+
+    
 
 % Standerize the section orders RLO, detached, contact.
 
@@ -135,19 +140,17 @@
 
         In systems where one star fully fills its RL (sect. \ref{RLModel}, fig. \ref{SemidetachedRL}) mass begins to be transferred to its binary partner. This is process is called Roche Lobe Overflow (RLO) and is defined by a donor and accretor star (sect. \ref{MassTransferinCommon}). This is incredibly likely to happen at some point in a binaries' lifespan drastically affecting the course of evolution~\cite{TaurisvandenHeuvel+2023}\cite{Chen_2024}. Depending on the systems star types, masses, and orbital eccentricity, this process of mass transfer will either be stable or unstable. When this process if unstable, it leads to either another stage called common envelope (sect. \ref{CommonEnvelope}) or a rapid merger \cite{TaurisvandenHeuvel+2023}. However, if the process of mass transfer is stable, the two stars will remain detached, slowly exchanging mass~\cite{Chen_2024}~\cite{TaurisvandenHeuvel+2023}.
 
-        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential}~\cite{TaurisvandenHeuvel+2023}. The mass at $L_1$ feels an equal gravitational pull from both stars. The mass is then transferred through a pressure differential, where the donor star pushes the mass through. 
+        We are able to observe this very commonly in Low Mass X-ray Binaries, where a donor star transferred mass to an accretor which is a compact object (a black hole or neutron star). This process produces X-rays (sect.~\ref{XrayAccretion}) which we can measure to understand the processes within the binary in greater detail.
 
-        \subsubsection{$L_1$}
+        This process, similar to section~\ref{CommonEnvelope}, can be either stable or unstable. A large factor which determines this stability is the evolutionary stage of the donor star~\cite{TaurisvandenHeuvel+2023}, as upon the onset RLO, some donors stars' radius will increase, leading to even more rapid RLO. This is primarily due to the nature of the stars' envelope, with radiative envelopes shrinking upon mass loss and convective envelope swelling \cite{TaurisvandenHeuvel+2023}.
         
-        We are able to observe this very commonly in Low Mass X-ray Binaries, where a donor star transferred mass to an accretor which is a compact object (A black hole (BH) or neutron star (NS)). This process produces X-rays (sect. \ref{XrayAccretion}) which we can measure to understand the processes within the binary in greater detail.
-
-        This process, similar to section~\ref{CommonEnvelope}, can be either stable or unstable. A large factor which determines this stability is the evolutionary stage of the donor star~\cite{TaurisvandenHeuvel+2023}, as upon the onset RLO, 
-        
-        some donors stars' radius will increase, leading to even more rapid RLO. This is primarily due to the nature of the stars' envelope, with radiative envelopes shrinking upon mass loss and convective envelope swelling \cite{TaurisvandenHeuvel+2023}.
-        
-        In intermediate mass x-ray binaries(IMXBs), a system will survive this process of mass transfer if the unevolved or early stage donor star mass is between $2 < M_2/M_\odot < 5$ \cite{TaurisvandenHeuvel+2023}. In LMXBs it is $M_2 \gtrsim 1.8 M_\odot$. Systems with $M_2 > 2$ Will be unstable for giant donors in later stage RLO~\cite{TaurisvandenHeuvel+2023}.
+        In intermediate mass x-ray binaries, a system will survive this process of mass transfer if the unevolved or early stage donor star mass is between $2 < M_2/M_\odot < 5$ \cite{TaurisvandenHeuvel+2023}. In low mass x-ray binaries (LMXBs) it is $M_2 \gtrsim 1.8 M_\odot$. Systems with $M_2 > 2$ Will be unstable for giant donors in later stage RLO~\cite{TaurisvandenHeuvel+2023}.
         
         I used the system V404 Cyngi (\ref{V404Context}) with data from~\cite{Bernardini_2016} and \cite{Shahbaz_1994} as an example of this behavior, as its magnitude, proximity to Earth, and quantity of studies make it an ideal choice to understand how systems like it behave. 
+
+        \subsubsection{Mass transfer through $L_1$} \label{L1MassTransfer}
+
+        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential}~\cite{TaurisvandenHeuvel+2023}. The mass at $L_1$ feels an equal gravitational pull from both stars. The mass is then transferred through a pressure differential, where the donor star pushes the mass through. 
 
         \subsection{\centering Detached binaries}\label{DetachedBinary}
 
@@ -333,7 +336,8 @@
             \end{center}
         \end{table}
 
-        V404 is a LMXB (sect \ref{lmxbs}), meaning that the donor star has a relatively low mass. In this system the material being accreted by V404 Cyngi A forms an accretion disk, greatly increasing the luminosity of the system.
+        V404 is a LMXB, meaning that the donor star has a relatively low mass. In this system the material being accreted by V404 Cyngi A forms an accretion disk, which greatly increases the luminosity of the system (\textbf{sect.~\ref{XrayAccretion}}). This mass is transferred directly through $L_1$ (\textbf{sect.~\ref{L1MassTransfer}})~\cite{Bartolomeo_2023}. V404 is also a variable star system, with is magnitude varying overtime~\cite{Bernardini_2016}. The reason why is currently under great discussion, there are two current likely causes. That being that either the donor star begins to release mass at a greater rate \cite{TanakaLewin_1995}, or due to instability in the accretion disk itself~\cite{Lasota_2001}. This is a property which is commonly observed in LMXBs. 
+
 
     \subsection{POSYDON Simulations}
          I used data generated by POSYDON \cite{Fragos_2023} in corroboration with three observed systems in order to fully understand the depth of the process of mass transfer in Binary Systems. This is because while catalogues of contact binaries, HMXBS and LMXBs exist, there is not enough of them to get a true grasp of the full picture. Hence, I used POSYDON. This dataset was simulated on the NU Super computing Cluster, QUEST. POSYDON is developed and maintained by a team of astrophysicists and computer scientists working at the Université de Genève and Northwestern University. POSYDON uses an additional script called MESA, which is dedicated to single star and binary evolution. POSYDON utilities MESA on a much larger scale in order to simulate full populations. The data was stored in the form of a .h5 file, containing a total of $\approx$ 6.1 million rows and 83 columns. (See greatly reduced example of the data frame in (table \ref{POSYDONDataExample}) and an HR Diagram of the full dataset in Fig. \ref{EntireDataSetHR})
