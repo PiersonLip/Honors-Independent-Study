@@ -137,6 +137,52 @@
       \verb http://dx.doi.org/10.1051/0004-6361/202452820
       \endverb
     \endentry
+    \entry{TaurisvandenHeuvel+2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=d0bdef17caf98d0d6ce26e11258ea27a}{%
+           family={Tauris},
+           familyi={T\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=37eed4f5e5fecde9273d63020b780c4b}{%
+           family={Heuvel},
+           familyi={H\bibinitperiod},
+           given={Edward\bibnamedelima P.J.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{fullhash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{fullhashraw}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{bibnamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authorbibnamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authornamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authorfullhash}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \strng{authorfullhashraw}{b4fc02fc84f7012249b14eec1dda8a0e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780691239262}
+      \field{title}{From Stars to X-ray Binaries and Gravitational Wave Sources}
+      \field{year}{2023}
+      \verb{doi}
+      \verb doi:10.1515/9780691239262
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1515/9780691239262
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1515/9780691239262
+      \endverb
+    \endentry
     \entry{Chen_2024}{article}{}{}
       \name{author}{3}{}{%
         {{hash=af4f464f4fc05140b7ce529dfceed535}{%
@@ -163,8 +209,8 @@
       \strng{authornamehash}{f90caff5294b72406be29310f0b745cc}
       \strng{authorfullhash}{487072b56d465ece0e0279f3a0368573}
       \strng{authorfullhashraw}{487072b56d465ece0e0279f3a0368573}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Binary stars are as common as single stars. Binary stars are of immense importance to astrophysicists because that they allow us to determine the masses of the stars independent of their distances. They are the cornerstone of the understanding of stellar evolutionary theory and play an essential role in cosmic distance measurement, galactic evolution, nucleosynthesis and the formation of important objects such as cataclysmic variable stars, X-ray binaries, Type Ia supernovae, and gravitational wave-producing double compact objects. In this article, we review the significant theoretical and observational progresses in addressing binary stars in the new millennium. Increasing large survey projects have led to the discovery of enormous numbers of binary stars, which enables us to conduct statistical studies of binary populations, and therefore provide unprecedented insight into the stellar and binary evolution physics. Meanwhile, the rapid development of theoretical concepts and numerical approaches for binary evolution have made a substantial progress on the alleviation of some long-standing binary-related problems such as the stability of mass transfer and common envelope evolution. Nevertheless, it remains a challenge to have a full understanding of fundamental problems of stellar and binary astrophysics. The upcoming massive survey projects and increasingly sophisticated computational methods will lead to future progress.}
@@ -204,8 +250,8 @@
       \strng{authornamehash}{627db3a7803b3b2df0b58476c53c782a}
       \strng{authorfullhash}{627db3a7803b3b2df0b58476c53c782a}
       \strng{authorfullhashraw}{627db3a7803b3b2df0b58476c53c782a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{CC BY 2.5, via Wikimedia Commons: https://commons.wikimedia.org/w/index.php?curid=804238}
@@ -216,52 +262,6 @@
       \endverb
       \verb{url}
       \verb http://hemel.waarnemen.com/Informatie/Sterren/hoofdstuk6.html#h6.2
-      \endverb
-    \endentry
-    \entry{TaurisvandenHeuvel+2023}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=d0bdef17caf98d0d6ce26e11258ea27a}{%
-           family={Tauris},
-           familyi={T\bibinitperiod},
-           given={Thomas\bibnamedelima M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=37eed4f5e5fecde9273d63020b780c4b}{%
-           family={Heuvel},
-           familyi={H\bibinitperiod},
-           given={Edward\bibnamedelima P.J.},
-           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
-           prefix={van\bibnamedelima den},
-           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Princeton}%
-      }
-      \list{publisher}{1}{%
-        {Princeton University Press}%
-      }
-      \strng{namehash}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \strng{fullhash}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \strng{fullhashraw}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \strng{bibnamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \strng{authorbibnamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \strng{authornamehash}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \strng{authorfullhash}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \strng{authorfullhashraw}{b4fc02fc84f7012249b14eec1dda8a0e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780691239262}
-      \field{title}{From Stars to X-ray Binaries and Gravitational Wave Sources}
-      \field{year}{2023}
-      \verb{doi}
-      \verb doi:10.1515/9780691239262
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1515/9780691239262
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1515/9780691239262
       \endverb
     \endentry
     \entry{Bernardini_2016}{article}{}{}
@@ -318,8 +318,8 @@
       \strng{authornamehash}{40d016c2617fab974d60b3bc9adcf5c1}
       \strng{authorfullhash}{b5c5920f1b4c5d598a10cdaf67820049}
       \strng{authorfullhashraw}{b5c5920f1b4c5d598a10cdaf67820049}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{On 2015 June 15 the burst alert telescope (BAT) on board Swift detected an X-ray outburst from the black hole (BH) transient V404 Cyg. We monitored V404 Cyg for the last 10 years with the 2-m Faulkes Telescope North in three optical bands (V, R, and i′). We found that, one week prior to this outburst, the optical flux was 0.1–0.3 mag brighter than the quiescent orbital modulation, implying an optical precursor to the X-ray outburst. There is also a hint of a gradual optical decay (years) followed by a rise lasting two months prior to the outburst. We fortuitously obtained an optical spectrum of V404 Cyg 13 hr before the BAT trigger. This too was brighter than quiescence, and showed spectral lines typical of an accretion disk, with characteristic absorption features of the donor being much weaker. No He ii emission was detected, which would have been expected had the X-ray flux been substantially brightening. This, combined with the presence of intense Hα emission, about seven times the quiescent level, suggests that the disk entered the hot, outburst state before the X-ray outburst began. We propose that the outburst is produced by a viscous–thermal instability triggered close to the inner edge of a truncated disk. An X-ray delay of a week is consistent with the time needed to refill the inner region and hence move the inner edge of the disk inwards, allowing matter to reach the central BH, finally turning on the X-ray emission.}
@@ -2276,8 +2276,8 @@
       \strng{authornamehash}{f58dcfc8fbd251556c9d21a608ed690c}
       \strng{authorfullhash}{6b68d66446d9ac0bcdfdb5c887bd98fa}
       \strng{authorfullhashraw}{6b68d66446d9ac0bcdfdb5c887bd98fa}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Information Bulletin on Variable Stars}
@@ -2472,8 +2472,8 @@
       \strng{authornamehash}{9a1f9219d00cef023c61c6fd71576d04}
       \strng{authorfullhash}{9a1f9219d00cef023c61c6fd71576d04}
       \strng{authorfullhashraw}{9a1f9219d00cef023c61c6fd71576d04}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -2506,8 +2506,8 @@
       \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
       \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
       \strng{authorfullhashraw}{a2f53dcc6bb05a06b8ad94176f80fe26}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computing in Science \& Engineering}
@@ -2736,6 +2736,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{TaurisvandenHeuvel+20230}
 \endrefsection
 \endinput
 
