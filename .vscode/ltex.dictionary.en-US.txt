@@ -19,3 +19,5 @@ IMXBs
 Wolf-Rayet
 Lipschultz
 CIERA
+cygni
+Cygnis

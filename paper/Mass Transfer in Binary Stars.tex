@@ -41,10 +41,11 @@
     % system fully filling up gravitional potetional and then lossing that mass itself. 
     % common envolope and stable evolution more
     %  mass transfer ossiclation
-    % V404 cyngi
+    % V404 Cygni
     % system properities for results
     % where do we go next?
         % what we know and why
+    % change all of the damn misspellings of cygni lol
 
     
 
@@ -71,6 +72,7 @@
 
 
 \renewcommand{\abstractnamefont}{\normalfont\Large\bfseries} 
+\renewcommand{\arraystretch}{1.2}
 
 \titleformat{\section}
   {\normalfont\Large\bfseries\centering} % Formatting for the section title
@@ -152,7 +154,7 @@
         
         In intermediate mass x-ray binaries, a system will survive this process of mass transfer if the unevolved or early stage donor star mass is between $2 < M_2/M_\odot < 5$ \parencite{TaurisvandenHeuvel+2023}. In low mass x-ray binaries (LMXBs) it is $M_2 \gtrsim 1.8 M_\odot$. Systems with $M_2 > 2$ Will be unstable for giant donors in later stage RLO~\parencite{TaurisvandenHeuvel+2023}.
         
-        I used the system V404 Cyngi (\ref{V404Context}) with data from~\parencite{Bernardini_2016} and \parencite{Shahbaz_1994} as an example of this behavior, as its magnitude, proximity to Earth, and quantity of studies make it an ideal choice to understand how systems like it behave. 
+        I used the system V404 Cygni (\ref{V404Context}) with data from~\parencite{Bernardini_2016} and \parencite{Shahbaz_1994} as an example of this behavior, as its magnitude, proximity to Earth, and quantity of studies make it an ideal choice to understand how systems like it behave. 
 
         \subsubsection{Mass transfer through $L_1$} \label{L1MassTransfer}
 
@@ -316,33 +318,36 @@
         % \subsubsection{Simulated}
         % Simulated data is good because of xyz and is useful because of xyz. data was made using xyz
 
-    \subsection{\centering Roche Lobe overflow in V404 Cyngi}
+    \subsection{\centering V404 Cygni (Roche Lobe Overflow)}
         \subsubsection{Known properties}
+
         \begin{table} [H]
             \begin{center} 
                 \begin{tabular}{||c || c | c||} 
                  \hline
-                 & \textbf{V404 Cyngi B (Donor)} & \textbf{V404 Cyngi A (Black Hole)} \\ 
+                 & \textbf{V404 Cygni B (Donor)} & \textbf{V404 Cygni A (Black Hole)} \\ 
                  \hline\hline
                  \textbf{Star Type} & Early K-type Giant & Black Hole \\ 
                  \hline
-                 \textbf{Masses}& $.7_{M_\odot}$ \parencite{Bernardini_2016} & $9_{M_\odot}$ \parencite{Shahbaz_1994} \\
+                 \textbf{Masses}& $.7_{M_\odot}$ \parencite{Bernardini_2016} & $9_{M_\odot}$ \parencite{Shahbaz_1994} \parencite{Ziółkowski_2018} \\
                  \hline
                  \textbf{Radius} & $6.0_{R_\odot}$ \parencite{Shahbaz_1994} &  \\
                  \hline
-                 \textbf{Temperature} & $4800_K$ \parencite{Shahbaz_1994} & \\
+                 \textbf{Temperature} & ${4274^{+116}_{-113}}_K$ \parencite{Ziółkowski_2018} & \\
                  \hline
-                 \textbf{Luminosity} & $10.2_{L_\odot}$ \parencite{Shahbaz_1994} &  \\ 
+                 \textbf{Luminosity} & ${8.7^{+1.7}_{-1.4}}_{L_\odot}$ \parencite{Ziółkowski_2018} &  \\ 
                  \hline
                  \textbf{Distance} & \multicolumn{2}{c||}{$2390_{pc}$ \parencite{Bernardini_2016}} \\
                  \hline
+                 \textbf{Orbital Period} & \multicolumn{2}{c||}{$6.73 \pm .001$ \cite{Ziółkowski_2018}}\\
+                 \hline  
             \end{tabular}
             \caption{Properties of V404 Cygni} 
             \label{V404Data} 
             \end{center}
         \end{table}
 
-        V404 is a LMXB, meaning that the donor star has a relatively low mass. In this system the material being accreted by V404 Cyngi A forms an accretion disk, which greatly increases the luminosity of the system (\textbf{sect.~\ref{XrayAccretion}}). This mass is transferred directly through $L_1$ (\textbf{sect.~\ref{L1MassTransfer}})~\parencite{Bartolomeo_2023}. V404 is also a variable star system, with is magnitude varying overtime~\parencite{Bernardini_2016}. The reason why is currently under great discussion, there are two current likely causes. That being that either the donor star begins to release mass at a greater rate \parencite{TanakaLewin_1995}, or due to instability in the accretion disk itself~\parencite{Lasota_2001}. This is a property which is commonly observed in LMXBs. 
+        V404 is a LMXB, meaning that the donor star has a relatively low mass. In this system the material being accreted by V404 Cygni A forms an accretion disk, which greatly increases the luminosity of the system (\textbf{sect.~\ref{XrayAccretion}}). This mass is transferred directly through $L_1$ (\textbf{sect.~\ref{L1MassTransfer}})~\parencite{Bartolomeo_2023}. V404 is also a variable star system, with is magnitude varying overtime~\parencite{Bernardini_2016}. The reason why is currently under great discussion, there are two current likely causes. That being that either the donor star begins to release mass at a greater rate \parencite{TanakaLewin_1995}, or due to instability in the accretion disk itself~\parencite{Lasota_2001}. This is a property which is commonly observed in LMXBs. 
 
 
     \subsection{POSYDON Simulations}
@@ -374,7 +379,7 @@
         \begin{figure} [H]
             \centering
             \includegraphics[width = \textwidth]{figs/GeneratedFigs/WholePOSYDONDatasetExample.png}
-            \caption{HR Diagram of the donor star for the full (\~6.4 million points) POSYDON dataset. Note that the color of the plotted points correspond to the $log_{10}$ solar mass of the donor star. Generated with Matplotlib}
+            \caption{HR Diagram of the donor star for the full (\~6.4 million points) POSYDON dataset. Note that the color of the plotted points correspond to the solar mass of the donor star. Generated with Matplotlib}
             \label{EntireDataSetHR}
         \end{figure}
 
@@ -385,9 +390,8 @@
     \section{\centering Results}
         Through my research I found a number of interesting discoveries, both regarding the populations of binaries as a whole, but also some applicable to systems themselves.
   
-        \subsection{\centering Roche Lobe Overflow}
+        \subsection{\centering Roche Lobe Overflow (RLO)}
             
-
         % \begin{figure}[H]
         %     \centering
         %     \includegraphics[scale = .6]{figs/GeneratedFigs/X-ray Binaries Eccentricty Distribution.png}
@@ -411,18 +415,19 @@
             \caption{HR diagram of the donor star in X-ray Binaries. Size of the plotted dot corresponds to the size of the star.}
             \label{XrayBinaryHRDiagram}
         \end{figure}
+        I learned that RLO a very common phenomena in binary star evolution, with the majority of systems undergoing it at some point \cite{TaurisvandenHeuvel+2023}. I found that it is most commonly and directly observed in LMXBs \cite{TaurisvandenHeuvel+2023}, as these systems can allow for a stable transfer of mass from a donor to an accretor, which can create emission of x-rays (\cite{TaurisvandenHeuvel+2023}) (sect. \ref{XrayAccretion}). Furthermore, I found that RLO can either be stable or unstable and that some of the most important factors in stability are the mass ratio of the stars, the eccentricity of the system, and the stars' envelope type (sect. \ref{RLO}). I found that this mass is transferred through the Lagrange point $L_1$ due to a pressure differential \parencite{TaurisvandenHeuvel+2023} (sect. \ref{L1MassTransfer}) 
 
         In figure \ref{XrayBinaryHRDiagram} we can see that X-ray binaries' donor stars generally follow a semi-standard HR diagram. 
         
-        \subsubsection{V404 Cygni Results}
+        \subsubsection{V404 Cygni Results} \label{V404Results}
             \begin{figure}[H] 
                 \centering
-                \includegraphics[scale = .6]{figs/GeneratedFigs/V404_Cyngi/V404XBsPopulationHRComp.png}
-                \caption{HR Diagram with reference for V404 Cyngi. Utilizing data from \parencite{Bartolomeo_2023}}
+                \includegraphics[scale = .6]{figs/GeneratedFigs/V404_Cygni/V404XBsPopulationHRComp.png}
+                \caption{HR Diagram with reference for V404 Cygni. Utilizing data from \parencite{Bartolomeo_2023}}
                 \label{V404Context}
             \end{figure}
 
-            I discovered that does not fall onto the two main simulated evolutionary tracks for LMXBs. I believe this is because V404 Cyngi B is a stripped giant. \parencite{Haardt_1993}
+            I discovered that V404 Cygni does not fall onto the two main simulated evolutionary tracks for LMXBs. This distinct discontinuity between the observed temperature and luminosity and what makes sense for a location on an HR diagram suggests that one of the two is off. It is, of course, more likely that the simulated data possess the error, as V404 has been measured a multitude of times. I believe this discrepancy comes from V404 Cygnis' unique properties (table \ref{V404Data}). It is uncommon for a star to lose such a large amount of mass and be so tightly constrained to its accretor as we see in \cite{Bartolomeo_2023}. I believe this is the cause of the discrepancy, as the simulated software most likely not account for such extreme cases. However, further investigation of both the simulated and the observed data is needed to get a full conclusion.
             
             %Add in a graph of a full HR Diagram and show the area of overlap, propose actual reason why
 
@@ -455,7 +460,7 @@
         \end{figure}
 
 
-        This is one of the more interesting results, as we can see that contact binaries form a very specific population on the HR diagram, falling on specific linear with a linear relationship (fig \ref{contactBinaryHRDiagram}) I believe this is because of the stabilizing natures regarding mass ratios in contact binaries. It is important to note that these values are much above what we observe in contact binaries. Again, there are many reasons this could be, including the inherent skewing of the grid, the nature of observing contact binaries, and more. 
+        This is one of the more interesting results, as we can see that contact binaries form a very specific population on the HR diagram, falling on specific linear with a linear relationship (fig. \ref{contactBinaryHRDiagram}) I believe this is because of the stabilizing natures regarding mass ratios in contact binaries. It is important to note that these values are much above what we observe in contact binaries. Again, there are many reasons this could be, including the inherent skewing of the grid, the nature of observing contact binaries, and more. 
         
         \subsubsection{W UMa Cygni Results}
             \begin{figure}[H]
