@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patches as patches
+from pathlib import Path
+
 
 # functions for making all of the graphs, saves them all with file names corrpsonding to the var used and conditons
 
@@ -96,12 +98,13 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc,  examplePoint = 'F'
         S_R_STR = str(S_R_T) 
 
     if fileName == 'Default':
-        F_Name = [saveLoc, title, name_of_var, 'log10', Log1, 'star radius', S_R_STR]
-        F_Name_str = '_'.join(F_Name)
-    else: 
-        F_name = [saveLoc, fileName]
-        F_Name_str = ''.join(F_name)
-    
-    plt.savefig(F_Name_str, dpi=200)
+        # Build a filename from components
+        file_parts = [title, name_of_var, 'log10' if Log1 == 'T' else 'linear', 'star_radius' if S_R == 'T' else f'radius_{S_R_STR}']
+        file_name = '_'.join(file_parts) + '.png'
+    else:
+        file_name = fileName if fileName.endswith('.png') else f"{fileName}.png"
+
+    save_path = Path(saveLoc) / file_name
+    plt.savefig(save_path, dpi=200)
     plt.style.use('default')
     plt.close() 

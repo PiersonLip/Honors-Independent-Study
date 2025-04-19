@@ -382,42 +382,46 @@
             \caption{HR Diagram of the donor star for the full (\~6.4 million points) POSYDON dataset. Note that the color of the plotted points correspond to the solar mass of the donor star. Generated with Matplotlib}
             \label{EntireDataSetHR}
         \end{figure}
+        
 
         This dataset looks very similar to a standard HR diagram, however, there are some key population differences. In the center we can see the Main sequence
         \subsubsection{Data Processing}
             With my research I sought to contextualize these very specific systems, allowing one to better understand how these systems play into the larger picture of binaries. In order to do this I utilized a large dataset generated from POSYDON. In order to properly analyze this data I utilized Python with a large quantity of packages. These packages included Pandas \parencite{reback2020pandas}, Matplotlib \parencite{Matplotlib}, and NumPy \parencite{harris2020array}. These tools allowed me to rapidly and efficiently analyze the large amount of data, something this paper would not have been possible without.
 
+
     \section{\centering Results}
+
+    \subsection{\centering Detached Binaries}
+    \begin{figure}[H] 
+        \centering
+        \includegraphics[scale = .6]{figs/GeneratedFigs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png}
+        \caption{HR Diagram of HMXBS}
+        \label{DetachedBinaryHRDiagram}
+    \end{figure}
+
+    \subsubsection{Vela X-1 Results}
+    \begin{figure}[H] 
+        \centering
+        \includegraphics[scale = .6]{figs/GeneratedFigs/VelaX-1/VelaX1XrBPopulationHRComp.png}
+        \caption{HR Diagram with reference for Vela X-1. The star is the mean value of observation range, box is overlap of the max and min temperature and luminosity values}
+        \label{VelaX1XrBPopulationHRComp}
+    \end{figure}
+
+    \begin{figure}[H] 
+        \centering
+        \includegraphics[scale = .6]{figs/GeneratedFigs/VelaX-1/VelaX1HMXBPopulationHRComp.png}
+        \caption{HR Diagram of HMXBs with reference point for Vela X-1. The star is the mean value of observation range, box is overlap of the max and min temperature and luminosity values}
+        \label{VelaX1HMXBPopulationHRComp}
+    \end{figure}
+
+
+    In figures~\ref{VelaX1XrBPopulationHRComp} and~\ref{VelaX1HMXBPopulationHRComp} we see that Vela X-1 is one of the more extreme example of HMXBs, as it has a higher temperature and luminosity then a lot of its similar stars, the majority of which are in main sequence.
+    
+    % This is particularly interesting as Vela X-1s luminosity and temperature would make it a likely candidate to be a Wolf-Rayet star, 
+
         Through my research I found a number of interesting discoveries, both regarding the populations of binaries as a whole, but also some applicable to systems themselves.
   
-        \subsection{\centering Roche Lobe Overflow (RLO)}
-            
-        % \begin{figure}[H]
-        %     \centering
-        %     \includegraphics[scale = .6]{figs/GeneratedFigs/X-ray Binaries Eccentricty Distribution.png}
-        %     \caption{Eccentricity distribution of X-ray Binaries}
-        %     \label{XrayBinaryEccenDistro}
-        % \end{figure}
-
-        % In figure \ref{XrayBinaryEccenDistro} we can see that x-ray binaries have a standard Gaussian distribution, with a peak at around $\approx .24$ 
-
-        % \begin{figure}[H]
-        %     \centering
-        %     \includegraphics[scale = .6]{figs/GeneratedFigs/X-ray Binaries Star Two Mass Distribution.png}
-        %     \caption{Mass distribution of X-ray Binaries}
-        %     \label{XrayBinaryMassDistro}
-        % \end{figure}
-        % In figure \ref{XrayBinaryMassDistro} we see that the majority of X-ray binaries masses are centered around $\approx 5.5$
-
-        \begin{figure}[H]
-            \centering
-            \includegraphics[scale = .6]{figs/GeneratedFigs/ X-ray Binaries Star Two Mass log10 F star radius T.png}
-            \caption{HR diagram of the donor star in X-ray Binaries. Size of the plotted dot corresponds to the size of the star.}
-            \label{XrayBinaryHRDiagram}
-        \end{figure}
-        I learned that RLO a very common phenomena in binary star evolution, with the majority of systems undergoing it at some point \cite{TaurisvandenHeuvel+2023}. I found that it is most commonly and directly observed in LMXBs \cite{TaurisvandenHeuvel+2023}, as these systems can allow for a stable transfer of mass from a donor to an accretor, which can create emission of x-rays (\cite{TaurisvandenHeuvel+2023}) (sect. \ref{XrayAccretion}). Furthermore, I found that RLO can either be stable or unstable and that some of the most important factors in stability are the mass ratio of the stars, the eccentricity of the system, and the stars' envelope type (sect. \ref{RLO}). I found that this mass is transferred through the Lagrange point $L_1$ due to a pressure differential \parencite{TaurisvandenHeuvel+2023} (sect. \ref{L1MassTransfer}) 
-
-        In figure \ref{XrayBinaryHRDiagram} we can see that X-ray binaries' donor stars generally follow a semi-standard HR diagram. 
+        
         
         \subsubsection{V404 Cygni Results} \label{V404Results}
             \begin{figure}[H] 
@@ -429,11 +433,12 @@
 
             I discovered that V404 Cygni does not fall onto the two main simulated evolutionary tracks for LMXBs. This distinct discontinuity between the observed temperature and luminosity and what makes sense for a location on an HR diagram suggests that one of the two is off. It is, of course, more likely that the simulated data possess the error, as V404 has been measured a multitude of times. I believe this discrepancy comes from V404 Cygnis' unique properties (table \ref{V404Data}). It is uncommon for a star to lose such a large amount of mass and be so tightly constrained to its accretor as we see in \cite{Bartolomeo_2023}. I believe this is the cause of the discrepancy, as the simulated software most likely not account for such extreme cases. However, further investigation of both the simulated and the observed data is needed to get a full conclusion.
             
+            
             %Add in a graph of a full HR Diagram and show the area of overlap, propose actual reason why
 
         %contact binaries
         \subsection{\centering Contact Binaries}
-            Through my analysis I discovered that contact binaries had some of the most interesting results. 
+            I discovered that mass transfer in contact binaries can occour 
         \begin{figure}[H]
             \centering
             \includegraphics[scale = .6]{figs/GeneratedFigs/Contact binaries Star Two Mass Distribution.png}
@@ -441,6 +446,7 @@
             \label{contactBinaryStar2MassDistro}
         \end{figure}
 
+        Through my analysis I discovered that contact binaries had some of the most interesting results. 
         In figure \ref{contactBinaryStar2MassDistro} we can see that contact binaries mass distribution feature a prominent spike at around one solar mass, with a distribution centered around 10, and then a scattered amount afterward. 
 
         \begin{figure}[H]
@@ -472,33 +478,36 @@
 
             In \textbf{figure~\ref{WUMaResults}} we see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population. This is a known discrepancy with current simulated models, where simulated values are both typically more luminous and massive than observed. \parencite{Fabry_2025}. There are many in line with other observed contact binaries.  
 
-        \subsection{\centering Detached Binaries}
-            \begin{figure}[H] 
-                \centering
-                \includegraphics[scale = .6]{figs/GeneratedFigs/ High Mass X-ray Binaries Star Two Mass log10 F star radius T.png}
-                \caption{HR Diagram of HMXBS}
-                \label{DetachedBinaryHRDiagram}
-            \end{figure}
-
-            \subsubsection{Vela X-1 Results}
-            \begin{figure}[H] 
-                \centering
-                \includegraphics[scale = .6]{figs/GeneratedFigs/VelaX-1/VelaX1XrBPopulationHRComp.png}
-                \caption{HR Diagram with reference for Vela X-1. The star is the mean value of observation range, box is overlap of the max and min temperature and luminosity values}
-                \label{VelaX1XrBPopulationHRComp}
-            \end{figure}
-
-            \begin{figure}[H] 
-                \centering
-                \includegraphics[scale = .6]{figs/GeneratedFigs/VelaX-1/VelaX1HMXBPopulationHRComp.png}
-                \caption{HR Diagram of HMXBs with reference point for Vela X-1. The star is the mean value of observation range, box is overlap of the max and min temperature and luminosity values}
-                \label{VelaX1HMXBPopulationHRComp}
-            \end{figure}
-
-
-            In figures~\ref{VelaX1XrBPopulationHRComp} and~\ref{VelaX1HMXBPopulationHRComp} we see that Vela X-1 is one of the more extreme example of HMXBs, as it has a higher temperature and luminosity then a lot of its similar stars, the majority of which are in main sequence.
+            \subsection{\centering Roche Lobe Overflow (RLO)}
             
-            % This is particularly interesting as Vela X-1s luminosity and temperature would make it a likely candidate to be a Wolf-Rayet star, 
+        % \begin{figure}[H]
+        %     \centering
+        %     \includegraphics[scale = .6]{figs/GeneratedFigs/X-ray Binaries Eccentricty Distribution.png}
+        %     \caption{Eccentricity distribution of X-ray Binaries}
+        %     \label{XrayBinaryEccenDistro}
+        % \end{figure}
+
+        % In figure \ref{XrayBinaryEccenDistro} we can see that x-ray binaries have a standard Gaussian distribution, with a peak at around $\approx .24$ 
+
+        % \begin{figure}[H]
+        %     \centering
+        %     \includegraphics[scale = .6]{figs/GeneratedFigs/X-ray Binaries Star Two Mass Distribution.png}
+        %     \caption{Mass distribution of X-ray Binaries}
+        %     \label{XrayBinaryMassDistro}
+        % \end{figure}
+        % In figure \ref{XrayBinaryMassDistro} we see that the majority of X-ray binaries masses are centered around $\approx 5.5$
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale = .6]{figs/GeneratedFigs/ X-ray Binaries Star Two Mass log10 F star radius T.png}
+            \caption{HR diagram of the donor star in X-ray Binaries. Size of the plotted dot corresponds to the size of the star.}
+            \label{XrayBinaryHRDiagram}
+        \end{figure}
+        I learned that RLO a very common phenomena in binary star evolution, with the majority of systems undergoing it at some point \cite{TaurisvandenHeuvel+2023}. I found that it is most commonly and directly observed in LMXBs \cite{TaurisvandenHeuvel+2023}, as these systems can allow for a stable transfer of mass from a donor to an accretor, which can create emission of x-rays (\cite{TaurisvandenHeuvel+2023}) (sect. \ref{XrayAccretion}). Furthermore, I found that RLO can either be stable or unstable and that some of the most important factors in stability are the mass ratio of the stars, the eccentricity of the system, and the stars' envelope type (sect. \ref{RLO}). I found that this mass is transferred through the Lagrange point $L_1$ due to a pressure differential \parencite{TaurisvandenHeuvel+2023} (sect. \ref{L1MassTransfer}) 
+
+        In figure \ref{XrayBinaryHRDiagram} we can see that X-ray binaries' donor stars generally follow a semi-standard HR diagram. 
+
+
 
 \section{\centering Conclusion}
     In conclusion mass transfer heavily affects the evolution of binary stars, leading them to evolve in a uniquely different way then to single star evolution. 
