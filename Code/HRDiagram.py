@@ -75,18 +75,12 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc,  examplePoint = 'F'
             log_lum_min = np.log10(exampleLumMin)
             log_lum_max = np.log10(exampleLumMax)
 
-            # Calculate overlap (if any) — just to be explicit
-            overlap_temp_min = log_temp_min
-            overlap_temp_max = log_temp_max
-            overlap_lum_min = log_lum_min
-            overlap_lum_max = log_lum_max
-
             # Draw the rectangle for the overlapping region
-            width = overlap_temp_max - overlap_temp_min
-            height = overlap_lum_max - overlap_lum_min
+            width = log_temp_max - log_temp_min
+            height = log_lum_max - log_lum_min
 
             rect = patches.Rectangle(
-                (overlap_temp_min, overlap_lum_min), width, height,
+                (log_temp_min, log_lum_min), width, height,
                 linewidth=1, edgecolor='Black', facecolor='gray', alpha=0.2
             )
             ax.add_patch(rect)
