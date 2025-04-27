@@ -73,30 +73,29 @@
     \begin{figure} [H]
         \centering
         \includegraphics[scale = .5]{figs/GeneratedFigs/WholePOSYDONDatasetExample.png}
-        \caption{HR Diagram of the donor star for the full ($\approx$6.1 million points) POSYDON dataset. Note that the color of the plotted points correspond to the solar mass of the donor star. Additionally, the size of each plotted point is logarithmically related to the radius of the plotted star which it represents. This means that for each plotted point, one can evaluate four different variables, something which is rare in 2D graphs. I generated this figure utilizing Matplotlib.}
+        \caption{Hertzsprung-Russell diagram of the donor star for the full POSYDON dataset meaning that this graph contains $\approx$6.1 million points. Note that the color of the plotted points correspond to the solar mass of the donor star. Additionally, the size of each plotted point is logarithmically related to the radius of the plotted star which it represents. This means that for each plotted point, one can evaluate four different variables, something which is rare in 2D graphs. I generated this figure utilizing Matplotlib and pandas.}
         \label{EntireDataSetHR}
     \end{figure}
 
     \begin{table}[H]
         \footnotesize
             \centering
-            \begin{tabularx}{\textwidth}{||X|X|X|X|X||X||X|X|X||}
+            \begin{tabularx}{\textwidth}{||X|X|X|X|X|X|X|X||}
                 \hline 
                 \textbf{Binary ID} & 
                 \textbf{System State} & 
                 \textbf{Orbital Period (days)} & 
                 \textbf{$\log_{10}$ Mass Transfer Rate} & 
                 \textbf{Donor State} & 
-                \textbf{\ldots}&
                 \textbf{Donor Mass} ($M_\odot$) & 
-                \textbf{Accret-or State} & 
-                \textbf{Accret-or Mass} ($M_\odot$) \\
+                \textbf{Accretor State} & 
+                \textbf{Accretor Mass} ($M_\odot$) \\
                 \hline \hline
-                $0$ & Detached & $0.047520$ & $-99.00000$ & NS & & $1.196033$ & Stripped He Core He burning & $\approx 1.002$ \\
+                $1$ & Detached & $0.047520$ & $-99.00000$ & NS & $1.196033$ & Stripped He Core He burning & $\approx 1.002$ \\
                 \hline
-                \multicolumn{5}{||c||}{\textbf{\ldots}} & & \multicolumn{3}{c||}{\textbf{\ldots}}\\
+                \multicolumn{8}{||c||}{\textbf{\ldots}}\\
                 \hline
-                $999,999$ & Detached & $0.0429883$ & $\approx -80.8$ & NS & & $1.196033$ & Stripped He Core He burning & $\approx 0.9957$ \\
+                $1,000,000$ & Detached & $0.0429883$ & $\approx -80.8$ & NS & $1.196033$ & Stripped He Core He burning & $\approx 0.9957$ \\
                 \hline
             \end{tabularx}
             \caption{Example of POSYDON data, heavily modified for readability.}
