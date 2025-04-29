@@ -130,7 +130,7 @@
     \restoregeometry
 
     \subsection{Roche Lobe Model} \label{RLModel} % maybe find the orignal rlm paper and use that to elaborate? it feels weird to not talk more here about this, however, it would be very easy to just spend forever talking about it. 
-        The Roche Lobe (RL) model was proposed by Édouard Roche and defines the gravitational potential of a binary through a simple model. Simply put, it defines the region around a star where it can hold onto its mass (i.e. great enough gravitational potential). If one of the stars in the binaries' mass overflows said lobe, it will transfer mass to its binary pair. This model can be used to classify binary star populations into various populations, including detached binaries (where neither star has filled their potential), semi-detached systems (where one star has filled its potential, leading to mass transfer to an accretor) and contact binaries (where both stars have filled their potentials), 
+        The Roche Lobe (RL) model was proposed by Édouard Roche and defines the gravitational potential of a binary through a simple model by visualizing the region around a star where it can hold onto its mass (i.e. great enough gravitational potential). If one of the stars in the binaries' mass overflows said lobe, it will transfer mass to its binary pair. This model can be used to classify binary star populations into various populations, including detached binaries (where neither star has filled their potential), semi-detached systems (where one star has filled its potential, leading to mass transfer to an accretor) and contact binaries (where both stars have filled their potentials), 
 
     \vspace*{\fill}
     \begin{figure}[H]
@@ -152,13 +152,20 @@
             \label{DetachedBinaryRL}
         \end{figure}
 
+        Systems where neither star fills its potential fully (fig.~\ref{DetachedBinaryRL}) are called detached binaries. Despite the fact that these systems have not filled their Roche lobes, mass transfer is still possible through a processes called wind accretion (sect~\ref{WindAccretion}). We see this predominantly in systems called High Mass X-ray Binaries (HMXBs), where a supergiant star transfers mass to a compact object via wind accretion. This process leads to an increase in X-ray Emission (sect.~\ref{XrayAccretion}), which we can easily measure~\parencite{TaurisvandenHeuvel+2023}. It is important to note that despite the majority of HMXBs not experiencing full-blown RLO (sect\ref{RLO}) they tend to be very close to doing so~\parencite{TaurisvandenHeuvel+2023}. 
 
-        Systems where neither star fills its potential fully (fig.~\ref{DetachedBinaryRL}) are called detached binaries. Despite the fact that these systems have not filled their Roche Lobes, mass transfer is still possible through a processes called wind accretion (sect~\ref{WindAccretion}). We see this predominantly in systems called \textit{High Mass X-ray Binaries}, where a supergiant star transfers mass to a compact object via wind accretion. This process leads to an increase in X-ray Emission (sect.~\ref{XrayAccretion}), which we can easily measure~\parencite{TaurisvandenHeuvel+2023}. It is important to note the majority these systems are not experiencing full-blown RLO (sect\ref{RLO}), however, they tend to be incredibly close to doing so~\parencite{TaurisvandenHeuvel+2023}. It is important to note that these systems can transfer mass through wind accretion, atmospheric Roche Lobe Overflow, and full-blown RLO. 
-
-        I investigated the system Vela X-1~\parencite{Kretschmar_2021} (sect.~\ref{velax1introduction}) as an example of this, as it is generally regarded as the ``archetypical wind accretor''~\parencite{Kretschmar_2021} 
+        I investigated the system Vela X-1~\parencite{Kretschmar_2021} (sect.~\ref{velax1introduction}) as an example of this as it is generally regarded as the ``archetypical wind accretor''~\parencite{Kretschmar_2021}. 
 
         \subsubsection{Wind Accretion Mass Transfer} \label{WindAccretion}
-        Wind accretion is very different from normal mass transfer in a binary. All stars produce `wind,' i.e. mass which is pushed away from the star. Most stars cause a process called stellar wind, occurring when mass from the outer envelope is ejected at various speeds from the star. All stars experience varying strengths of stellar wind, with some winds having very high velocities, and others much lower.~\parencite{Lamers_1999} In binary stars this process allows mass that has escaped the donor to be transferred to an accreting star.
+        Wind accretion is very different from normal mass transfer in a binary. All stars produce `wind,' i.e. mass which is pushed away from the star. Most stars cause a process called stellar wind, occurring when mass from the outer envelope is ejected at various speeds from the star. All stars experience varying strengths of stellar wind, with some winds having very high velocities, and others much lower.~\parencite{Lamers_1999} In binary stars this process allows mass that has escaped the donor to be transferred to the accreting star.
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width = .8\textwidth]{figs/reused-figs/Tauris_WindRocheLobeOverflow.png}\\
+            \textit{Reprint from~\parencite{TaurisvandenHeuvel+2023}}
+            \caption{Graphic of the RL model showing wind accretion. Note here that this shows a `top-down' perspective.}
+            \label{fig:RLWindAccretion}
+        \end{figure}
         
         \subsection{Semi-detached Binaries}\label{RLO} % maybe include equations??
 
@@ -181,9 +188,10 @@
 
         \subsubsection{Mass transfer through $L_1$} \label{L1MassTransfer}
 
-        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential}~\parencite{TaurisvandenHeuvel+2023}. The mass at $L_1$ feels an equal gravitational pull from both stars. The mass is then transferred through a pressure differential, where the donor star pushes the mass through. 
+        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential}~\parencite{TaurisvandenHeuvel+2023}. The mass at $L_1$ feels an equal gravitational pull from both stars and thus requires no external force for the mass to be transferred. This rate of mass transfer is dependent on a pressure differential between the two stars \parencite{TaurisvandenHeuvel+2023}.
 
         \subsubsection{Atmospheric RLO} \label{atmosphericRLO}
+        The Roche-lobe model assumes that ones the radius of the star crosses the Roche-lobe radius then mass transfer will start. However, this relies on the assumption that the edge of the star is completely sharp, which they are not. Instead, the star will have an atmosphere surrounding it. Once the radius of the atmosphere crosses the Roche-lobe radius, the atmosphere can begin to be transferred \parencite{TaurisvandenHeuvel+2023}. This is most relevant in HMXBs, where atmospheric accretion alone can make them strong x-ray sources. Once the photosphere of the star crosses the Roche-lobe radius `full-blown' RLO sets in.
 
         \subsection{Contact Binary}
 
@@ -463,7 +471,7 @@
                 \label{V404Context}
             \end{figure}
 
-            V404 Cygni does not fall onto the two main simulated evolutionary tracks for LMXBs. This distinct discontinuity between the observed temperature and luminosity and expected location on an HR diagram suggests there exists an error. It is more likely that the simulated data possess the error, as V404 has been observationally measured to high accuracy. I believe this discrepancy comes from V404 Cygnis' unique properties (table~\ref{V404Data}) as it is uncommon for a star to lose such a large amount of mass and be so tightly constrained to its accretor as we see in \parencite{Bartolomeo_2023}. I believe this is the cause of the discrepancy, as POSYDON likely not account for such extreme cases. However, further investigation of both the simulated and the observed data is needed to get a full conclusion. 
+            V404 Cygni does not fall onto the two main simulated evolutionary tracks for LMXBs. This distinct discontinuity between the observed temperature and luminosity and expected location on an HR diagram suggests there exists an error. It is more likely that the simulated data possess the error, as V404 Cygni has been observationally measured to high accuracy. I believe this discrepancy comes from V404 Cygnis' unique properties (table~\ref{V404Data}) as it is uncommon for a star to lose such a large amount of mass and be so tightly constrained to its accretor as we see in \parencite{Bartolomeo_2023}. I believe that POSYDON likely did not account for such an extreme case. However, further investigation of both simulated and observed data is needed to get a full conclusion. 
 
             While investing this I tried a multitude of different things. This included getting more recent data of V404 Cygni from \parencite{Bartolomeo_2023}, graphing an error range around the plotted star (fig.~\ref{V404Context}), and plotting the entire dataset including all the stars evolution over time (fig.~\ref{V404FullContextTesting}). None of these lead to any breakthroughs. 
 
@@ -518,12 +526,12 @@
             In figure~\ref{WUMaResults} we see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population. This is a known discrepancy with current simulated models, where simulated values are both typically more luminous and massive than observed~\parencite{Fabry_2025}.
 
 \section{Discussion}   
-    Originally I planned on simulating grids for all the types of systems, however, due to time constraints I chose to only focus on one type. This proved to be the right decision, and it prevented the scope of the project from becoming too constrained.
+    Originally I planned on simulating grids for all the types of systems, however, due to time constraints I chose to only focus on one type. This actually tended to be beneficial, as it prevented the scope of the project from becoming too constrained to a singe system.
 
     \subsubsection{Disclaimers and Notes}
-        Due to time constraints, I was not able to cite all the sources within the textbook \parencite{TaurisvandenHeuvel+2023} which I used. This is because it was quite tedious to find the paper itself the textbook references. 
+        Due to time constraints, I was not able to cite all the sources within the textbook \parencite{TaurisvandenHeuvel+2023} which I used. This is because it was quite tedious to find the papers themselves within the textbook references and I chose to focus on the content itself instead. 
 
-        Additionally, as this was my first project in \LaTeX (sect.~\ref{LaTeX}) as a freshman, I am sure there are various minor errors and things that do not fit proper convention. 
+        Additionally, as this was my first project in \LaTeX (sect.~\ref{LaTeX}) as a freshman, I am sure there are various minor errors and things that do not fit proper convention. Please feel free to reach out with any comments.
 
     \subsection{Code and Writing Process}
         \subsubsection{Code}
@@ -542,7 +550,7 @@
             I worked on this entirely in Virtual Studio Code, as it provided a great environment for me to work efficiently and its integration with Python notebooks and Git helped me work efficiently
 
 \section{Conclusion}
-    In conclusion, I found the local populations of V404 Cygni (sect.~\ref{V404Results}), Vela X-1 (sect.~\ref{VelaX1Results}), and W UMa (sect.~\ref{WUMaResults}) by graphing them on HR diagrams in regard to POSYDON data. I found the main causes of mass transfer in detached systems to be wind accretion, semi-detached to be Roche Lobe overflow, and contacts to be direct mass sharing. I found that properties both the graphs in both V404 Cyg (sect.~\ref{V404Results}) and W UMa (sect.~\ref{WUMaResults}) which warrant further investigation.
+    In conclusion, I found the local populations of V404 Cygni (sect.~\ref{V404Results}), Vela X-1 (sect.~\ref{VelaX1Results}), and W UMa (sect.~\ref{WUMaResults}) by graphing them on HR diagrams in regard to POSYDON data. I found the main causes of mass transfer in detached systems to be wind accretion, semi-detached to be Roche Lobe overflow, and contacts to be direct mass sharing. I found that properties both the graphs in both V404 Cygni (sect.~\ref{V404Results}) and W UMa (sect.~\ref{WUMaResults}) which warrant further investigation.
 
 
     \pagebreak
