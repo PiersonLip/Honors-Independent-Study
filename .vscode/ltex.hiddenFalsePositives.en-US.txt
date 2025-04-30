@@ -16,3 +16,4 @@
 {"rule":"A_NNS","sentence":"^\\QIn this system the material being accreted by V404 Cygni A forms an accretion disk, which greatly increases the luminosity of the system (sect. \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q.).\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwhich the binary evoles through, whereas Star two mass distribution for contact Binaries.\\E$"}
 {"rule":"A_NNS","sentence":"^\\QIn this system the material being accreted by V404 Cygni A forms an accretion disk, which greatly increases the luminosity of the system (sect. \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q).\\E$"}
+{"rule":"A_NNS","sentence":"^\\QThis mass accreted by V404 Cygni A forms an accretion disk, which greatly increases the luminosity of the system (sect. \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q).\\E$"}
