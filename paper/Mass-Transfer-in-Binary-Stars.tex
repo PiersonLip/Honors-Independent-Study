@@ -104,17 +104,17 @@
 \maketitle
 \begin{abstract}
     \normalsize
-    In this paper, I investigate the properties of mass transfer in binary stars. I utilize the Roche Lobe model to categorize the systems in detached, semi-detached, and contact. I then investigate the process of mass transfer within those types of systems. I use the systems Vela X-1, V404 Cygni, and W Ursae Majoris as examples of each type of system, using data from each. I further corraborate this data from a dataset generated from POSYDON of a million binary stars. I found the local populations on an HR diagram of each system and found the main causes of mass transfer in detached systems to be wind accretion, semi-detached to be Roche Lobe overflow, and contacts to be direct mass sharing. Additionally, I found properties in both W UMa and V404 Cygni which warrant further investigation.
+    In this paper, I investigate the properties of mass transfer in binary stars. I utilize the Roche Lobe model to categorize the systems in detached, semi-detached, and contact. I then investigate the process of mass transfer within those types of systems. Furthermore, I use the systems Vela X-1, V404 Cygni, and W Ursae Majoris as examples of each type of system, using data from each. I further corroborate this data from a dataset generated from POSYDON of a million binary stars. I found the local populations on an HR diagram of each system and found the main causes of mass transfer in detached systems to be wind accretion, semi-detached to be Roche Lobe overflow, and contacts to be direct mass sharing. Additionally, I found properties in both W UMa and V404 Cygni which warrant further investigation.
 
 \end{abstract}
 
-\section{Introduction} % amaybe include a section on x-ray emission???
+\section{Introduction} % amaybe include a section on X-ray emission???
 
-    Most of the stars we see in the night sky are not actually single stars, instead consisting of multiple stars orbiting a common center of mass. A pair of such stars is called a binary. These binaries are formed in the same nature of single stars, that being from a molecular cloud. However, due to instability in the formation process, two or more stars are formed instead of one \parencite{Offner_2016}. The stars in these binary pairs will a have a different evolutionary track on an HR diagram than a single star, as it is highly likely for the two stars to interact at some point during their life due to their proximity in formation~\parencite{TaurisvandenHeuvel+2023}. As these stars evolve and interact with each other, it drastically affects their evolution (see fig.~\ref{fig:binary_evolution_flowchart}).
+    Most of the stars we see in the night sky are not actually single stars but instead consist of multiple stars orbiting a common center of mass. A pair of such stars is called a binary. These binaries are formed in the same nature of single stars, that being from a molecular cloud. However, due to instability in the formation process, two or more stars are formed instead of one \parencite{Offner_2016}. The stars in these binary pairs will a have a different evolutionary track on an HR diagram than a single star, as it is highly likely for the two stars to interact at some point during their life due to their proximity in formation~\parencite{TaurisvandenHeuvel+2023}. As these stars evolve and interact with each other, it drastically affects their evolution (see see figure~\ref{fig:binary_evolution_flowchart}).
 
 
     \subsection{Mass Transfer in Common Binaries}~\label{MassTransferinCommon}
-    In systems with small orbital separations, a process called mass transfer can occur~\parencite{TaurisvandenHeuvel+2023}. This is where one star called a donor will ``donate'' mass to the other star, called the accretor as gravity draws material off of the donor. This is likely to occur at some point during the binaries' lifespan, leading to different evolutionary outcomes as compared to single star evolution~\parencite{TaurisvandenHeuvel+2023} (see fig.~\ref{fig:binary_evolution_flowchart}). However, depending on the duration of mass transfer and the star type, this process can be hard to detect observationally. Because of this, a large quantity of studies have been conducted on binaries with more extreme star types, such as neutron stars or black holes, where the process of mass transfer leads to much more pronounced effects. This is because as the mass is transferred to the black hole or neutron the process leads to a large spike in X-ray emissions (sect.~\ref{XrayAccretion}), which can more easily measured as compared to the mass transfer process between, for example, a red giant and a main sequence star, which have little to no x-ray emission.
+    In systems with small orbital separations, a process called mass transfer can occur~\parencite{TaurisvandenHeuvel+2023}. This is where one star called a donor will ``donate'' mass to the other star, called the accretor, through various methods. This is likely to occur at some point during the binaries' lifespan, leading to different evolutionary outcomes as compared to single star evolution~\parencite{TaurisvandenHeuvel+2023} (see figure~\ref{fig:binary_evolution_flowchart}). However, depending on the duration of mass transfer and the star type, this process can be hard to detect observationally. Because of this, a large quantity of studies have been conducted on binaries with more extreme star types, such as neutron stars or black holes, where the process of mass transfer leads to much more pronounced effects. This is because as the mass is transferred to the black hole or neutron the process leads to a large spike in X-ray emissions (sect.~\ref{XrayAccretion}), which can more easily measured as compared to the mass transfer process between, for example, a red giant and a main sequence star, which have little to no X-ray emission.
     
     In figure~\ref{fig:binary_evolution_flowchart} we see a slice of a high level overview regarding the types of binary star evolution. In the evolution of binaries' stars there are many different stages which the system will evolve in and out off, with each of these stages having different outcomes based on the systems properties.
 
@@ -123,7 +123,7 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{figs/reused-figs/Han_BinaryEvolFlowchart.png}
-        \caption{A heavily simplified flowchart of binary evolution. Reprint from \parencite{Han_2008}. See much more in depth version in \parencite{Chen_2024}}.
+        \caption{A heavily simplified flowchart of binary evolution. Reprint from \parencite{Han_2008}. See much more in depth version in \parencite{Chen_2024}}. Here we see the drastic effects mass transfer (especially Roche lobe overflow (sect.~\ref{RLO})) can have on a systems evolution
         \label{fig:binary_evolution_flowchart}
     \end{figure}
     \vspace*{\fill}
@@ -152,12 +152,12 @@
             \label{DetachedBinaryRL}
         \end{figure}
 
-        Systems where neither star fills its potential fully (fig.~\ref{DetachedBinaryRL}) are called detached binaries. Despite the fact that these systems have not filled their Roche lobes, mass transfer is still possible through a processes called wind accretion (sect~\ref{WindAccretion}). We see this predominantly in systems called High Mass X-ray Binaries (HMXBs), where a supergiant star transfers mass to a compact object via wind accretion. This process leads to an increase in X-ray Emission (sect.~\ref{XrayAccretion}), which we can easily measure~\parencite{TaurisvandenHeuvel+2023}. It is important to note that despite the majority of HMXBs not experiencing full-blown RLO (sect\ref{RLO}) they tend to be very close to doing so~\parencite{TaurisvandenHeuvel+2023}. 
+        Systems where neither star fills its potential fully (see figure~\ref{DetachedBinaryRL}) are called detached binaries. Despite the fact that these systems have not filled their Roche lobes, mass transfer is still possible through a processes called wind accretion (sect~\ref{WindAccretion}). We see this predominantly in systems called high mass X-ray binaries (HMXBs), where a supergiant star will transfer mass to a compact object via a form of accretion. This process leads to an increase in X-ray emission (sect.~\ref{XrayAccretion}), which we can easily measure~\parencite{TaurisvandenHeuvel+2023}. It is important to note that while the majority of HMXBs do not experience full-blown RLO (sect~\ref{RLO}) the majority are close to doing so~\parencite{TaurisvandenHeuvel+2023}. 
 
         I investigated the system Vela X-1~\parencite{Kretschmar_2021} (sect.~\ref{velax1introduction}) as an example of this as it is generally regarded as the ``archetypical wind accretor''~\parencite{Kretschmar_2021}. 
 
         \subsubsection{Wind Accretion Mass Transfer} \label{WindAccretion}
-        Wind accretion is very different from normal mass transfer in a binary. All stars produce `wind,' i.e. mass which is pushed away from the star. Most stars cause a process called stellar wind, occurring when mass from the outer envelope is ejected at various speeds from the star. All stars experience varying strengths of stellar wind, with some winds having very high velocities, and others much lower.~\parencite{Lamers_1999} In binary stars this process allows mass that has escaped the donor to be transferred to the accreting star.
+        Wind accretion is very different from normal mass transfer in a binary. All stars produce `wind,' i.e. mass which is pushed away from the star. Most stars cause a process called stellar wind, occurring when mass from the outer envelope is ejected at various speeds from the star. All stars experience varying strengths of stellar wind, with some winds having very high velocities, and others much lower~\parencite{Lamers_1999}. In binary stars this process allows mass that has escaped the donor to be transferred to the accreting star.
 
         \begin{figure}[H]
             \centering
@@ -176,22 +176,22 @@
             \label{SemidetachedRL}
         \end{figure}
 
-        In systems where one star fully fills its RL (sect.~\ref{RLModel}, fig.~\ref{SemidetachedRL}) mass begins to be transferred to its binary partner. This is process is called Roche Lobe Overflow (RLO) and is defined by a donor and accretor star (sect.~\ref{MassTransferinCommon}). This is likely to happen at some point in a binaries' lifespan drastically affecting the course of evolution~\parencite{TaurisvandenHeuvel+2023}\parencite{Chen_2024}. Depending on the systems star types, masses, and orbital eccentricity, this process of mass transfer will either be stable or unstable. When this process if unstable, it leads to either another stage called common envelope (sect.~\ref{CommonEnvelope}) or a rapid merger \parencite{TaurisvandenHeuvel+2023}. However, if the process of mass transfer is stable, the two stars will remain detached, slowly exchanging mass~\parencite{Chen_2024}~\parencite{TaurisvandenHeuvel+2023}.
+        In systems where one star fully fills its RL (sect.~\ref{RLModel}, see figure~\ref{SemidetachedRL}) mass begins to be transferred to its binary partner. This is process is called Roche Lobe Overflow (RLO) and is defined by a donor and accretor star (sect.~\ref{MassTransferinCommon}). This is likely to happen at some point in a binaries' lifespan, drastically affecting the course of evolution~\parencite{TaurisvandenHeuvel+2023}\parencite{Chen_2024}. Depending on the systems star types, masses, and orbital eccentricity, this process of mass transfer will either be stable or unstable. When this process if unstable, it leads to either another stage called common envelope (sect.~\ref{CommonEnvelope}) or a rapid merger \parencite{TaurisvandenHeuvel+2023}. However, if the process of mass transfer is stable, the two stars will remain detached, slowly transferring mass~\parencite{Chen_2024}~\parencite{TaurisvandenHeuvel+2023}.
 
-        We are able to observe this very commonly in Low Mass X-ray Binaries, where a donor star transferred mass to an accretor which is a compact object (a black hole or neutron star). This process produces X-rays (sect.~\ref{XrayAccretion}) which we can measure to understand the processes within the binary in greater detail.
+        We are able to observe this commonly in X-ray binaries, where a donor star transfers mass to a compact object (a black hole or neutron star). This process produces X-rays (sect.~\ref{XrayAccretion}) which we can observe to understand the processes within the binary in greater detail.
 
-        This process, similar to section~\ref{CommonEnvelope}, can be either stable or unstable. A large factor which determines this stability is the evolutionary stage of the donor star~\parencite{TaurisvandenHeuvel+2023}, as upon the onset RLO, some donors stars' radius will increase, leading to even more rapid RLO. This is primarily due to the nature of the stars' envelope, with radiative envelopes shrinking upon mass loss and convective envelope swelling \parencite{TaurisvandenHeuvel+2023}.
+        This process, similar to the common envelope stage (sect.~\ref{CommonEnvelope}), can be either stable or unstable. A large factor of what determines this stability is the evolutionary stage of the donor star~\parencite{TaurisvandenHeuvel+2023}. This is because upon the onset RLO, some donors stars' radius will increase, leading to even more rapid RLO. This is primarily due to the nature of the stars' envelope, with radiative envelopes shrinking upon mass loss and convective envelope swelling \parencite{TaurisvandenHeuvel+2023}.
         
-        In intermediate mass x-ray binaries, a system will survive this process of mass transfer if the unevolved or early stage donor star mass is between $2 < M_2/M_\odot < 5$ \parencite{TaurisvandenHeuvel+2023}. In low mass x-ray binaries (LMXBs) it is $M_2 \gtrsim 1.8 M_\odot$. Systems with $M_2 > 2$ Will be unstable for giant donors in later stage RLO~\parencite{TaurisvandenHeuvel+2023}.
+        In intermediate mass X-ray binaries, a system will survive this process of mass transfer if the unevolved or early stage donor star mass is between $2 < M_2/M_\odot < 5$ \parencite{TaurisvandenHeuvel+2023}. In low mass X-ray binaries (LMXBs) the donor mass must be $M_2 \gtrsim 1.8 M_\odot$. Systems with $M_2 > 2$ Will be unstable for giant donors in later stage RLO~\parencite{TaurisvandenHeuvel+2023}.
         
-        I used the system V404 Cygni (sect. \ref{V404Context}) with data from~\parencite{Bernardini_2016} and \parencite{Shahbaz_1994} as an example of this behavior, as its magnitude, proximity to Earth, and quantity of studies make it an ideal choice to understand how systems like it behave. 
+        I used the system V404 Cygni (sect.~\ref{V404Context}) with data from~\parencite{Bernardini_2016} and \parencite{Shahbaz_1994} as an example of this behavior. This is because its magnitude, proximity to Earth, and quantity of studies make it an ideal choice to understand how similar systems behave. 
 
         \subsubsection{Mass transfer through $L_1$} \label{L1MassTransfer}
 
-        In this process of mass transfer, the mass will be transferred through the Lagrangian point $L_1$, as it is the point of lowest potential between them, as seen in figure~\ref{fig:Roche_potential}~\parencite{TaurisvandenHeuvel+2023}. The mass at $L_1$ feels an equal gravitational pull from both stars and thus requires no external force for the mass to be transferred. This rate of mass transfer is dependent on a pressure differential between the two stars \parencite{TaurisvandenHeuvel+2023}.
+        In this process of mass transfer, mass will be transferred through the point of lowest potential. This point is Lagrangian point $L_1$, as seen in figure~\ref{fig:Roche_potential}~\parencite{TaurisvandenHeuvel+2023}. This means that the mass at $L_1$ feels an equal gravitational pull from both stars and thus, requires no external force for the mass to be transferred. The rate of mass transfer is dependent on a pressure differential between the two stars \parencite{TaurisvandenHeuvel+2023}, or simply how fast the radius of the star is increasing.
 
-        \subsubsection{Atmospheric RLO} \label{atmosphericRLO}
-        The Roche-lobe model assumes that ones the radius of the star crosses the Roche-lobe radius then mass transfer will start. However, this relies on the assumption that the edge of the star is completely sharp, which they are not. Instead, the star will have an atmosphere surrounding it. Once the radius of the atmosphere crosses the Roche-lobe radius, the atmosphere can begin to be transferred \parencite{TaurisvandenHeuvel+2023}. This is most relevant in HMXBs, where atmospheric accretion alone can make them strong x-ray sources. Once the photosphere of the star crosses the Roche-lobe radius `full-blown' RLO sets in.
+        \subsubsection{Atmospheric RLO}~\label{atmosphericRLO}
+        The Roche-lobe model assumes that once the radius of the star crosses the radius of the Roche-lobe, mass transfer will begin. However, this relies on the assumption that the edge of the star is completely sharp, which they are not. Instead, the star will have an atmosphere surrounding it. Once the radius of the atmosphere crosses the Roche-lobe radius, mass in this atmosphere will begin to be transferred \parencite{TaurisvandenHeuvel+2023}. This is most relevant in HMXBs, where atmospheric accretion alone can make them strong X-ray sources. Once the surface of the star crosses the Roche-lobe radius, `full-blown' RLO sets in.
 
         \subsection{Contact Binary}
 
@@ -203,38 +203,38 @@
             \label{ContactBinaryRL}
         \end{figure}
 
-        In binaries with prominent RLO it is possible for the donor star to fill up not just its own Roche Lobe, but the accretors' as well. This means that both the donors  potential and the gravitational accretors potential are filled. \parencite{TaurisvandenHeuvel+2023} As these stars have both fully filled their RL's, they transfer mass by physically being connected. This process of mass transfer can theoretically lead to mass transfer oscillating between which of the two stars is the donor (sect.~\ref{MassTransferOscillation}). 
+        In binaries with intense RLO it is possible for the donor star to fill up not just its own Roche-lobe, but the accretors' as well. This means that both the donors potential and the gravitational accretors potential are filled~\parencite{TaurisvandenHeuvel+2023}. As these stars have both fully filled their RL's, they transfer mass through this physical connected. This process of mass transfer can theoretically lead to mass transfer oscillating between which of the two stars is the donor as the mass ratio of the stars trends towards one.
         
-        If both of the binaries' potentials are full, then donor star will then begin to fill up the systems total gravitational potential (i.e. the area between the two ridges in fig.~\ref{ContactBinaryRL}). This can lead to mass being loss from the system completely \parencite{TaurisvandenHeuvel+2023}, forming a formation similar to a planetary nebula.
+        If both of the binaries' potentials are full, then donor star will then begin to fill up the systems total gravitational potential (i.e. the area between the two outer ridges in figure~\ref{ContactBinaryRL}). This can lead to mass being loss from the system completely \parencite{TaurisvandenHeuvel+2023} through $L_2$, forming a formation similar to a planetary nebula.
         
-        This process generally is not stable, as most stars this in stage generally are experiencing a brief stage of their evolution called common envelope (CE). (See section~\ref{CommonEnvelope}) However, in cases where it is stable, the stars will continue to evolve as one body (sect.~\ref{CommonEnvelopeStableEvoluton}).
+        This process generally is not stable, as most stars this in stage generally are experiencing a stage in their evolution called common envelope (CE) (sect.~\ref{CommonEnvelope}). However, in cases where it is stable, the stars will continue to evolve as one body (sect.~\ref{CommonEnvelopeStableEvoluton}).
         
         
         \subsubsection{Common Envelope (CE)}\label{CommonEnvelope}
 
-            CE occurs in a binary system after runaway mass transfer which leads to the companion star being fully engulfed in the envelope of the donor \parencite{TaurisvandenHeuvel+2023}. This leads to forces which greatly reduce the orbital separation. This can either cause the two stars to merge within the environment or for the envelope to be ejected. The ejection of the envelope can allow for the two systems to remain detached, however, the stars are likely to merge in the process \parencite{TaurisvandenHeuvel+2023} (sect.~\ref{DetachedBinary}). This ejected mass can either orbit around the system, or be fully ejected from the system, which is a likely cause of planetary nebulae \parencite{TaurisvandenHeuvel+2023}. There are many questions about this process, as the short yet incredibly rapid evolution is incredibly difficult to model. \parencite{TaurisvandenHeuvel+2023}
+            CE occurs in binary systems after runaway mass transfer causes  the companion star to be fully engulfed by the envelope of the donor \parencite{TaurisvandenHeuvel+2023}. This leads to drag forces which greatly reduce the systems orbital separation which can either cause the two stars to merge within the said envelope or for the envelope to be ejected \parencite{TaurisvandenHeuvel+2023}. The ejection of the envelope can allow for the two systems to remain detached, however, the stars are likely to merge in the process \parencite{TaurisvandenHeuvel+2023} (sect.~\ref{DetachedBinary}). This ejected mass can either orbit around the system, or be fully ejected from the system, which is a likely cause of planetary nebulae \parencite{TaurisvandenHeuvel+2023}. There are many questions about this process, as the short and incredibly rapid evolution is incredibly difficult to model \parencite{TaurisvandenHeuvel+2023}.
 
         \subsubsection{Stable Evolution}\label{CommonEnvelopeStableEvoluton}
-            In systems which are stable the stars will share mass and their shells will evolve in tandem, this process is called ``homogenous chemical evolution''. (See fig~\ref{fig:binary_evolution_flowchart} \parencite{Chen_2024}). As these stars transfer mass, their mass ratio ($q$) will oscillate around a value of $q=1$, eventually reaching $q_{min}$ at which point the stars will rapidly merge (see fig.~\ref{qEvolution}) \parencite{Pešta_2023}. These systems are rare as they require the two stars to have a similar mass \parencite{TaurisvandenHeuvel+2023}. 
+            In stable contact binaries the stars share mass and their shell will evolve in tandem during a process called ``homogenous chemical evolution''. (See fig~\ref{fig:binary_evolution_flowchart} \parencite{Chen_2024}). As these stars transfer mass, their mass ratio ($q$) will oscillate around a value of $q=1$, eventually reaching a value of $q_{min}$ at which point the stars will rapidly merge (see figure~\ref{qEvolution}) \parencite{Pešta_2023}. These systems are rare as they require the initial formation of the two stars to have a similar mass \parencite{TaurisvandenHeuvel+2023}. 
             
         \begin{figure}[H]
             \centering
             \includegraphics[scale = .3]{figs/reused-figs/q-ratio_evolution_farby.png}
-            \caption{Reprinted from \parencite{Fabry_2025}. These graphs show the effects of modeling energy transfer(ET) on the systems' evolution.}
+            \caption{Reprinted from \parencite{Fabry_2025}. These graphs show the effects of modeling energy transfer (ET) on the systems' evolution.}
             \label{qEvolution}
         \end{figure}
         
         I used W Ursae Majoris (W UMa) (sect.~\ref{WUMaIntroduction}) as an example of CE systems, as it is used an example system in order to categorize these contact binaries as a whole.
     \subsection{X-ray Binaries} 
         \subsubsection{X-rays caused by accretion onto a compact object} \label{XrayAccretion}
-            In 1962 the first X-ray binary was discovered by Riccardo Giacconi and colleagues. This system, Scorpius X-1, is so bright in x-ray that it actively raises ionization levels in Earths atmosphere when above the horizon. \parencite{TaurisvandenHeuvel+2023} \parencite{Giacconi_1962} In the years following, it was discovered that that Scorpius X-1 consisted of a normal star and neutron star. Since then, many thousands more have been discovered\parencite{Haardt_1993}.
+            In 1962 the first X-ray binary was discovered by Riccardo Giacconi and colleagues. This system, Scorpius X-1, is so bright in X-ray that it actively raises ionization levels in Earths atmosphere when above the horizon \parencite{TaurisvandenHeuvel+2023} \parencite{Giacconi_1962}. In the years following, it was discovered that that Scorpius X-1 consisted of a normal star and neutron star. Since then, many thousands more have been discovered \parencite{Haardt_1993}.
 
-            These x-rays are produced from the friction of in-spiralling matter, which causes it to become incredibly hot, with the inner disk reaching temperatures of $\geq$ 10 million K, causing it to emit a large amount of x-rays. In systems with a neutron star accretor, the surface of the neutron star itself will also emit a large amount of x-rays \parencite{TaurisvandenHeuvel+2023} (fig.~\ref{XrayAccretionMarkVis}). 
+            These X-rays are produced from the friction of in-spiralling matter, which heats the inner disk to temperatures of $\geq$ 10 million K. These high temperatures cause the disk to emit a large amount of X-rays. Additionally, in systems with a neutron star accretor, the surface of the neutron star itself will also emit a X-rays \parencite{TaurisvandenHeuvel+2023} (see figure~\ref{XrayAccretionMarkVis}). 
 
             \begin{figure} [H]
                 \centering
                 \includegraphics[width=\textwidth]{figs/reused-figs/markGarlic-Xrayaccretion.png}
-                \caption{Reprinted from \parencite{TaurisvandenHeuvel+2023}, original work by Mark Garlick, \copyright Mark Garlick. Here we see matter from a normal star falling onto a compact object, with the compact object being the source of x-rays}
+                \caption{Reprinted from \parencite{TaurisvandenHeuvel+2023}, original work by Mark Garlick, \copyright~Mark Garlick. Here we see matter from a normal star falling onto a compact object, with the compact object being the source of X-rays}
                 \label{XrayAccretionMarkVis}
             \end{figure}
         % \subsubsection{Low Mass X-ray Binaries (LMXBS)} \label{LMXBS}
@@ -246,26 +246,26 @@
     \begin{table} [H]
             \subsubsection{Known properties}
             \begin{center}
-                \begin{tabular}{||c || c | c||} 
+                \begin{tabular}{||c || c | c||}
                  \hline
                  & Vela X-1 A & Vela X-1 B  \\ 
                  \hline\hline
                  \textbf{Star Type} & Neutron Star & Supergiant \parencite{Kretschmar_2021} \\ 
                  \hline
-                 \textbf{Masses}\(M_\odot\) & $\ge$ 1.8 \parencite{Kretschmar_2021} & 20–30 \parencite{Kretschmar_2021} \\
+                 \textbf{Masses}\(M_\odot\) & $\ge$ 1.8 \parencite{Kretschmar_2021} & 20-30 \parencite{Kretschmar_2021} \\
                  \hline
-                 \textbf{Radius} & 11-12.5$_{KM}$ \parencite{Kretschmar_2021} & 30 \(R_\odot\)
+                 \textbf{Radius} & 11-12.5$_{KM}$ \parencite{Kretschmar_2021} & 30\(R_\odot\)
                 ~\parencite{Kretschmar_2021} \\
                  \hline 
                  \textbf{Temperature} &  & $33.7 \pm 5.2 kK$ \parencite{Kretschmar_2021}\\ 
                  \hline
-                 \textbf{Luminosity} & & $5.8$-$6.2 L_{M_\odot}$ \parencite{Kretschmar_2021} \\
+                 \textbf{Luminosity} & & $5.8$-$6.2 L_{\odot}$ \parencite{Kretschmar_2021} \\
                  \hline
                  \textbf{Separation} & \multicolumn{2}{c||}{2$kpc$ \parencite{Kretschmar_2021}} \\
                  \hline 
                  \textbf{Mass Loss Rate} & \multicolumn{2}{c||}{$10^{-6} M_\odot yr^{-1}$ \parencite{Kretschmar_2021}} \\
                  \hline
-                 \textbf{Eccentricity} & \multicolumn{2}{c||}{$ e \approx  0.0898$ \parencite{Kretschmar_2021}} \\
+                 \textbf{Eccentricity} & \multicolumn{2}{c||}{$ \approx  0.0898$ \parencite{Kretschmar_2021}} \\
                  \hline
                 \end{tabular}
                 \caption{Properties of Vela X-1} 
@@ -274,35 +274,35 @@
             \end{center}
     \end{table}
 
-        Vela X-1 consists of a Neutron Star and Supergiant and is an Eclipsing and pulsing high mass x-ray binary (HMXB). This means that the Neutron star passed behind the Supergiant every 8.94 days \parencite{Falanga_2015}, leading to a variable luminosity between $10^{36}$ $erg$ $s^{-1}$ and $10^{37}$ $erg$ $s^{-1}$. Additionally, the neutron star itself is spinning every 293 seconds. \parencite{Kretschmar_2021}. 
+        Vela X-1 consists of a neutron star and supergiant and is classified as an Eclipsing and pulsing high mass X-ray binary (HMXB). This means that the neutron star passed behind the Supergiant every 8.94 days \parencite{Falanga_2015}, leading to a variable luminosity between $10^{36}$ $erg$ $s^{-1}$ and $10^{37}$ $erg$ $s^{-1}$. Additionally, the neutron star itself is spinning every 293 seconds. \parencite{Kretschmar_2021}. 
         
-        Vela X-1 is described as an archetypical wind accretor, as it is a system which is undergoing wind accretion in a stable, predictable, and easy to measure way. The x-ray emission is persistent as well having prominent broadband emission. Having both x-ray and broadband allows both to be measured and compared.  Astronomers use Vela X-1 as examples when looking at other systems with comparable x-ray emissions~\parencite{Kretschmar_2021}.
+        Vela X-1 is described as an archetypical wind accretor, as it is a system which is undergoing wind accretion in a stable, predictable, and easy to measure way. Furthermore, it has both persistent X-ray  and broadband emission. Having both X-ray and broadband allows both to be measured and compared. Astronomers use Vela X-1 as examples when looking at other systems with comparable X-ray emissions~\parencite{Kretschmar_2021}.
         
-        The wind accretion (see~\ref{WindAccretion}) comes in the form of wind from a supergiant star (Vela X-1B) falling onto the neutron star. This wind does not have a very high velocity, but because the supergiant has almost filled it RL \parencite{Kretschmar_2021}, the wind mass can easily escape, falling onto the NS. This accretion process (Sect.~\ref{XrayAccretion}) is what creates the prominent X-ray emission.
+        The wind accretion (see~\ref{WindAccretion}) comes in the form of wind from a Vela X-1B falling onto the neutron star. This wind does not have a very high velocity, but because the supergiant has almost filled it RL \parencite{Kretschmar_2021}, the wind mass can easily escape, falling onto the neutron. This accretion process is what creates the prominent X-ray emission (sect.~\ref{XrayAccretion}).
 
         
-    \subsection{V404 Cygni (Roche Lobe Overflow)} \label{V404Introduction}
+    \subsection{V404 Cygni (Semi-detached)} \label{V404Introduction}
         \subsubsection{Known properties}
 
         \begin{table} [H]
             \begin{center} 
-                \begin{tabular}{||c || c | c||} 
+                \begin{tabular}{||c || c | c | c ||} 
                  \hline
-                 & \textbf{V404 Cygni B} & \textbf{V404 Cygni A} \\ 
+                 &\textbf{V404 Cygni C} & \textbf{V404 Cygni B} & \textbf{V404 Cygni A} \\ 
                  \hline\hline
-                 \textbf{Star Type} & Early K-type Giant & Black Hole \\ 
+                 \textbf{Star Type} & & Early K-type Giant & Black Hole \\ 
                  \hline
-                 \textbf{Masses}& $.7_{M_\odot}$ \parencite{Bernardini_2016} & $9_{M_\odot}$ \parencite{Shahbaz_1994} \parencite{Ziółkowski_2018} \\
+                 \textbf{Masses}& 1.2 \parencite{burdge_2024} \parencite{burdge_2024}& $.7_{M_\odot}$ \parencite{Bernardini_2016} & $9_{M_\odot}$ \parencite{Shahbaz_1994} \parencite{Ziółkowski_2018} \\
                  \hline
-                 \textbf{Radius} & $6.0_{R_\odot}$ \parencite{Shahbaz_1994} &  \\
+                 \textbf{Radius} & $1.85_{R_\odot}$& $6.0_{R_\odot}$ \parencite{Shahbaz_1994} &  \\
                  \hline
-                 \textbf{Temperature} & ${4274^{+116}_{-113}}_K$ \parencite{Ziółkowski_2018} & \\
+                 \textbf{Temperature} & $6123K$ \parencite{burdge_2024} & ${4274^{+116}_{-113}}_K$ \parencite{Ziółkowski_2018} & \\
                  \hline
-                 \textbf{Luminosity} & ${8.7^{+1.7}_{-1.4}}_{L_\odot}$ \parencite{Ziółkowski_2018} &  \\ 
+                 \textbf{Luminosity} & & ${8.7^{+1.7}_{-1.4}}_{L_\odot}$ \parencite{Ziółkowski_2018} &  \\ 
                  \hline
-                 \textbf{Distance} & \multicolumn{2}{c||}{$2390_{pc}$ \parencite{Bernardini_2016}} \\
+                 \textbf{Distance} & \multicolumn{3}{c||}{$2390_{pc}$ \parencite{Bernardini_2016}} \\
                  \hline
-                 \textbf{Orbital Period} & \multicolumn{2}{c||}{$6.73 \pm .001$ \parencite{Ziółkowski_2018}}\\
+                 \textbf{Orbital Period} & \multicolumn{3}{c||}{$6.73 \pm .001$ \parencite{Ziółkowski_2018}}\\
                  \hline  
             \end{tabular}
             \caption{Properties of V404 Cygni} 
@@ -312,7 +312,7 @@
 
         V404 is a LMXB, meaning that the donor star has a relatively low mass. In this system the material being accreted by V404 Cygni A forms an accretion disk, which greatly increases the luminosity of the system (sect.~\ref{XrayAccretion}). This mass is transferred directly through $L_1$ (sect.~\ref{L1MassTransfer})~\parencite{Bartolomeo_2023}. V404 is also a variable star system, with is magnitude varying overtime~\parencite{Bernardini_2016}. The reason why is currently under great discussion, with two possible causes. Those are that either the donor star begins to release mass at a greater rate \parencite{TanakaLewin_1995}, or due to instability in the accretion disk itself~\parencite{Lasota_2001}. This is a property which is commonly observed in LMXBs. 
 
-
+        Additionally, it was recently discovered that V404 Cygni is in fact a triple star system \parencite{burdge_2024}. It is believed that the tertiary star (V404 Cygni C) originally evolved in closer proximity to B and A, but was pushed further outwards from the system due to mass transfer between B and A \parencite{burdge_2024}.
     \subsection{W Ursae Majoris (Contact Binary)} \label{WUMaIntroduction}
         \subsubsection{Known properties}
 
@@ -347,7 +347,7 @@
             \end{center}
         \end{table}
 
-        W UMa is a contact binary, meaning that the two stars are physically `connected' by their mass. This system is known as an archetype because is it has a high magnitude at 7.75 at peak and 8.48 at minimum (table~\ref{WUmaTable}), meaning that its fairly easy to observe the variability. We can measure said variability in the form of light curves, which reveal a distinct nature different which is different from non-contact binaries (fig.~\ref{WUMaLightcruve}). This magnitude variability is due to the fact that the binary is eclipsing due to its low inclination plane (table~\ref{WUmaTable}), meaning that the stars will pass behind each other in their orbit relative to the Earth. 
+        W UMa is a contact binary, meaning that the two stars are physically `connected' by their mass. This system is known as an archetype because is it has a high magnitude at 7.75 at peak and 8.48 at minimum (table~\ref{WUmaTable}), meaning that its fairly easy to observe it and its variability. We can measure said variability in the form of light curves (see figure~\ref{WUMaLightcruve}), which reveal a distinct nature different which is different from non-contact binaries. This magnitude variability is due to the fact that the binary is eclipsing due to its low inclination plane (table~\ref{WUmaTable}), meaning that the stars will pass behind each other in their orbit relative to the Earth. A diagram of this behavior is displayed at the top of figure~\ref{WUMaLightcruve}.
 
         Because of the prominent nature of this binary, similar contact binaries are called referred to as `UWMa type' if they also possess said eclipsing nature. 
 
@@ -362,7 +362,7 @@
         % Simulated data is good because of xyz and is useful because of xyz. data was made using xyz
 
     \subsection{POSYDON Simulations}
-        In corroboration with three observed systems I used data generated from the population syntheses tool POSYDON \parencite{Fragos_2023}. I used POSYDON because catalogues of HMXBS and LMXBs are not large enough to fully understand the evolution of these systems. POSYDON is developed and maintained by a team of astrophysicists and computer scientists working at the Université de Genève and Northwestern University. POSYDON uses an additional script called MESA, which is dedicated to single star and binary evolution. POSYDON utilities MESA on a much larger scale in order to simulate full populations. The dataset I used was simulated on the NU super computing Cluster, QUEST. This data was stored in the form of a \.h5 file, containing a total of 6,128,390 rows and 83 columns. (See greatly reduced example of the data frame in table~\ref{POSYDONDataExample} and an HR Diagram of the full dataset in fig.~\ref{EntireDataSetHR})
+        In corroboration with three observed systems I used data generated from the population syntheses tool POSYDON \parencite{Fragos_2023}. I used POSYDON because catalogues of HMXBS and LMXBs are not large enough to fully understand the evolution of these systems. POSYDON is developed and maintained by a team of astrophysicists and computer scientists working at the Université de Genève and Northwestern University. POSYDON uses an additional script called MESA, which is dedicated to single star and binary evolution. POSYDON utilities MESA on a much larger scale in order to simulate full populations. The dataset I used was simulated on the NU super computing Cluster, QUEST. This data was stored in the form of a \.h5 file, containing a total of 6,128,390 rows and 83 columns. (See greatly reduced example of the data frame in table~\ref{POSYDONDataExample} and an HR Diagram of the full dataset in see figure~\ref{EntireDataSetHR})
 
          \begin{table}[H]
             \centering\
@@ -403,15 +403,15 @@
 
 
 \section{Results}
-    I found a lot of the key factors in mass transfer and how it affected various types of binary stars, with Full-blown RLO being the most key factor in mass transfer in low-mass x-ray binaries, leading to large amounts of x-ray emission (sect.~\ref{XrayAccretion}). This process had drastic effects on both the donor and accretor star.
+    I found a lot of the key factors in mass transfer and how it affected various types of binary stars, with Full-blown RLO being the most key factor in mass transfer in low-mass X-ray binaries, leading to large amounts of X-ray emission (sect.~\ref{XrayAccretion}). This process had drastic effects on both the donor and accretor star.
 
     I found that a large quantity of detached systems will experience mass transfer in some form. This mass transfer is in the form of wind accretion or atmospheric Roche Lobe Overflow (sect.~\ref{WindAccretion}).
 
     I found that mass can will be transferred between stars in contact binaries, with a majority of contact binaries not actually being stable, but instead in a phase of their life called common envelope (sect.~\ref{CommonEnvelope}).
     
-    I found that V404 Cyngi properties did not fall onto a known location on an HR Diagram (fig.~\ref{V404FullContextTesting}). This suggests that either the simulated data generated using POSYDON has an error, or that the observed data is incorrect. It is much more likely that there is a fault with POSYDON (or even MESA itself) when it comes to simulating LMXBs. This could pose a larger issue, as a lot of papers utilize POSYDON and/or MESA to come to their conclusions. 
+    I found that V404 Cyngi properties did not fall onto a known location on an HR Diagram (see figure~\ref{V404FullContextTesting}). This suggests that either the simulated data generated using POSYDON has an error, or that the observed data is incorrect. It is much more likely that there is a fault with POSYDON (or even MESA itself) when it comes to simulating LMXBs. This could pose a larger issue, as a lot of papers utilize POSYDON and/or MESA to come to their conclusions. 
         
-        \subsection{Detached Binaries}`'\label{sect:detachedResults}
+        \subsection{Detached Binaries}\label{sect:detachedResults}
             Despite the nature of detached systems they are still able to transfer mass a number of ways \parencite{TaurisvandenHeuvel+2023}. A large quantity of these systems are classified as HMXBs due to wind accretion (sect.~\ref{WindAccretion}), where a star of great enough mass is able to transfer some of that mass through stellar winds \parencite{TaurisvandenHeuvel+2023}. However, these systems, despite being technically detached, are close to filling their RL (sect.~\ref{RLModel}). Because of this, it is not unheard of for them to also transfer mass through full-blown RLO (sect.~\ref{RLO}) \parencite{TaurisvandenHeuvel+2023}. Additionally, their atmosphere can be transferred through RLO while their mass itself is not, in which case it is called atmospheric RLO (sect.~\ref{atmosphericRLO}). 
 
             
@@ -429,11 +429,11 @@
             \label{HMXBsSurfaceCompHRDiagram}
         \end{figure}
 
-        In figure~\ref{HMXBsHRDiagram} we can see that while the majority of the donor stars in HMXBs are main sequence, a large quantity of them are also Wolf-Rayet type (see fig.~\ref{HMXBsSurfaceCompHRDiagram}) and supergiants (see size of the stars in fig.~\ref{HMXBsHRDiagram}). This is to be expected due to the high masses of the donor star population.  
+        In figure~\ref{HMXBsHRDiagram} we can see that while the majority of the donor stars in HMXBs are main sequence, a large quantity of them are also Wolf-Rayet type (see figure~\ref{HMXBsSurfaceCompHRDiagram}) and supergiants (see size of the stars in see figure~\ref{HMXBsHRDiagram}). This is to be expected due to the high masses of the donor star population.  
 
             \subsubsection{Vela X-1 Results} \label{VelaX1Results}
 
-            In figures~\ref{VelaX1XrBPopulationHRComp} and~\ref{VelaX1HMXBPopulationHRComp} we see that Vela X-1 is one of the more extreme example of HMXBs, as it has a higher temperature and luminosity then a lot of its similar stars, the majority of which are in main sequence. Additionally, we can also confirm the fact that Vela X-1 is a giant star due to its location and proximity to other giants on the HR Diagram (fig.~\ref{VelaX1HMXBPopulationHRComp}), something which is corroborated by \parencite{Kretschmar_2021}.
+            In figures~\ref{VelaX1XrBPopulationHRComp} and~\ref{VelaX1HMXBPopulationHRComp} we see that Vela X-1 is one of the more extreme example of HMXBs, as it has a higher temperature and luminosity then a lot of its similar stars, the majority of which are in main sequence. Additionally, we can also confirm the fact that Vela X-1 is a giant star due to its location and proximity to other giants on the HR Diagram (see figure~\ref{VelaX1HMXBPopulationHRComp}), something which is corroborated by \parencite{Kretschmar_2021}.
 
             \begin{figure}[H] 
                 \centering
@@ -459,7 +459,7 @@
             \caption{HR diagram of the donor star in Low mass X-ray Binaries. Size of the plotted dot corresponds to the size of the star.}
             \label{XrayBinaryHRDiagram}
         \end{figure}
-       RLO a very common phenomena in binary star evolution, with the majority of systems undergoing it as an evolutionary phase during their lifetime \parencite{TaurisvandenHeuvel+2023}. RLO is most commonly and directly observed in LMXBs \parencite{TaurisvandenHeuvel+2023}, as these systems can allow for a stable transfer of mass from a donor to an accretor, which can create emission of x-rays \parencite{TaurisvandenHeuvel+2023} (sect.~\ref{XrayAccretion}). Furthermore, RLO can either be stable or unstable with that most important factors in stability being the mass ratio of the stars, the eccentricity of the system, and the stars' envelope type (sect.~\ref{RLO}). This mass is transferred through the Lagrange point $L_1$ due to a pressure differential \parencite{TaurisvandenHeuvel+2023} (sect.~\ref{L1MassTransfer}). 
+       RLO a very common phenomena in binary star evolution, with the majority of systems undergoing it as an evolutionary phase during their lifetime \parencite{TaurisvandenHeuvel+2023}. RLO is most commonly and directly observed in LMXBs \parencite{TaurisvandenHeuvel+2023}, as these systems can allow for a stable transfer of mass from a donor to an accretor, which can create emission of X-rays \parencite{TaurisvandenHeuvel+2023} (sect.~\ref{XrayAccretion}). Furthermore, RLO can either be stable or unstable with that most important factors in stability being the mass ratio of the stars, the eccentricity of the system, and the stars' envelope type (sect.~\ref{RLO}). This mass is transferred through the Lagrange point $L_1$ due to a pressure differential \parencite{TaurisvandenHeuvel+2023} (sect.~\ref{L1MassTransfer}). 
 
         In figure~\ref{XrayBinaryHRDiagram} we can see that X-ray binaries' donor stars generally follow a semi-standard HR diagram with the location of the stars being congruent with what we would expect of lower mass donor stars. This is evident in selection of the main sequence branch we see, as there is a distinct cut-off point.
 
@@ -471,9 +471,12 @@
                 \label{V404Context}
             \end{figure}
 
-            V404 Cygni does not fall onto the two main simulated evolutionary tracks for LMXBs. This distinct discontinuity between the observed temperature and luminosity and expected location on an HR diagram suggests there exists an error. It is more likely that the simulated data possess the error, as V404 Cygni has been observationally measured to high accuracy. I believe this discrepancy comes from V404 Cygnis' unique properties (table~\ref{V404Data}) as it is uncommon for a star to lose such a large amount of mass and be so tightly constrained to its accretor as we see in \parencite{Bartolomeo_2023}. I believe that POSYDON likely did not account for such an extreme case. However, further investigation of both simulated and observed data is needed to get a full conclusion. 
+            V404 Cygni does not fall onto the two main simulated evolutionary tracks for LMXBs. This distinct discontinuity between the observed temperature and luminosity and expected location on an HR diagram suggests there exists an error. It is more likely that the simulated data possess the error, as V404 Cygni has been observationally measured to high accuracy. However, further investigation of both simulated and observed data is needed to get a full conclusion. 
 
-            While investing this I tried a multitude of different things. This included getting more recent data of V404 Cygni from \parencite{Bartolomeo_2023}, graphing an error range around the plotted star (fig.~\ref{V404Context}), and plotting the entire dataset including all the stars evolution over time (fig.~\ref{V404FullContextTesting}). None of these lead to any breakthroughs. 
+            While investing this I tried a multitude of different things. This included getting more recent data of V404 Cygni from \parencite{Bartolomeo_2023}, graphing an error range around the plotted star (see figure~\ref{V404Context}), and plotting the entire dataset including all the stars evolution over time (see figure~\ref{V404FullContextTesting}). None of these lead to any breakthroughs. 
+
+            I believe this discrepancy comes from the fact that V404 Cygni is actually a triple star system as proposed by \parencite{burdge_2024}. This third star is believed to have posed have had a large influence on the evolution of the system, and the POSYDON dataset only accounted for two stars, which is likely to be the reason for error.
+
 
             \begin{figure}[H] 
                 \centering
@@ -486,7 +489,7 @@
         \subsection{Contact Binaries}
             Mass transfer in contact binaries happens in a variety of cases. In some systems where both of the stars RL's are full (fig~\ref{ContactBinaryRL}), the system can in a multitude of states. The most prominent of these is common envelope (\ref{CommonEnvelope}) and an actual contact binary. It is important to note that CE is a temporary stage which many different types of binaries evolve through, whereas a contact binary is a population themselves.
 
-            I found that in mass transfer in an evolving contact binary causes a mass oscillation between the two stars \parencite{Fabry_2025} (fig.~\ref{qEvolution}), where the stars will transfer mass back and forth. This process will continue until the mass ratio between the two stars crosses a critical threshold, after which the stars will then merge \parencite{Fabry_2025}. 
+            I found that in mass transfer in an evolving contact binary causes a mass oscillation between the two stars \parencite{Fabry_2025} (see figure~\ref{qEvolution}), where the stars will transfer mass back and forth. This process will continue until the mass ratio between the two stars crosses a critical threshold, after which the stars will then merge \parencite{Fabry_2025}. 
 
         \begin{figure}[H]
             \centering
@@ -504,7 +507,7 @@
             \label{contactBinarStar1MassDistro}
         \end{figure}
 
-        Note how similar this is to the star two distribution. From the POSYDON data, I found the mean mass of star one in contact binaries to be $\approx 10.703$ and star two to be $\approx 10.6548$. This is congruent with what previous papers have found \parencite{Fabry_2025}. This is due to the nature of mass transfer in contact binaries leading to an equalization in masses. As a contact system evolves, the mass transfer causes q (the mass ratio between stars) to stabilize to a value of $q\approx1$ \parencite{Fabry_2025}. We can clearly see this oscillation and then stabilization in figure~\ref{qEvolution}. The cause of the difference in fig.~\ref{contactBinaryStar2MassDistro} and~\ref{contactBinarStar1MassDistro} is because of the nature of the simulated data, as the initial grid was predisposed for star one binary to have a greater mass in order to increase the likelihood of mass transfer. 
+        Note how similar this is to the star two distribution. From the POSYDON data, I found the mean mass of star one in contact binaries to be $\approx 10.703$ and star two to be $\approx 10.6548$. This is congruent with what previous papers have found \parencite{Fabry_2025}. This is due to the nature of mass transfer in contact binaries leading to an equalization in masses. As a contact system evolves, the mass transfer causes q (the mass ratio between stars) to stabilize to a value of $q\approx1$ \parencite{Fabry_2025}. We can clearly see this oscillation and then stabilization in figure~\ref{qEvolution}. The cause of the difference in see figure~\ref{contactBinaryStar2MassDistro} and~\ref{contactBinarStar1MassDistro} is because of the nature of the simulated data, as the initial grid was predisposed for star one binary to have a greater mass in order to increase the likelihood of mass transfer. 
 
         \begin{figure}[H]
             \centering
@@ -513,7 +516,7 @@
             \label{contactBinaryHRDiagram}
         \end{figure}
 
-        This is one of the more interesting results, as we can see that contact binaries form a very specific population on the HR diagram, falling on specific linear with a linear relationship (fig.~\ref{contactBinaryHRDiagram}) I believe this is because of the stabilizing natures regarding mass ratios in contact binaries. However, this requires further investigation before anything conclusions can be formed as there are many other reasons relationship could emerge. Other causes include the inherent skewing of the grid, observation bias and known simulation error. 
+        This is one of the more interesting results, as we can see that contact binaries form a very specific population on the HR diagram, falling on specific linear with a linear relationship (see figure~\ref{contactBinaryHRDiagram}) I believe this is because of the stabilizing natures regarding mass ratios in contact binaries. However, this requires further investigation before anything conclusions can be formed as there are many other reasons relationship could emerge. Other causes include the inherent skewing of the grid, observation bias and known simulation error. 
         
         \subsubsection{W UMa Cygni Results}
             \begin{figure}[H]
@@ -526,12 +529,16 @@
             In figure~\ref{WUMaResults} we see that W UMa also follows this linear relationship, however, it has a much lower temperature and luminosity then most of the population. This is a known discrepancy with current simulated models, where simulated values are both typically more luminous and massive than observed~\parencite{Fabry_2025}.
 
 \section{Discussion}   
-    Originally I planned on simulating grids for all the types of systems, however, due to time constraints I chose to only focus on one type. This actually tended to be beneficial, as it prevented the scope of the project from becoming too constrained to a singe system.
+    Originally I planned on simulating grids for all the types of systems, however, due to time constraints I chose to only focus on one type. This actually tended to be beneficial, as it prevented the scope of the project from becoming too constrained to a singe system. 
+
+    I learned a massive amount while working on this paper. The process of finding information and corroborating it with both other papers and my own results is a style of learning which I both thoroughly enjoy and believe to be deeply productive.
+
+    I find it fascinating that it was so recently found that V404 Cygni is in fact a triple star system, as it means that if I had done a similar process a couple of months ago, I could have potentially opened up that rabbi thole. 
 
     \subsubsection{Disclaimers and Notes}
         Due to time constraints, I was not able to cite all the sources within the textbook \parencite{TaurisvandenHeuvel+2023} which I used. This is because it was quite tedious to find the papers themselves within the textbook references and I chose to focus on the content itself instead. 
 
-        Additionally, as this was my first project in \LaTeX (sect.~\ref{LaTeX}) as a freshman, I am sure there are various minor errors and things that do not fit proper convention. Please feel free to reach out with any comments.
+        Additionally, as this was my first project in \LaTeX (sect.~\ref{LaTeX}) as a freshman, I am sure there are various errors and things that do not fit proper convention. Please feel free to reach out with any comments and/or corrections.
 
     \subsection{Code and Writing Process}
         \subsubsection{Code}
@@ -542,15 +549,15 @@
         
             Originally, I started working on this project using Overleaf, however, due the amount of graphs, the time to compile started to rapidly climb up, and eventually I just decided to switch to compiling it locally. On-top of this, I figured I would set up a GitHub in order to additionally push the code and graphs as well. This turned out to absolutely be the right decision, giving me way more freedom.
 
-            Additionally, I wrote the entire paper in \LaTeX, a typesetting system which is the standard for academic papers. I challenged myself to learn and use this format in order to prepare myself for further academia. Using \LaTeX ~also allowed the graphs being generated by my Python scripts to automatically be imported and/or updated into the paper, saving large quantities of time.
+            Additionally, I wrote the entire paper in \LaTeX, a typesetting system which is the standard for academic papers. I challenged myself to learn and use this format in order to prepare myself for further academia. Using \LaTeX~also allowed the graphs being generated by my Python scripts to automatically be imported and/or updated into the paper, saving large quantities of time.
 
-        \subsubsection{GitHub} \label{GitHub}
+        \subsubsection{GitHub}\label{GitHub}
             This essay, the entire paper, all of my data, code, and figures, can all be found on GitHub at \url{https://github.com/PiersonLip/Honors-Independent-Study}. Syncing everything to GitHub additionally allowed me to work on the paper seamlessly from multiple devices, syncing different versions with ease. 
 
             I worked on this entirely in Virtual Studio Code, as it provided a great environment for me to work efficiently and its integration with Python notebooks and Git helped me work efficiently
 
 \section{Conclusion}
-    In conclusion, I found the local populations of V404 Cygni (sect.~\ref{V404Results}), Vela X-1 (sect.~\ref{VelaX1Results}), and W UMa (sect.~\ref{WUMaResults}) by graphing them on HR diagrams in regard to POSYDON data. I found the main causes of mass transfer in detached systems to be wind accretion, semi-detached to be Roche Lobe overflow, and contacts to be direct mass sharing. I found that properties both the graphs in both V404 Cygni (sect.~\ref{V404Results}) and W UMa (sect.~\ref{WUMaResults}) which warrant further investigation.
+    In conclusion, I found the local populations of V404 Cygni (sect.~\ref{V404Results}), Vela X-1 (sect.~\ref{VelaX1Results}), and W UMa (sect.~\ref{WUMaResults}) by graphing them on HR diagrams in regard to POSYDON data. I found the main causes of mass transfer in detached systems to be wind accretion, semi-detached to be Roche Lobe overflow, and contacts to be direct mass sharing. I found that properties in V404 Cygni (sect.~\ref{V404Results}) and W UMa (sect.~\ref{WUMaResults}) which warrant further investigation.
 
 
     \pagebreak
