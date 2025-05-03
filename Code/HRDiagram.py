@@ -4,7 +4,7 @@ import matplotlib.patches as patches
 from pathlib import Path
 
 
-# functions for making all of the graphs, saves them all with file names corrpsonding to the var used and conditons
+# function for making HR diagrams using POSYDON data
 
 # color_map_HR (variable, name_of_var, Log1 = 'F', S_R = 'T', minR = 1.5, maxR = 6.5)
 #                
@@ -15,7 +15,28 @@ from pathlib import Path
 # minR = minimum y limit
 # maxR = max y limit
 
-def color_map_HR (DB, variable, name_of_var, title, saveLoc,  examplePoint = 'F', examplePointRange = 'F', exampleLum = 0, exampleTemp = 0, exampleTempMin = 0, exampleTempMax = 0, exampleLumMin =0, exampleLumMax = 0, Log1 = 'F', S_R = 'T', minR = 1.5, maxR = 6.5, ylimit = 'T', style = 'dark_background', fileName ='Default'):
+def color_map_HR (DB, 
+                  variable, 
+                  name_of_var, 
+                  title, 
+                  saveLoc,  
+                  examplePoint = 'F', 
+                  examplePointRange = 'F', 
+                  exampleLum = 0, 
+                  exampleTemp = 0, 
+                  exampleTempMin = 0, 
+                  exampleTempMax = 0, 
+                  exampleLumMin =0, 
+                  exampleLumMax = 0, 
+                  LogVar = 'F', 
+                  S_R = 'T', 
+                  minR = 1.5,
+                  maxR = 6.5, 
+                  ylimit = 'T', 
+                  style = 'dark_background', 
+                  fileName ='Default',
+                  dpi = 200):
+    
     plt.style.use(style) #graph style
     fig, ax = plt.subplots(figsize = (8,8))  # create figure and axis
     ax.grid(True)  # turn on grid
@@ -35,7 +56,7 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc,  examplePoint = 'F'
     Lum = DB['S2_log_L']
 
     # binds the color of the scatter points to the x location (temp) of the star
-    if Log1 == 'T':
+    if LogVar == 'T':
         c = np.log10(DB[variable])
     else:
         c = (DB[variable])
@@ -60,7 +81,10 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc,  examplePoint = 'F'
 
     # color bar stuff
     cbar = fig.colorbar(scatter, ax=ax, orientation='vertical')  # <-- link colorbar to that scatter
-    cbar.set_label(name_of_var)  # <-- set the colorbar label separately
+    if LogVar == 'F':
+        cbar.set_label(name_of_var)  # <-- set the colorbar label separately
+    else: 
+        cbar.set_label(r'log$_{10}$ '+ name_of_var)
     
     #cbar.ax.invert_xaxis() #invert the color bar  (to match the inverted x scaling)
     #cbar.set_ticks([np.min(c),numpy.median,np.max(c),]) # remove the annoying ticks and labels
@@ -93,12 +117,12 @@ def color_map_HR (DB, variable, name_of_var, title, saveLoc,  examplePoint = 'F'
 
     if fileName == 'Default':
         # Build a filename from components
-        file_parts = [title, name_of_var, 'log10' if Log1 == 'T' else 'linear', 'star_radius' if S_R == 'T' else f'radius_{S_R_STR}']
+        file_parts = [title, name_of_var, 'log10' if LogVar == 'T' else 'linear', 'star_radius' if S_R == 'T' else f'radius_{S_R_STR}']
         file_name = '_'.join(file_parts) + '.png'
     else:
         file_name = fileName if fileName.endswith('.png') else f"{fileName}.png"
 
     save_path = Path(saveLoc) / file_name
-    plt.savefig(save_path, dpi=200)
+    plt.savefig(save_path, dpi=dpi)
     plt.style.use('default')
     plt.close() 
