@@ -15,7 +15,8 @@
     │   ├── generated figures
     │   └── reused figures
     ├── .tex -> tex file which generated the paper
-    └── .pdf -> the paper itself
+    ├── .pdf -> the paper itself
+    └── .bib -> sources for the paper
 
 Paper written for my Honors Indepedent Study at the College of DuPage with Professor DalSanto. As my college did not have direct access to research oppruintonies, I chose to learn latex as I figured it would be a useful skill for years to come.
 
