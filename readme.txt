@@ -1,22 +1,21 @@
-.
-├── .vscode/
-│   ├── workspace env for VS code
-│   └── LaTeX spellcheck override
-├── Code/
-│   ├── HRDiagram.py <- custom script for rapidally generating HR diagrams from POSYDON Data
-│   ├── Mastergrapher.ipynb <- notebook for calling HRDiagram.py, contains the calls for all generated figs, allowing easy updating
-│   └── sorting.ipynb <- sorting and saving POSYDON data sections for faster loading 
-├── Model Generation/
-│   └── STLs generated from q's of observed systems
-├── Research Process/
-│   └── reserach process essay written for the symposium at COD 
-└── Paper/
-    ├── figs/
-    │   ├── generated figures
-    │   └── reused figures
-    ├── .tex -> tex file which generated the paper
-    ├── .pdf -> the paper itself
-    └── .bib -> sources for the paper
+.vscode/
+├── workspace env for VS code
+└── LaTeX spellcheck override
+Code/
+├── HRDiagram.py <- custom script for rapidally generating HR diagrams from POSYDON Data
+├── Mastergrapher.ipynb <- notebook for calling HRDiagram.py, contains the calls for all generated figs, allowing easy updating
+└── sorting.ipynb <- sorting and saving POSYDON data sections for faster loading 
+Model Generation/
+└── STLs generated from q's of observed systems
+Research Process/
+└── reserach process essay written for the symposium at COD 
+Paper/
+├── figs/
+│   ├── generated figures
+│   └── reused figures
+├── .tex -> tex file which generated the paper
+├── .pdf -> the paper itself
+└── .bib -> sources for the paper
 
 Paper written for my Honors Indepedent Study at the College of DuPage with Professor DalSanto. As my college did not have direct access to research oppruintonies, I chose to learn latex as I figured it would be a useful skill for years to come.
 
